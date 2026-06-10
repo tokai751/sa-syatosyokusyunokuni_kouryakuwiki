@@ -45,7 +45,7 @@
 ,"dropItems":[{"kind":1,"dataId":41,"denominator":4},{"kind":1,"dataId":42,"denominator":8},{"kind":3,"dataId":1180,"denominator":2}]},
 {"id":19,"name":"フォレストトラリ","dungeonId":1,"attackAttribute":"物理","Weakness":"炎","Resistance":""
 ,"params":[500,100,120,120,100,100,100,120],"exp":200,"gold":300,"enemyType":1
-,"description":"ビー系の魔物の頂点に位置する魔物で毒攻撃と突き刺し攻撃が得意。\nまた常にお供の蜂達を使役している。"
+,"description":"森に溜まった瘴気が姿を形どり魔物化してしまった存在。\nあまり表には出てこないが森の植物を使い度々冒険者や村人を襲い苗床にしている。"
 ,"dropItems":[{"kind":1,"dataId":41,"denominator":4},{"kind":1,"dataId":42,"denominator":8},{"kind":3,"dataId":1170,"denominator":1}]},
 {"id":11,"name":"妹ハーピィ","dungeonId":1,"attackAttribute":"物理","Weakness":"雷","Resistance":"風"
 ,"params":[120,100,120,120,140,120,150,120],"exp":100,"gold":100,"enemyType":2
