@@ -130,7 +130,7 @@ function loadEnemyStatusData(dungeonId){
             let agile = Math.floor(el.params[6] / 100 * (el.enemyType <= 2 ? baseStatus[6][enemyLevel] : baseStatus[6][enemyLevel]) + (el.enemyType <= 2 ? exStatus[6][dungeonId] : 0))
             let luck = Math.floor(el.params[7] / 100 * (el.enemyType <= 2 ? baseStatus[7][enemyLevel] : baseStatus[7][enemyLevel]) + (el.enemyType <= 2 ? exStatus[7][dungeonId] : 0))
     
-            let exp = Math.floor(el.exp /100 * (levelUpExp[enemyLevel] / 2 + 1))
+            let exp = Math.ceil(el.exp /100 * (levelUpExp[enemyLevel] / 2 + 1))
             let gold = Math.floor(el.gold / 100 * enemyLevel * enemyLevel * 25)
             let description = el.description
             
