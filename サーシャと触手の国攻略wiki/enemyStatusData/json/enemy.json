@@ -99,6 +99,10 @@
 ,"params":[100,100,100,100,100,100,100,100],"exp":100,"gold":100,"enemyType":0
 ,"description":"ただの狼であり魔物ではない……だが人間を襲うのであればやむを得ず処分するしかない。\nただししっかりと訓練したウルフは狩人等に重宝される事もある。"
 ,"dropItems":[{"kind":1,"dataId":77,"denominator":4},{"kind":1,"dataId":52,"denominator":8},{"dataId":1,"denominator":1,"kind":0}]},
+{"id":31,"name":"アルラウネ","dungeonId":2,"attackAttribute":"物理","Weakness":"","Resistance":""
+,"params":[120,100,100,100,100,100,100,100],"exp":120,"gold":120,"enemyType":0
+,"description":"見た目通り植物型の魔物でありその蔓や花粉を使い攻撃を仕掛けてくる。\n光合成状態においては定期的にＨＰを回復してくるもののそこまで脅威となる事は無いだろう。"
+,"dropItems":[{"kind":1,"dataId":77,"denominator":4},{"kind":1,"dataId":70,"denominator":8},{"kind":3,"dataId":1212,"denominator":15}]},
 {"id":37,"name":"ストライクバード","dungeonId":2,"attackAttribute":"物理","Weakness":"土","Resistance":"雷"
 ,"params":[1500,100,120,120,100,100,100,120],"exp":200,"gold":300,"enemyType":1
 ,"description":"サンダーバードが更なる進化を遂げた姿。\n戦闘能力が全体的に上昇しており凶悪な雷攻撃を仕掛けてくる。"
