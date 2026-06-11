@@ -19,3 +19,43 @@ width: calc(105px * 5 + 40px * 4);
 .arrayEnemyStatusData{
  margin-top: 110px;
 }
+
+input {
+    width: 70px;
+    height: 25px;
+}
+
+.searchForm {
+  position: relative;
+}
+
+.searchForm-submit {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: calc(50% - 16px);
+  right: 0;
+  border-radius: 0 4px 4px 0;
+  background: #999;
+}
+.searchForm-submit::before {
+  position: absolute;
+  content: '';
+  width: 15px;
+  height: 15px;
+  top: calc(50% - 9px);
+  left: calc(50% - 9px);
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #fff;
+}
+
+.searchForm-submit::after {
+  position: absolute;
+  content: '';
+  width: 8px;
+  height: 6px;
+  top: calc(50% + 6px);
+  left: calc(50% + 2px);
+  border-top: solid 2px #fff;
+  transform: rotate(45deg);
+}

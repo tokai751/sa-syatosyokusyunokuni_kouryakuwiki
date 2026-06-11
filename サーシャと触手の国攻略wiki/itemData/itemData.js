@@ -74,7 +74,7 @@ function loadItemData(typeId) {
         <th>価格</th>
         <td style="width: 70px;">${price}</td>
         <th>アイテム</th>
-        <td style="width: 70px;">${itemType}</td>
+        <td style="width: 90px;">${itemType}</td>
         </tr>
 
         <tr>

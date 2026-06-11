@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+html {
+  scroll-behavior: auto;
+}
+
 .headerButtonRow {
 display: flex;        /* 横並びにする */
 }

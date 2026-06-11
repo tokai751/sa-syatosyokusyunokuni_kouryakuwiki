@@ -1,6 +1,5 @@
 const selectDungeonButtons = document.querySelectorAll(".selectDungeonButton");
-let curDungeonId = 1
-let inputLevel = 1
+let curDungeonId = 0
 
 let baseStatus
 let exStatus
@@ -39,10 +38,20 @@ document.addEventListener("DOMContentLoaded", () => {
             armorData = data
     });
 
-    loadEnemyStatusData(1)
+    loadEnemyStatusData(0)
 });
 
+
 document.getElementById("level").addEventListener("input", function() {
+    loadEnemyStatusData(curDungeonId)
+});
+
+document.getElementById("searchCondition").addEventListener("input", function() {
+    loadEnemyStatusData(curDungeonId)
+});
+
+document.getElementById("AllButton").addEventListener("click", function() {
+    curDungeonId = 0
     loadEnemyStatusData(curDungeonId)
 });
 
@@ -98,9 +107,12 @@ document.getElementById("WorkshopButton").addEventListener("click", function() {
 
 
 function loadEnemyStatusData(dungeonId){
-  inputLevel = Number(document.getElementById("level").value);
+  let inputLevel = Number(document.getElementById("level").value);
+  let inputSearchCondition = document.getElementById("searchCondition").value
+
+ console.log(inputSearchCondition)
   selectDungeonButtons.forEach(b => b.style.color = "black");
-  selectDungeonButtons[dungeonId-1].style.color = "rgb(185, 8, 8)";
+  selectDungeonButtons[dungeonId].style.color = "rgb(185, 8, 8)";
 
   const arrayContainer = document.querySelector('.arrayItemData');  
 
@@ -112,8 +124,8 @@ function loadEnemyStatusData(dungeonId){
         arrayContainer.innerHTML = '';
         let No = 0
         data.forEach(el => {
-            if(el.dungeonId !== dungeonId)
-                return
+            if(el.dungeonId !== dungeonId && dungeonId !== 0)
+            return
 
             No += 1
             let name = el.name
@@ -146,6 +158,9 @@ function loadEnemyStatusData(dungeonId){
             else if(el.enemyType === 2) enemyType = "ハーピィ\nイベント"
             else if(el.enemyType === 3) enemyType = "ヘッジ\nボルグ\nイベント"
             else if(el.enemyType === 4) enemyType = "ハート\nクイン\nイベント"
+
+            if(name.indexOf(inputSearchCondition) === -1 && dropItem1.indexOf(inputSearchCondition) === -1 && dropItem2.indexOf(inputSearchCondition) === -1 && dropItem3.indexOf(inputSearchCondition) === -1)
+            return
 
             let code = `
             <table align="center" class="table arrayEnemyStatusData">
