@@ -4,19 +4,24 @@ let itemDatas
 let weaponDatas
 let armorDatas
 let enemyDatas
+let as
+let bs
 
 document.addEventListener("DOMContentLoaded", () => {
     Promise.all([
         fetch("json/Item.json").then(r => r.json()),
         fetch("json/Weapon.json").then(r => r.json()),
         fetch("json/Armor.json").then(r => r.json()),
+        fetch("json/a.json").then(r => r.json()),
+        fetch("json/b.json").then(r => r.json()),
         fetch("../enemyStatusData/json/enemy.json").then(r => r.json()),
-    ]).then(([items, weapons, armors,enemys]) => {
+    ]).then(([items, weapons, armors,a,b,enemys]) => {
         itemDatas = items
         weaponDatas = weapons
         armorDatas = armors
         enemyDatas = enemys
-
+        as = a
+        bs = b
         loadItemData(1) // ← ここなら安全
     });
 });
@@ -111,7 +116,7 @@ function loadItemData(typeId) {
       `
     } 
       
-    let code = `    
+    let code = `  
     <table align="center" class="table">
         <tr>
         <th>No.</th>

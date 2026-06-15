@@ -128,7 +128,7 @@ function loadEnemyStatusData(dungeonId){
             return
 
             No += 1
-            let name = el.name + " " + el.id
+            let name = el.name
             let attackAttribute = el.attackAttribute
             let Weakness = el.Weakness
             let Resistance = el.Resistance
