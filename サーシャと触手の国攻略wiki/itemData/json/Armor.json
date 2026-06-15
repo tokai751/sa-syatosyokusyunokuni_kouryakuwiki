@@ -1,679 +1,1129 @@
 [
-{"itemTypeId":3,"id":122,"name":"ウッドシールド"
+{"itemTypeId":3,"process":0,"id":122,"name":"ウッドシールド"
 ,"description":"【盾】ごく普通の木製の盾。\n【物理耐性１０％上昇】【炎耐性１０％低下】"
-,"itemType":"盾","attribute":"","params":[0,0,0,5,0,0,0,0],"price":500,"get":"【交易店 購入】500G"},
-{"itemTypeId":3,"id":123,"name":"アイアンシールド"
+,"itemType":"盾","attribute":"","params":[0,0,0,5,0,0,0,0],"price":500
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":123,"name":"アイアンシールド"
 ,"description":"【盾】ごく普通の鉄製の盾。\n【物理耐性１０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,10,0,0,0,0],"price":1000,"get":"【砂漠クリア】【交易店 購入】1000G"},
-{"itemTypeId":3,"id":124,"name":"ミスリルシールド"
+,"itemType":"盾","attribute":"","params":[0,0,0,10,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":124,"name":"ミスリルシールド"
 ,"description":"【盾】ミスリル製の盾。\n【物理耐性１０％上昇】【回避率５％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,20,0,20,0,0],"price":5000,"get":"【炭鉱クリア】【交易店 購入】5000G"},
-{"itemTypeId":3,"id":181,"name":"ガントレット"
+,"itemType":"盾","attribute":"","params":[0,0,0,20,0,20,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":181,"name":"ガントレット"
 ,"description":"【盾】鉄製の籠手。"
-,"itemType":"盾","attribute":"","params":[0,0,10,0,10,0,0,0],"price":1000,"get":"【交易店 購入】1000G"},
-{"itemTypeId":3,"id":182,"name":"ミスリルの籠手"
+,"itemType":"盾","attribute":"","params":[0,0,10,0,10,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":182,"name":"ミスリルの籠手"
 ,"description":"【盾】ミスリル製の籠手。"
-,"itemType":"盾","attribute":"","params":[0,0,20,5,20,5,0,0],"price":5000,"get":"【炭鉱クリア】【交易店 購入】5000G"},
-{"itemTypeId":3,"id":133,"name":"マジックシールド"
+,"itemType":"盾","attribute":"","params":[0,0,20,5,20,5,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":133,"name":"マジックシールド"
 ,"description":"【盾】魔力で形成された盾。"
-,"itemType":"盾","attribute":"","params":[0,0,0,0,0,5,0,0],"price":500,"get":"【交易店 購入】500G"},
-{"itemTypeId":3,"id":134,"name":"マジックガントレット"
+,"itemType":"盾","attribute":"","params":[0,0,0,0,0,5,0,0],"price":500
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":134,"name":"マジックガントレット"
 ,"description":"【盾】魔力で形成された籠手。"
-,"itemType":"盾","attribute":"","params":[0,0,0,0,0,10,0,0],"price":1000,"get":"【炭鉱クリア】【交易店 購入】1000G"},
-{"itemTypeId":3,"id":135,"name":"マナグローブ"
+,"itemType":"盾","attribute":"","params":[0,0,0,0,0,10,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":135,"name":"マナグローブ"
 ,"description":"【盾】魔力で形成された籠手。\n【回避率５％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,0,0,10,0,0],"price":5000,"get":"【炭鉱クリア】【交易店 購入】5000G"},
-{"itemTypeId":3,"id":162,"name":"ガードシール"
+,"itemType":"盾","attribute":"","params":[0,0,0,0,20,20,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":1,"id":162,"name":"ガードシール"
 ,"description":"【盾】【物理耐性２０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,5,0,5,0,0],"price":5000,"get":"【交易店 交換】ウッドシールド 1　属性の素 3　鉄鉱石 3　1000G"},
-{"itemTypeId":3,"id":169,"name":"バリスティックシール"
+,"itemType":"盾","attribute":"","params":[0,0,0,5,0,5,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":71,"count":3},{"id":52,"count":3}],"weapons":[],"armors":[{"id":122,"count":1}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":1,"id":169,"name":"バリスティックシール"
 ,"description":"【盾】【物理耐性３０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,10,0,10,0,0],"price":10000,"get":"【砂漠クリア】【交易店 交換】ガードシール 2　属性の素 3　ミスリル鉱石 3　2000G"},
-{"itemTypeId":3,"id":163,"name":"ガードファイア"
+,"itemType":"盾","attribute":"","params":[0,0,0,10,0,10,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":71,"count":3},{"id":53,"count":3}],"weapons":[],"armors":[{"id":162,"count":2}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":1,"id":163,"name":"ガードファイア"
 ,"description":"【盾】【炎耐性２０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,5,0,5,0,0],"price":1000,"get":"【交易店 交換】ウッドシールド 1　炎の素 2　鉄鉱石 3　500G"},
-{"itemTypeId":3,"id":170,"name":"バリスティックファイア"
+,"itemType":"盾","attribute":"","params":[0,0,0,5,0,5,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":66,"count":2},{"id":52,"count":1}],"weapons":[],"armors":[{"id":122,"count":1}],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":1,"id":170,"name":"バリスティックファイア"
 ,"description":"【盾】【炎耐性３０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,10,0,10,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】ガードファイア 2　炎の素 3　ミスリル鉱石 3　2000G"},
-{"itemTypeId":3,"id":164,"name":"ガードアイス"
+,"itemType":"盾","attribute":"","params":[0,0,0,10,0,10,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":66,"count":3},{"id":53,"count":3}],"weapons":[],"armors":[{"id":163,"count":2}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":1,"id":164,"name":"ガードアイス"
 ,"description":"【盾】【氷耐性２０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,5,0,5,0,0],"price":1000,"get":"【交易店 交換】ウッドシールド 1　氷の素 2　鉄鉱石 3　500G"},
-{"itemTypeId":3,"id":171,"name":"バリスティックアイス"
+,"itemType":"盾","attribute":"","params":[0,0,0,5,0,5,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":67,"count":2},{"id":52,"count":1}],"weapons":[],"armors":[{"id":122,"count":1}],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":1,"id":171,"name":"バリスティックアイス"
 ,"description":"【盾】【氷耐性３０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,10,0,10,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】ガードアイス 2　氷の素 3　ミスリル鉱石 3　2000G"},
-{"itemTypeId":3,"id":165,"name":"ガードサンダー"
+,"itemType":"盾","attribute":"","params":[0,0,0,10,0,10,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":67,"count":3},{"id":53,"count":3}],"weapons":[],"armors":[{"id":164,"count":2}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":1,"id":165,"name":"ガードサンダー"
 ,"description":"【盾】【雷耐性２０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,5,0,5,0,0],"price":1000,"get":"【交易店 交換】ウッドシールド 1　雷の素 2　鉄鉱石 3　500G"},
-{"itemTypeId":3,"id":172,"name":"バリスティックサンダー"
+,"itemType":"盾","attribute":"","params":[0,0,0,5,0,5,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":68,"count":2},{"id":52,"count":1}],"weapons":[],"armors":[{"id":122,"count":1}],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":1,"id":172,"name":"バリスティックサンダー"
 ,"description":"【盾】【雷耐性３０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,10,0,10,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】ガードサンダー 2　雷の素 3　ミスリル鉱石 3　2000G"},
-{"itemTypeId":3,"id":166,"name":"ガードストーン"
+,"itemType":"盾","attribute":"","params":[0,0,0,10,0,10,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":68,"count":3},{"id":53,"count":3}],"weapons":[],"armors":[{"id":165,"count":2}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":1,"id":166,"name":"ガードストーン"
 ,"description":"【盾】【土耐性２０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,5,0,5,0,0],"price":1000,"get":"【交易店 交換】ウッドシールド 1　土の素 2　鉄鉱石 3　500G"},
-{"itemTypeId":3,"id":173,"name":"バリスティックストーン"
+,"itemType":"盾","attribute":"","params":[0,0,0,5,0,5,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":69,"count":2},{"id":52,"count":1}],"weapons":[],"armors":[{"id":122,"count":1}],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":1,"id":173,"name":"バリスティックストーン"
 ,"description":"【盾】【土耐性３０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,10,0,10,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】ガードストーン 2　土の素 3　ミスリル鉱石 3　2000G"},
-{"itemTypeId":3,"id":167,"name":"ガードウインド"
+,"itemType":"盾","attribute":"","params":[0,0,0,10,0,10,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":69,"count":3},{"id":53,"count":3}],"weapons":[],"armors":[{"id":166,"count":2}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":1,"id":167,"name":"ガードウインド"
 ,"description":"【盾】【風耐性２０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,5,0,5,0,0],"price":1000,"get":"【交易店 交換】ウッドシールド 1　風の素 2　鉄鉱石 3　500G"},
-{"itemTypeId":3,"id":174,"name":"バリスティックウインド"
+,"itemType":"盾","attribute":"","params":[0,0,0,5,0,5,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":70,"count":2},{"id":52,"count":1}],"weapons":[],"armors":[{"id":122,"count":1}],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":1,"id":174,"name":"バリスティックウインド"
 ,"description":"【盾】【風耐性３０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,10,0,10,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】ガードウインド 2　風の素 3　ミスリル鉱石 3　2000G"},
-{"itemTypeId":3,"id":175,"name":"トライエレメント"
+,"itemType":"盾","attribute":"","params":[0,0,0,10,0,10,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":70,"count":3},{"id":53,"count":3}],"weapons":[],"armors":[{"id":167,"count":2}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":1,"id":175,"name":"トライエレメント"
 ,"description":"【盾】【炎・氷・雷耐性３０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,15,0,15,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】バリスティックファイア 1　バリスティックアイス 1　バリスティックサンダー 1　10000G"},
-{"itemTypeId":3,"id":176,"name":"ガイアエレメント"
+,"itemType":"盾","attribute":"","params":[0,0,0,15,0,15,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":170,"count":1},{"id":171,"count":1},{"id":172,"count":1}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":1,"id":176,"name":"ガイアエレメント"
 ,"description":"【盾】【土・風耐性３０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,15,0,15,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】バリスティックストーン 1　バリスティックウインド 1　10000G"},
-{"itemTypeId":3,"id":177,"name":"オールエレメント"
+,"itemType":"盾","attribute":"","params":[0,0,0,15,0,15,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":173,"count":1},{"id":174,"count":1}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":1,"id":177,"name":"オールエレメント"
 ,"description":"【盾】【炎・氷・雷・土・風耐性３０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,20,0,20,0,0],"price":30000,"get":"【炭鉱クリア】【交易店 交換】トライエレメント 1　ガイアエレメント 1　10000G"},
-{"itemTypeId":3,"id":178,"name":"アイギス"
+,"itemType":"盾","attribute":"","params":[0,0,0,20,0,20,0,0],"price":30000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":175,"count":1},{"id":176,"count":1}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":1,"id":178,"name":"アイギス"
 ,"description":"【盾】【物理・炎・氷・雷・土・風耐性３０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,20,0,20,0,0],"price":50000,"get":"【炭鉱クリア】【交易店 交換】オールエレメント 1　バリスティックシール 1　10000G"},
-{"itemTypeId":3,"id":214,"name":"ハーピィ姉妹盾"
+,"itemType":"盾","attribute":"","params":[0,0,0,20,0,20,0,0],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":177,"count":1},{"id":169,"count":1}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":1,"id":214,"name":"ハーピィ姉妹盾"
 ,"description":"【盾】双子のハーピィを使った盾……盾っ！？※詳細は用語図鑑へ。\n【被ダメ２５％カット状態付与】【風属性攻撃力２倍】"
-,"itemType":"盾","attribute":"","params":[0,0,20,20,20,20,20,20],"price":50000,"get":"【炭鉱クリア】【交易店 交換】妹ハーピィ 1　姉ハーピィ 1　クローム鉱石 5　100000G"},
-{"itemTypeId":3,"id":145,"name":"ベアークロー"
+,"itemType":"盾","attribute":"","params":[0,0,20,20,20,20,20,20],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":54,"count":5}],"weapons":[],"armors":[{"id":1205,"count":1},{"id":1206,"count":1}],"gold":100000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":145,"name":"ベアークロー"
 ,"description":"【盾】雪原の熊から採取した爪から作られた手甲のようなもの。\n【氷属性攻撃力１．１倍】【氷耐性１０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,10,0,10,0,0,0],"price":2000,"get":"【ドロップ】ホワイト・熊"},
-{"itemTypeId":3,"id":146,"name":"闇夜のランタン"
+,"itemType":"盾","attribute":"","params":[0,0,10,0,10,0,0,0],"price":2000
+,"dropEnemyId":[63]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":146,"name":"闇夜のランタン"
 ,"description":"【盾】亡霊が遺したランタンの形をした盾。\n【睡眠・暗闇耐性５０％上昇】"
-,"itemType":"盾","attribute":"","params":[0,0,0,10,10,0,0,0],"price":5000,"get":"【ドロップ】ファントム"},
-{"itemTypeId":3,"id":147,"name":"ドラグーンアーム"
+,"itemType":"盾","attribute":"","params":[0,0,0,10,10,0,0,0],"price":5000
+,"dropEnemyId":[84]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":147,"name":"ドラグーンアーム"
 ,"description":"【盾】ドラゴンの鱗から作られた籠手。\n【炎属性攻撃力１．２倍】"
-,"itemType":"盾","attribute":"","params":[0,0,20,0,20,0,0,0],"price":5000,"get":"【ドロップ】レッドドラゴン"},
-{"itemTypeId":3,"id":148,"name":"スライムガントレット"
+,"itemType":"盾","attribute":"","params":[0,0,20,0,20,0,0,0],"price":5000
+,"dropEnemyId":[107]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":148,"name":"スライムガントレット"
 ,"description":"【盾】まだ生きている……\n【氷属性攻撃力１．３倍】【雷耐性５０％低下】"
-,"itemType":"盾","attribute":"","params":[0,0,0,20,0,20,0,0],"price":5000,"get":"【ドロップ】スライム(擬態)"},
-{"itemTypeId":3,"id":151,"name":"BDファング"
+,"itemType":"盾","attribute":"","params":[0,0,0,20,0,20,0,0],"price":5000
+,"dropEnemyId":[124]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":151,"name":"BDファング"
 ,"description":"【盾】共和国に伝わる青龍をモチーフにした手甲\n【追加ダメージ：攻撃力×2倍】"
-,"itemType":"盾","attribute":"","params":[0,0,10,10,0,10,0,0],"price":5000,"get":"【ドロップ】青龍二号　青龍十八号"},
-{"itemTypeId":3,"id":212,"name":"殺生ストーン"
+,"itemType":"盾","attribute":"","params":[0,0,10,10,0,10,0,0],"price":5000
+,"dropEnemyId":[166,167]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":212,"name":"殺生ストーン"
 ,"description":"【盾】近づく者を呪ってしまうという伝説の石……大丈夫？\n【会心率２０％ＵＰ】【ＨＰ再生率マイナス１０％】"
-,"itemType":"盾","attribute":"","params":[0,0,20,20,20,20,20,20],"price":10000,"get":"【ドロップ】試作型九尾"},
-{"itemTypeId":3,"id":152,"name":"ビッグ・アイ"
+,"itemType":"盾","attribute":"","params":[0,0,20,20,20,20,20,20],"price":10000
+,"dropEnemyId":[177]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":152,"name":"ビッグ・アイ"
 ,"description":"【盾】機械仕掛けの巨人の大きな目。\n【命中率２０％ＵＰ】"
-,"itemType":"盾","attribute":"","params":[0,0,30,30,30,30,30,30],"price":5000,"get":"【ドロップ】サイクロイド"},
-{"itemTypeId":3,"id":213,"name":"サイコフィールド"
+,"itemType":"盾","attribute":"","params":[0,0,30,30,30,30,30,30],"price":5000
+,"dropEnemyId":[185]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":213,"name":"サイコフィールド"
 ,"description":"【盾】最強の処女厨が発する負のオーラをバリアに転用したもの。\n【物理・炎・氷・雷・土・風属性を１回無効】【魔法反射率２５％】"
-,"itemType":"盾","attribute":"","params":[0,0,20,20,20,20,20,20],"price":50000,"get":"【ドロップ】【覚醒】ユニコーン"},
-{"itemTypeId":4,"id":219,"name":"ピアス"
+,"itemType":"盾","attribute":"","params":[0,0,20,20,20,20,20,20],"price":50000
+,"dropEnemyId":[194]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":0,"id":219,"name":"ピアス"
 ,"description":"【装飾品】何故だか防御力が上がるピアス。\nやる気が出るという事だろう。"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,5,0,5,0,0],"price":1000,"get":"【交易店 購入】1000G"},
-{"itemTypeId":4,"id":220,"name":"バリアピアス"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,5,0,5,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":0,"id":220,"name":"バリアピアス"
 ,"description":"【装飾品】防御力を上昇させる魔力が込められたピアス。"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,15,0,15,0,0],"price":5000,"get":"【交易店 購入】5000G"},
-{"itemTypeId":4,"id":414,"name":"ヒールピアス"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,15,0,15,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":0,"id":414,"name":"ヒールピアス"
 ,"description":"【装飾品】ヒールⅠを取得する。【スキル追加：ヒールⅠ】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【交易店 購入】5000G"},
-{"itemTypeId":4,"id":415,"name":"キュアーピアス"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":0,"id":415,"name":"キュアーピアス"
 ,"description":"【装飾品】キュアーⅠを取得する。【スキル追加：キュアーⅠ】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】5000G"},
-{"itemTypeId":4,"id":416,"name":"リカバーピアス"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":0,"id":416,"name":"リカバーピアス"
 ,"description":"【装飾品】リカバーⅠを取得する。【スキル追加：リカバーⅠ】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【砂漠クリア】【交易店 購入】10000G"},
-{"itemTypeId":4,"id":417,"name":"レイズピアス"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":0,"id":417,"name":"レイズピアス"
 ,"description":"【装飾品】レイズⅠを取得する。【スキル追加：レイズⅠ】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【砂漠クリア】【交易店 購入】10000G"},
-{"itemTypeId":4,"id":407,"name":"ウエポンリング"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":0,"id":407,"name":"ウエポンリング"
 ,"description":"【装飾品】ウエポンブレスを取得する。【スキル追加：ウエポンブレス】\n【味方単体】【攻撃力強化（５ターン）】【重複二回まで可】"
-,"itemType":"装飾品","attribute":"","params":[0,0,5,0,0,0,0,0],"price":5000,"get":"【炭鉱クリア】【交易店 購入】5000G"},
-{"itemTypeId":4,"id":408,"name":"アーマーリング"
+,"itemType":"装飾品","attribute":"","params":[0,0,5,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":0,"id":408,"name":"アーマーリング"
 ,"description":"【装飾品】アーマーブレスを取得する。【スキル追加：アーマーブレス】\n【味方単体】【防御力強化（５ターン）】【重複二回まで可】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,5,0,0,0,0],"price":5000,"get":"【炭鉱クリア】【交易店 購入】5000G"},
-{"itemTypeId":4,"id":409,"name":"スピリットリング"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,5,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":0,"id":409,"name":"スピリットリング"
 ,"description":"【装飾品】スピリットブレスを取得する。【スキル追加：スピリットブレス】\n【味方単体】【魔法力強化（５ターン）】【重複二回まで可】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,5,0,0,0],"price":5000,"get":"【炭鉱クリア】【交易店 購入】5000G"},
-{"itemTypeId":4,"id":410,"name":"ディバインリング"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,5,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":0,"id":410,"name":"ディバインリング"
 ,"description":"【装飾品】ディバインブレスを取得する。【スキル追加：ディバインブレス】\n【味方単体】【魔法防御力強化（５ターン）】【重複二回まで可】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,5,0,0],"price":5000,"get":"【炭鉱クリア】【交易店 購入】5000G"},
-{"itemTypeId":4,"id":411,"name":"クイックリング"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,5,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":0,"id":411,"name":"クイックリング"
 ,"description":"【装飾品】クイックムーブを取得する。【スキル追加：クイックムーブ】\n【味方単体】【俊敏性強化（５ターン）】【重複二回まで可】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,5,0],"price":5000,"get":"【炭鉱クリア】【交易店 購入】5000G"},
-{"itemTypeId":4,"id":225,"name":"ファイアピアス"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,5,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":225,"name":"ファイアピアス"
 ,"description":"【装飾品】ファイアⅠを取得し炎属性攻撃力を１．１倍する。\n【スキル追加：ファイアⅠ】【炎属性攻撃力１．１倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 交換】ピアス 1　炎の素 2　鉄鉱石 1　500G"},
-{"itemTypeId":4,"id":231,"name":"ファイアリング"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":66,"count":2},{"id":52,"count":1}],"weapons":[],"armors":[{"id":219,"count":1}],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":231,"name":"ファイアリング"
 ,"description":"【装飾品】ファイアⅡを取得し炎属性攻撃力を１．２倍する。\n【スキル追加：ファイアⅡ】【炎属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】ファイアピアス 1　炎の素 2　ミスリル鉱石 2　1000G"},
-{"itemTypeId":4,"id":237,"name":"ファイアジュエル"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":66,"count":2},{"id":53,"count":2}],"weapons":[],"armors":[{"id":225,"count":1}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":237,"name":"ファイアジュエル"
 ,"description":"【装飾品】ファイアⅢを取得し炎属性攻撃力を１．２倍する。\n【スキル追加：ファイアⅢ】【炎属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【炭鉱クリア】【交易店 交換】ファイアリング 1　炎の素 2　クローム鉱石 2　10000G"},
-{"itemTypeId":4,"id":243,"name":"フレイムリング"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":66,"count":2},{"id":54,"count":2}],"weapons":[],"armors":[{"id":231,"count":1}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":243,"name":"フレイムリング"
 ,"description":"【装飾品】フレイムⅠを取得し炎属性攻撃力を１．２倍する。\n【スキル追加：フレイムⅠ】【炎属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【交易店 交換】ファイアピアス 2　鉄鉱石 1　1000G"},
-{"itemTypeId":4,"id":249,"name":"フレイムジュエル"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":52,"count":1}],"weapons":[],"armors":[{"id":225,"count":2}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":249,"name":"フレイムジュエル"
 ,"description":"【装飾品】フレイムⅡを取得し炎属性攻撃力を１．２倍する。\n【スキル追加：フレイムⅡ】【炎属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【砂漠クリア】【交易店 交換】ファイアリング 2　フレイムリング 1　2000G"},
-{"itemTypeId":4,"id":255,"name":"フレイムクリスタル"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[],"weapons":[],"armors":[{"id":231,"count":2},{"id":243,"count":1}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":255,"name":"フレイムクリスタル"
 ,"description":"【装飾品】フレイムⅢを取得し炎属性攻撃力を１．４倍する。\n【スキル追加：フレイムⅢ】【炎属性攻撃力１．４倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":50000,"get":"【炭鉱クリア】【交易店 交換】ファイアジュエル 2　フレイムジュエル 1　20000G"},
-{"itemTypeId":4,"id":226,"name":"アイスピアス"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":237,"count":2},{"id":249,"count":1}],"gold":20000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":226,"name":"アイスピアス"
 ,"description":"【装飾品】アイスⅠを取得し氷属性攻撃力を１．１倍する。\n【スキル追加：アイスⅠ】【氷属性攻撃力１．１倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 交換】ピアス 1　氷の素 2　鉄鉱石 1　500G"},
-{"itemTypeId":4,"id":232,"name":"アイスリング"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":67,"count":2},{"id":52,"count":1}],"weapons":[],"armors":[{"id":219,"count":1}],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":232,"name":"アイスリング"
 ,"description":"【装飾品】アイスⅡを取得し氷属性攻撃力を１．２倍する。\n【スキル追加：アイスⅡ】【氷属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】アイスピアス 1　氷の素 2　ミスリル鉱石 2　1000G"},
-{"itemTypeId":4,"id":238,"name":"アイスジュエル"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":67,"count":2},{"id":53,"count":2}],"weapons":[],"armors":[{"id":226,"count":1}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":238,"name":"アイスジュエル"
 ,"description":"【装飾品】アイスⅢを取得し氷属性攻撃力を１．２倍する。\n【スキル追加：アイスⅢ】【氷属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【炭鉱クリア】【交易店 交換】アイスリング 1　氷の素 2　クローム鉱石 2　10000G"},
-{"itemTypeId":4,"id":244,"name":"ブリザードリング"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":67,"count":2},{"id":54,"count":2}],"weapons":[],"armors":[{"id":232,"count":1}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":244,"name":"ブリザードリング"
 ,"description":"【装飾品】ブリザードⅠを取得し氷属性攻撃力を１．２倍する。\n【スキル追加：ブリザードⅠ】【氷属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【交易店 交換】アイスピアス 2　鉄鉱石 1　1000G"},
-{"itemTypeId":4,"id":250,"name":"ブリザードジュエル"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":52,"count":1}],"weapons":[],"armors":[{"id":226,"count":2}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":250,"name":"ブリザードジュエル"
 ,"description":"【装飾品】ブリザードⅡを取得し氷属性攻撃力を１．２倍する。\n【スキル追加：ブリザードⅡ】【氷属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【砂漠クリア】【交易店 交換】アイスリング 2　ブリザードリング 1　2000G"},
-{"itemTypeId":4,"id":256,"name":"ブリザードクリスタル"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[],"weapons":[],"armors":[{"id":232,"count":2},{"id":244,"count":1}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":256,"name":"ブリザードクリスタル"
 ,"description":"【装飾品】ブリザードⅢを取得し氷属性攻撃力を１．４倍する。\n【スキル追加：ブリザードⅢ】【氷属性攻撃力１．４倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":50000,"get":"【炭鉱クリア】【交易店 交換】アイスジュエル 2　ブリザードジュエル 1　20000G"},
-{"itemTypeId":4,"id":227,"name":"サンダーピアス"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":238,"count":2},{"id":250,"count":1}],"gold":20000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":227,"name":"サンダーピアス"
 ,"description":"【装飾品】サンダーⅠを取得し雷属性攻撃力を１．１倍する。\n【スキル追加：サンダーⅠ】【雷属性攻撃力１．１倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 交換】ピアス 1　雷の素 2　鉄鉱石 1　500G"},
-{"itemTypeId":4,"id":233,"name":"サンダーリング"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":68,"count":2},{"id":52,"count":1}],"weapons":[],"armors":[{"id":219,"count":1}],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":233,"name":"サンダーリング"
 ,"description":"【装飾品】サンダーⅡを取得し雷属性攻撃力を１．２倍する。\n【スキル追加：サンダーⅡ】【雷属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】サンダーピアス 1　雷の素 2　ミスリル鉱石 2　1000G"},
-{"itemTypeId":4,"id":239,"name":"サンダージュエル"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":68,"count":2},{"id":53,"count":2}],"weapons":[],"armors":[{"id":227,"count":1}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":239,"name":"サンダージュエル"
 ,"description":"【装飾品】サンダーⅢを取得し雷属性攻撃力を１．２倍する。\n【スキル追加：サンダーⅢ】【雷属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【炭鉱クリア】【交易店 交換】サンダーリング 1　雷の素 2　クローム鉱石 2　10000G"},
-{"itemTypeId":4,"id":245,"name":"スパークリング"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":68,"count":2},{"id":54,"count":2}],"weapons":[],"armors":[{"id":233,"count":1}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":245,"name":"スパークリング"
 ,"description":"【装飾品】スパークⅠを取得し雷属性攻撃力を１．２倍する。\n【スキル追加：スパークⅠ】【雷属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【交易店 交換】サンダーピアス 2　鉄鉱石 1　1000G"},
-{"itemTypeId":4,"id":251,"name":"スパークジュエル"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":52,"count":1}],"weapons":[],"armors":[{"id":227,"count":2}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":251,"name":"スパークジュエル"
 ,"description":"【装飾品】スパークⅡを取得し雷属性攻撃力を１．２倍する。\n【スキル追加：スパークⅡ】【雷属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【砂漠クリア】【交易店 交換】サンダーリング 2　スパークリング 1　2000G"},
-{"itemTypeId":4,"id":257,"name":"スパーククリスタル"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[],"weapons":[],"armors":[{"id":233,"count":2},{"id":245,"count":1}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":257,"name":"スパーククリスタル"
 ,"description":"【装飾品】スパークⅢを取得し雷属性攻撃力を１．４倍する。\n【スキル追加：スパークⅢ】【雷属性攻撃力１．４倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":50000,"get":"【炭鉱クリア】【交易店 交換】サンダージュエル 2　スパークジュエル 1　20000G"},
-{"itemTypeId":4,"id":228,"name":"ストーンピアス"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":239,"count":2},{"id":251,"count":1}],"gold":20000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":228,"name":"ストーンピアス"
 ,"description":"【装飾品】ストーンⅠを取得し土属性攻撃力を１．１倍する。\n【スキル追加：ストーンⅠ】【土属性攻撃力１．１倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 交換】ピアス 1　土の素 2　鉄鉱石 1　500G"},
-{"itemTypeId":4,"id":234,"name":"ストーンリング"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":69,"count":2},{"id":52,"count":1}],"weapons":[],"armors":[{"id":219,"count":1}],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":234,"name":"ストーンリング"
 ,"description":"【装飾品】ストーンⅡを取得し土属性攻撃力を１．２倍する。\n【スキル追加：ストーンⅡ】【土属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】ストーンピアス 1　土の素 2　ミスリル鉱石 2　1000G"},
-{"itemTypeId":4,"id":240,"name":"ストーンジュエル"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":69,"count":2},{"id":53,"count":2}],"weapons":[],"armors":[{"id":228,"count":1}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":240,"name":"ストーンジュエル"
 ,"description":"【装飾品】ストーンⅢを取得し土属性攻撃力を１．２倍する。\n【スキル追加：ストーンⅢ】【土属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【炭鉱クリア】【交易店 交換】ストーンリング 1　土の素 2　クローム鉱石 2　10000G"},
-{"itemTypeId":4,"id":246,"name":"クエイクリング"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":69,"count":2},{"id":54,"count":2}],"weapons":[],"armors":[{"id":234,"count":1}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":246,"name":"クエイクリング"
 ,"description":"【装飾品】クエイクⅠを取得し土属性攻撃力を１．２倍する。\n【スキル追加：クエイクⅠ】【土属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【交易店 交換】ストーンピアス 2　鉄鉱石 1　1000G"},
-{"itemTypeId":4,"id":252,"name":"クエイクジュエル"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":52,"count":1}],"weapons":[],"armors":[{"id":228,"count":2}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":252,"name":"クエイクジュエル"
 ,"description":"【装飾品】クエイクⅡを取得し土属性攻撃力を１．２倍する。\n【スキル追加：クエイクⅡ】【土属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【砂漠クリア】【交易店 交換】ストーンリング 2　クエイクリング 1　2000G"},
-{"itemTypeId":4,"id":258,"name":"クエイククリスタル"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[],"weapons":[],"armors":[{"id":234,"count":2},{"id":246,"count":1}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":258,"name":"クエイククリスタル"
 ,"description":"【装飾品】クエイクⅢを取得し土属性攻撃力を１．４倍する。\n【スキル追加：クエイクⅢ】【土属性攻撃力１．４倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":50000,"get":"【炭鉱クリア】【交易店 交換】ストーンジュエル 2　クエイクジュエル 1　20000G"},
-{"itemTypeId":4,"id":229,"name":"ウインドピアス"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":240,"count":2},{"id":252,"count":1}],"gold":20000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":229,"name":"ウインドピアス"
 ,"description":"【装飾品】ウインドⅠを取得し風属性攻撃力を１．１倍する。\n【スキル追加：ウインドⅠ】【風属性攻撃力１．１倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 交換】ピアス 1　風の素 2　鉄鉱石 1　500G"},
-{"itemTypeId":4,"id":235,"name":"ウインドリング"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":70,"count":2},{"id":52,"count":1}],"weapons":[],"armors":[{"id":219,"count":1}],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":235,"name":"ウインドリング"
 ,"description":"【装飾品】ウインドⅡを取得し風属性攻撃力を１．２倍する。\n【スキル追加：ウインドⅡ】【風属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】ウインドピアス 1　風の素 2　ミスリル鉱石 2　1000G"},
-{"itemTypeId":4,"id":241,"name":"ウインドジュエル"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":70,"count":2},{"id":53,"count":2}],"weapons":[],"armors":[{"id":229,"count":1}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":241,"name":"ウインドジュエル"
 ,"description":"【装飾品】ウインドⅢを取得し風属性攻撃力を１．２倍する。\n【スキル追加：ウインドⅢ】【風属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【炭鉱クリア】【交易店 交換】ウインドリング 1　風の素 2　クローム鉱石 2　10000G"},
-{"itemTypeId":4,"id":247,"name":"トルネードリング"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":70,"count":2},{"id":54,"count":2}],"weapons":[],"armors":[{"id":235,"count":1}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":247,"name":"トルネードリング"
 ,"description":"【装飾品】トルネードⅠを取得し風属性攻撃力を１．２倍する。\n【スキル追加：トルネードⅠ】【風属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【交易店 交換】ウインドピアス 2　鉄鉱石 1　1000G"},
-{"itemTypeId":4,"id":253,"name":"トルネードジュエル"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":52,"count":1}],"weapons":[],"armors":[{"id":229,"count":2}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":253,"name":"トルネードジュエル"
 ,"description":"【装飾品】トルネードⅡを取得し風属性攻撃力を１．２倍する。\n【スキル追加：トルネードⅡ】【風属性攻撃力１．２倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【砂漠クリア】【交易店 交換】ウインドリング 2　トルネードリング 1　2000G"},
-{"itemTypeId":4,"id":259,"name":"トルネードクリスタル"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[],"weapons":[],"armors":[{"id":235,"count":2},{"id":247,"count":1}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":259,"name":"トルネードクリスタル"
 ,"description":"【装飾品】トルネードⅢを取得し風属性攻撃力を１．４倍する。\n【スキル追加：トルネードⅢ】【風属性攻撃力１．４倍】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":50000,"get":"【炭鉱クリア】【交易店 交換】ウインドジュエル 2　トルネードジュエル 1　20000G"},
-{"itemTypeId":4,"id":262,"name":"D・サルベージ"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":241,"count":2},{"id":253,"count":1}],"gold":20000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":262,"name":"D・サルベージ"
 ,"description":"【装飾品】アンデッドの怨念を浄化する聖具。　※詳細は用語図鑑へ。\n【攻撃時アンデッド復活阻止】【暗闇無効】【最大ＭＰ上昇】"
-,"itemType":"装飾品","attribute":"","params":[0,50,0,0,30,30,0,0],"price":50000,"get":"【炭鉱クリア】【交易店 交換】ファントム 1　スケスケルトン 1　クローム鉱石 5　100000G"},
-{"itemTypeId":4,"id":263,"name":"人魚の結晶"
+,"itemType":"装飾品","attribute":"","params":[0,50,0,0,30,30,0,0],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":54,"count":5}],"weapons":[],"armors":[{"id":1219,"count":1},{"id":1222,"count":1}],"gold":100000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":263,"name":"人魚の結晶"
 ,"description":"【装飾品】人魚の鱗を溶液に浸して作ったピアス。　※詳細は用語図鑑へ。\n【氷属性攻撃力１．２倍】【３Ｔ毎に海の波動を発動】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,30,0,30,0,0],"price":50000,"get":"【炭鉱クリア】【交易店 交換】スライム(擬態) 1　セイレーン 1　クローム鉱石 5　100000G"},
-{"itemTypeId":4,"id":264,"name":"プランターロア"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,30,0,30,0,0],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":54,"count":5}],"weapons":[],"armors":[{"id":1230,"count":1},{"id":1233,"count":1}],"gold":100000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":264,"name":"プランターロア"
 ,"description":"【装飾品】植物の樹脂を固めたピアス。　※詳細は用語図鑑へ。\n【土属性攻撃力１．２倍】【戦闘中１度だけ復活】【毒・激昂無効】"
-,"itemType":"装飾品","attribute":"","params":[0,0,0,30,0,30,0,0],"price":50000,"get":"【炭鉱クリア】【交易店 交換】アルラウネ 1　テンダー・G 1　マイコッド 1　100000G"},
-{"itemTypeId":4,"id":265,"name":"ドラゴンスケイル"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,30,0,30,0,0],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1212,"count":1},{"id":1214,"count":1},{"id":1231,"count":1}],"gold":100000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":265,"name":"ドラゴンスケイル"
 ,"description":"【装飾品】龍種の鱗で作ったピアス。　※詳細は用語図鑑へ。\n【炎属性攻撃力１．２倍】【炎耐性３０％上昇】【全属性ダメージ１００減少】"
-,"itemType":"装飾品","attribute":"","params":[0,0,10,20,10,20,10,10],"price":50000,"get":"【炭鉱クリア】【交易店 交換】リザードガール 1　ドラグーン 1　青龍十八号 1　100000G"},
-{"itemTypeId":4,"id":266,"name":"インセクター・E"
+,"itemType":"装飾品","attribute":"","params":[0,0,10,20,10,20,10,10],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1211,"count":1},{"id":1226,"count":1},{"id":1239,"count":1}],"gold":100000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":266,"name":"インセクター・E"
 ,"description":"【装飾品】甲虫の外骨格で作ったピアス。　※詳細は用語図鑑へ。\n【毒状態付与（30％）】【通常攻撃時毒状態の敵に特攻ダメージ】"
-,"itemType":"装飾品","attribute":"","params":[0,0,30,0,30,0,0,0],"price":50000,"get":"【炭鉱クリア】【交易店 交換】クインビー 1　バグクイン 1　クモジョロウ 1　100000G"},
-{"itemTypeId":5,"id":421,"name":"身体強化"
+,"itemType":"装飾品","attribute":"","params":[0,0,30,0,30,0,0,0],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1207,"count":1},{"id":1208,"count":1},{"id":1229,"count":1}],"gold":100000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":421,"name":"身体強化"
 ,"description":"【刻印】一般的な冒険者用の魔術刻印。"
-,"itemType":"刻印","attribute":"","params":[0,0,5,5,5,5,5,5],"price":500,"get":"【交易店 購入】500G"},
-{"itemTypeId":5,"id":422,"name":"身体強化改"
+,"itemType":"刻印","attribute":"","params":[0,0,5,5,5,5,5,5],"price":500
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":422,"name":"身体強化改"
 ,"description":"【刻印】一般的な冒険者用の魔術刻印。\n少しだけ性能が上がっている"
-,"itemType":"刻印","attribute":"","params":[0,0,20,20,20,20,20,20],"price":5000,"get":"【砂漠クリア】【交易店 購入】5000G"},
-{"itemTypeId":5,"id":423,"name":"身体強化改Ⅱ"
+,"itemType":"刻印","attribute":"","params":[0,0,20,20,20,20,20,20],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":423,"name":"身体強化改Ⅱ"
 ,"description":"【刻印】一般的な冒険者用の魔術刻印。\n少しだけ性能が上がっている"
-,"itemType":"刻印","attribute":"","params":[0,0,40,40,40,40,40,40],"price":10000,"get":"【炭鉱クリア】【交易店 購入】10000G"},
-{"itemTypeId":5,"id":427,"name":"免疫強化"
+,"itemType":"刻印","attribute":"","params":[0,0,40,40,40,40,40,40],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":427,"name":"免疫強化"
 ,"description":"【刻印】状態耐性に特化した刻印。\n【毒・暗闇・沈黙・激昂・混乱・魅了・睡眠耐性５％上昇】"
-,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500,"get":"【交易店 購入】500G"},
-{"itemTypeId":5,"id":428,"name":"免疫強化改"
+,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":428,"name":"免疫強化改"
 ,"description":"【刻印】状態耐性に特化した刻印。\n少しだけ性能が上がっている\n【毒・暗闇・沈黙・激昂・混乱・魅了・睡眠耐性10％上昇】"
-,"itemType":"刻印","attribute":"","params":[0,0,5,5,5,5,5,5],"price":10000,"get":"【砂漠クリア】【交易店 購入】5000G"},
-{"itemTypeId":5,"id":429,"name":"免疫強化改Ⅱ"
+,"itemType":"刻印","attribute":"","params":[0,0,5,5,5,5,5,5],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":429,"name":"免疫強化改Ⅱ"
 ,"description":"【刻印】状態耐性に特化した刻印。\n少しだけ性能が上がっている\n【毒・暗闇・沈黙・激昂・混乱・魅了・睡眠耐性20％上昇】"
-,"itemType":"刻印","attribute":"","params":[0,0,10,10,10,10,10,10],"price":10000,"get":"【炭鉱クリア】【交易店 購入】10000G"},
-{"itemTypeId":5,"id":504,"name":"戦士の刻印"
+,"itemType":"刻印","attribute":"","params":[0,0,10,10,10,10,10,10],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":504,"name":"戦士の刻印"
 ,"description":"【刻印】【会心率１０％上昇】"
-,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500,"get":"【交易店 購入】500G"},
-{"itemTypeId":5,"id":505,"name":"剣士の刻印"
+,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":505,"name":"剣士の刻印"
 ,"description":"【刻印】【会心率２０％上昇】"
-,"itemType":"刻印","attribute":"","params":[0,0,5,5,5,5,5,5],"price":5000,"get":"【砂漠クリア】【交易店 購入】5000G"},
-{"itemTypeId":5,"id":506,"name":"剣聖の刻印"
+,"itemType":"刻印","attribute":"","params":[0,0,5,5,5,5,5,5],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":506,"name":"剣聖の刻印"
 ,"description":"【刻印】【会心率４０％上昇】"
-,"itemType":"刻印","attribute":"","params":[0,0,20,20,20,20,20,20],"price":10000,"get":"【炭鉱クリア】【交易店 購入】10000G"},
-{"itemTypeId":5,"id":440,"name":"属性強化【炎】"
+,"itemType":"刻印","attribute":"","params":[0,0,20,20,20,20,20,20],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":440,"name":"属性強化【炎】"
 ,"description":"【刻印】炎属性攻撃力を１．１倍するが氷耐性が１０％低下する。"
-,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500,"get":"【交易店 購入】500G"},
-{"itemTypeId":5,"id":447,"name":"属性強化改【炎】"
+,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":447,"name":"属性強化改【炎】"
 ,"description":"【刻印】炎属性攻撃力を１．２倍する。"
-,"itemType":"刻印","attribute":"","params":[0,0,10,0,10,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】5000G"},
-{"itemTypeId":5,"id":441,"name":"属性強化【氷】"
+,"itemType":"刻印","attribute":"","params":[0,0,10,0,10,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":441,"name":"属性強化【氷】"
 ,"description":"【刻印】氷属性攻撃力を１．１倍するが雷耐性が１０％低下する。"
-,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500,"get":"【交易店 購入】500G"},
-{"itemTypeId":5,"id":448,"name":"属性強化改【氷】"
+,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":448,"name":"属性強化改【氷】"
 ,"description":"【刻印】氷属性攻撃力を１．２倍する。"
-,"itemType":"刻印","attribute":"","params":[0,0,10,0,10,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】5000G"},
-{"itemTypeId":5,"id":442,"name":"属性強化【雷】"
+,"itemType":"刻印","attribute":"","params":[0,0,10,0,10,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":442,"name":"属性強化【雷】"
 ,"description":"【刻印】雷属性攻撃力を１．１倍するが土耐性が１０％低下する。"
-,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500,"get":"【交易店 購入】500G"},
-{"itemTypeId":5,"id":449,"name":"属性強化改【雷】"
+,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":449,"name":"属性強化改【雷】"
 ,"description":"【刻印】雷属性攻撃力を１．２倍する。"
-,"itemType":"刻印","attribute":"","params":[0,0,10,0,10,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】5000G"},
-{"itemTypeId":5,"id":443,"name":"属性強化【土】"
+,"itemType":"刻印","attribute":"","params":[0,0,10,0,10,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":443,"name":"属性強化【土】"
 ,"description":"【刻印】土属性攻撃力を１．１倍するが風耐性が１０％低下する。"
-,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500,"get":"【交易店 購入】500G"},
-{"itemTypeId":5,"id":450,"name":"属性強化改【土】"
+,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":450,"name":"属性強化改【土】"
 ,"description":"【刻印】土属性攻撃力を１．２倍する。"
-,"itemType":"刻印","attribute":"","params":[0,0,10,0,10,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】5000G"},
-{"itemTypeId":5,"id":444,"name":"属性強化【風】"
+,"itemType":"刻印","attribute":"","params":[0,0,10,0,10,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":444,"name":"属性強化【風】"
 ,"description":"【刻印】風属性攻撃力を１．１倍するが炎耐性が１０％低下する。"
-,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500,"get":"【交易店 購入】500G"},
-{"itemTypeId":5,"id":451,"name":"属性強化改【風】"
+,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":451,"name":"属性強化改【風】"
 ,"description":"【刻印】風属性攻撃力を１．２倍する。"
-,"itemType":"刻印","attribute":"","params":[0,0,10,0,10,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】5000G"},
-{"itemTypeId":5,"id":461,"name":"属性耐性【炎】"
+,"itemType":"刻印","attribute":"","params":[0,0,10,0,10,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":461,"name":"属性耐性【炎】"
 ,"description":"【刻印】【炎耐性２０％上昇】"
-,"itemType":"刻印","attribute":"","params":[0,0,0,5,0,5,0,0],"price":500,"get":"【交易店 購入】500G"},
-{"itemTypeId":5,"id":468,"name":"属性耐性【炎】改"
+,"itemType":"刻印","attribute":"","params":[0,0,0,5,0,5,0,0],"price":500
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":468,"name":"属性耐性【炎】改"
 ,"description":"【刻印】【炎耐性３０％上昇】【氷耐性１０％上昇】【雷耐性１０％上昇】"
-,"itemType":"刻印","attribute":"","params":[0,0,0,20,0,20,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】5000G"},
-{"itemTypeId":5,"id":462,"name":"属性耐性【氷】"
+,"itemType":"刻印","attribute":"","params":[0,0,0,20,0,20,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":462,"name":"属性耐性【氷】"
 ,"description":"【刻印】【氷耐性２０％上昇】"
-,"itemType":"刻印","attribute":"","params":[0,0,0,5,0,5,0,0],"price":500,"get":"【交易店 購入】500G"},
-{"itemTypeId":5,"id":469,"name":"属性耐性【氷】改"
+,"itemType":"刻印","attribute":"","params":[0,0,0,5,0,5,0,0],"price":500
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":469,"name":"属性耐性【氷】改"
 ,"description":"【刻印】【氷耐性３０％上昇】【雷耐性１０％上昇】【土耐性１０％上昇】"
-,"itemType":"刻印","attribute":"","params":[0,0,0,20,0,20,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】5000G"},
-{"itemTypeId":5,"id":463,"name":"属性耐性【雷】"
+,"itemType":"刻印","attribute":"","params":[0,0,0,20,0,20,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":463,"name":"属性耐性【雷】"
 ,"description":"【刻印】【雷耐性２０％上昇】"
-,"itemType":"刻印","attribute":"","params":[0,0,0,5,0,5,0,0],"price":500,"get":"【交易店 購入】500G"},
-{"itemTypeId":5,"id":470,"name":"属性耐性【雷】改"
+,"itemType":"刻印","attribute":"","params":[0,0,0,5,0,5,0,0],"price":500
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":470,"name":"属性耐性【雷】改"
 ,"description":"【刻印】【雷耐性３０％上昇】【土耐性１０％上昇】【風耐性１０％上昇】"
-,"itemType":"刻印","attribute":"","params":[0,0,0,20,0,20,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】5000G"},
-{"itemTypeId":5,"id":464,"name":"属性耐性【土】"
+,"itemType":"刻印","attribute":"","params":[0,0,0,20,0,20,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":464,"name":"属性耐性【土】"
 ,"description":"【刻印】【土耐性２０％上昇】"
-,"itemType":"刻印","attribute":"","params":[0,0,0,5,0,5,0,0],"price":500,"get":"【交易店 購入】500G"},
-{"itemTypeId":5,"id":471,"name":"属性耐性【土】改"
+,"itemType":"刻印","attribute":"","params":[0,0,0,5,0,5,0,0],"price":500
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":471,"name":"属性耐性【土】改"
 ,"description":"【刻印】【土耐性３０％上昇】【風耐性１０％上昇】【炎耐性１０％上昇】"
-,"itemType":"刻印","attribute":"","params":[0,0,0,20,0,20,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】5000G"},
-{"itemTypeId":5,"id":465,"name":"属性耐性【風】"
+,"itemType":"刻印","attribute":"","params":[0,0,0,20,0,20,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":465,"name":"属性耐性【風】"
 ,"description":"【刻印】【風耐性２０％上昇】"
-,"itemType":"刻印","attribute":"","params":[0,0,0,5,0,5,0,0],"price":500,"get":"【交易店 購入】500G"},
-{"itemTypeId":5,"id":472,"name":"属性耐性【風】改"
+,"itemType":"刻印","attribute":"","params":[0,0,0,5,0,5,0,0],"price":500
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":472,"name":"属性耐性【風】改"
 ,"description":"【刻印】【風耐性３０％上昇】【炎耐性１０％上昇】【氷耐性１０％上昇】"
-,"itemType":"刻印","attribute":"","params":[0,0,0,20,0,20,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】5000G"},
-{"itemTypeId":5,"id":495,"name":"呪いの淫紋"
+,"itemType":"刻印","attribute":"","params":[0,0,0,20,0,20,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":0,"id":495,"name":"呪いの淫紋"
 ,"description":"【刻印】ステータスが大幅に上昇するがターン経過毎にダメージを受ける刻印\n【ＨＰ再生率ー９５％】"
-,"itemType":"刻印","attribute":"","params":[0,0,40,40,40,40,40,40],"price":5000,"get":"【交易店 購入】5000G"},
-{"itemTypeId":6,"id":1298,"name":"儀式用短剣"
+,"itemType":"刻印","attribute":"","params":[0,0,40,40,40,40,40,40],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":0,"id":1298,"name":"儀式用短剣"
 ,"description":"【神器】装備すると攻撃力が上がるが基本的には合成用\n　様々な属性を持つ神器と交換していこう。"
-,"itemType":"神器","attribute":"","params":[0,0,5,0,0,0,0,0],"price":1000,"get":"【交易店 購入】1000G"},
-{"itemTypeId":6,"id":1334,"name":"試作型神器(攻)"
+,"itemType":"神器","attribute":"","params":[0,0,5,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":0,"id":1334,"name":"試作型神器(攻)"
 ,"description":"【神器】特殊な効果が無い分身体能力を強化できる神器。"
-,"itemType":"神器","attribute":"","params":[0,0,20,0,20,0,20,0],"price":10000,"get":"【炭鉱クリア】【交易店 購入】10000G"},
-{"itemTypeId":6,"id":1399,"name":"儀式用の玉"
+,"itemType":"神器","attribute":"","params":[0,0,20,0,20,0,20,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":0,"id":1399,"name":"儀式用の玉"
 ,"description":"【神器】装備すると防御力が上がるが基本的には交換用\n　様々な力を持つ神器と交換していこう。"
-,"itemType":"神器","attribute":"","params":[0,0,0,5,0,0,0,0],"price":1000,"get":"【交易店 購入】1000G"},
-{"itemTypeId":6,"id":1435,"name":"試作型神器(防)"
+,"itemType":"神器","attribute":"","params":[0,0,0,5,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":0,"id":1435,"name":"試作型神器(防)"
 ,"description":"【神器】特殊な効果が無い分身体能力を強化できる神器。"
-,"itemType":"神器","attribute":"","params":[0,0,0,20,0,20,0,20],"price":10000,"get":"【炭鉱クリア】【交易店 購入】10000G"},
-{"itemTypeId":6,"id":1400,"name":"力の玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,20,0,20,0,20],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1400,"name":"力の玉"
 ,"description":"【神器】戦闘開始時にＡ・ウエポンブレスを発動\n【自身】【攻撃力強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 交換】儀式用の玉 1　鉄鉱石 5　1000G"},
-{"itemTypeId":6,"id":1408,"name":"力の勾玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":52,"count":5}],"weapons":[],"armors":[{"id":1399,"count":1}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1408,"name":"力の勾玉"
 ,"description":"【神器】戦闘開始時にＡ・ウエポンオールを発動\n【味方全体】【攻撃力強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】力の玉 2　ミスリル鉱石 5　2000G"},
-{"itemTypeId":6,"id":1416,"name":"力の霊玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":53,"count":5}],"weapons":[],"armors":[{"id":1400,"count":2}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1416,"name":"力の霊玉"
 ,"description":"【神器】戦闘開始時及び５ターン毎にＡ・ウエポンオールを発動\n【味方全体】【攻撃力強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【炭鉱クリア】【交易店 交換】力の勾玉 1　クローム鉱石 3　医学の素 3　5000G"},
-{"itemTypeId":6,"id":1401,"name":"防御の玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":54,"count":3},{"id":79,"count":3}],"weapons":[],"armors":[{"id":1408,"count":1}],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1401,"name":"防御の玉"
 ,"description":"【神器】戦闘開始時にＡ・アーマーブレスを発動\n【自身】【防御力強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 交換】儀式用の玉 1　鉄鉱石 5　1000G"},
-{"itemTypeId":6,"id":1409,"name":"防御の勾玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":52,"count":5}],"weapons":[],"armors":[{"id":1399,"count":1}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1409,"name":"防御の勾玉"
 ,"description":"【神器】戦闘開始時にＡ・アーマーオールを発動\n【味方全体】【防御力強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】防御の玉 2　ミスリル鉱石 5　2000G"},
-{"itemTypeId":6,"id":1417,"name":"防御の霊玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":53,"count":5}],"weapons":[],"armors":[{"id":1401,"count":2}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1417,"name":"防御の霊玉"
 ,"description":"【神器】戦闘開始時及び５ターン毎にＡ・アーマーオールを発動\n【味方全体】【防御力強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【炭鉱クリア】【交易店 交換】防御の勾玉 1　クローム鉱石 3　医学の素 3　5000G"},
-{"itemTypeId":6,"id":1402,"name":"魔力の玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":54,"count":3},{"id":79,"count":3}],"weapons":[],"armors":[{"id":1409,"count":1}],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1402,"name":"魔力の玉"
 ,"description":"【神器】戦闘開始時にＡ・スピリットブレスを発動\n【自身】【魔法力強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 交換】儀式用の玉 1　鉄鉱石 5　1000G"},
-{"itemTypeId":6,"id":1410,"name":"魔力の勾玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":52,"count":5}],"weapons":[],"armors":[{"id":1399,"count":1}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1410,"name":"魔力の勾玉"
 ,"description":"【神器】戦闘開始時にＡ・スピリットオールを発動\n【味方全体】【魔法力強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】魔力の玉 2　ミスリル鉱石 5　2000G"},
-{"itemTypeId":6,"id":1418,"name":"魔力の霊玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":53,"count":5}],"weapons":[],"armors":[{"id":1402,"count":2}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1418,"name":"魔力の霊玉"
 ,"description":"【神器】戦闘開始時及び５ターン毎にＡ・スピリットオールを発動\n【味方全体】【魔法力強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【炭鉱クリア】【交易店 交換】魔力の勾玉 1　クローム鉱石 3　医学の素 3　5000G"},
-{"itemTypeId":6,"id":1403,"name":"退魔の玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":54,"count":3},{"id":79,"count":3}],"weapons":[],"armors":[{"id":1410,"count":1}],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1403,"name":"退魔の玉"
 ,"description":"【神器】戦闘開始時にＡ・ディバインブレスを発動\n【自身】【魔法防御力強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 交換】儀式用の玉 1　鉄鉱石 5　1000G"},
-{"itemTypeId":6,"id":1411,"name":"退魔の勾玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":52,"count":5}],"weapons":[],"armors":[{"id":1399,"count":1}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1411,"name":"退魔の勾玉"
 ,"description":"【神器】戦闘開始時にＡ・ディバインオールを発動\n【味方全体】【魔法防御力強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】退魔の玉 2　ミスリル鉱石 5　2000G"},
-{"itemTypeId":6,"id":1419,"name":"退魔の霊玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":53,"count":5}],"weapons":[],"armors":[{"id":1403,"count":2}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1419,"name":"退魔の霊玉"
 ,"description":"【神器】戦闘開始時及び５ターン毎にＡ・ディバインオールを発動\n【味方全体】【魔法防御力強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【炭鉱クリア】【交易店 交換】退魔の勾玉 1　クローム鉱石 3　医学の素 3　5000G"},
-{"itemTypeId":6,"id":1404,"name":"瞬足の玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":54,"count":3},{"id":79,"count":3}],"weapons":[],"armors":[{"id":1411,"count":1}],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1404,"name":"瞬足の玉"
 ,"description":"【神器】戦闘開始時にＡ・クイックブレスを発動\n【自身】【俊敏性強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 交換】儀式用の玉 1　鉄鉱石 5　1000G"},
-{"itemTypeId":6,"id":1412,"name":"瞬足の勾玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":52,"count":5}],"weapons":[],"armors":[{"id":1399,"count":1}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1412,"name":"瞬足の勾玉"
 ,"description":"【神器】戦闘開始時にＡ・クイックオールを発動\n【味方全体】【俊敏性強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】瞬足の玉 2　ミスリル鉱石 5　2000G"},
-{"itemTypeId":6,"id":1420,"name":"瞬足の霊玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":53,"count":5}],"weapons":[],"armors":[{"id":1404,"count":2}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1420,"name":"瞬足の霊玉"
 ,"description":"【神器】戦闘開始時及び５ターン毎にＡ・クイックオールを発動\n【味方全体】【俊敏性強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【炭鉱クリア】【交易店 交換】瞬足の勾玉 1　クローム鉱石 3　医学の素 3　5000G"},
-{"itemTypeId":6,"id":1405,"name":"運の玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":54,"count":3},{"id":79,"count":3}],"weapons":[],"armors":[{"id":1412,"count":1}],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1405,"name":"運の玉"
 ,"description":"【神器】戦闘開始時にＡ・ラックブレスを発動\n【自身】【運強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 交換】儀式用の玉 1　鉄鉱石 5　1000G"},
-{"itemTypeId":6,"id":1413,"name":"運の勾玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":52,"count":5}],"weapons":[],"armors":[{"id":1399,"count":1}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1413,"name":"運の勾玉"
 ,"description":"【神器】戦闘開始時にＡ・ラックオールを発動\n【味方全体】【運強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】運の玉 2　ミスリル鉱石 5　2000G"},
-{"itemTypeId":6,"id":1421,"name":"運の霊玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":53,"count":5}],"weapons":[],"armors":[{"id":1405,"count":2}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1421,"name":"運の霊玉"
 ,"description":"【神器】戦闘開始時及び５ターン毎にＡ・ラックオールを発動\n【味方全体】【運強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【炭鉱クリア】【交易店 交換】運の勾玉 1　クローム鉱石 3　医学の素 3　5000G"},
-{"itemTypeId":6,"id":1424,"name":"剛腕の神玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":54,"count":3},{"id":79,"count":3}],"weapons":[],"armors":[{"id":1413,"count":1}],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1424,"name":"剛腕の神玉"
 ,"description":"【神器】戦闘開始時及び５ターン毎にＡ・ウォークライを発動\n【味方全体】【攻撃力・防御力強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":30000,"get":"【炭鉱クリア】【交易店 交換】力の霊玉 1　防御の霊玉 1　医学の素 3　10000G"},
-{"itemTypeId":6,"id":1425,"name":"魔術の神玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":30000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":79,"count":3}],"weapons":[],"armors":[{"id":1416,"count":1},{"id":1417,"count":1}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1425,"name":"魔術の神玉"
 ,"description":"【神器】戦闘開始時及び５ターン毎にＡ・エクスマギアを発動\n【味方全体】【魔法力・魔法防御力強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":30000,"get":"【炭鉱クリア】【交易店 交換】魔力の霊玉 1　退魔の霊玉 1　医学の素 3　10000G"},
-{"itemTypeId":6,"id":1426,"name":"獣の神玉"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":30000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":79,"count":3}],"weapons":[],"armors":[{"id":1418,"count":1},{"id":1419,"count":1}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1426,"name":"獣の神玉"
 ,"description":"【神器】戦闘開始時及び５ターン毎にＡ・ビーストダンスを発動\n【味方全体】【俊敏・運強化（３ターン）】【重複二回まで可】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":30000,"get":"【炭鉱クリア】【交易店 交換】瞬足の霊玉 1　運の霊玉 1　医学の素 3　10000G"},
-{"itemTypeId":6,"id":1432,"name":"神器【八尺瓊勾玉】"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":30000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":79,"count":3}],"weapons":[],"armors":[{"id":1420,"count":1},{"id":1421,"count":1}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1432,"name":"神器【八尺瓊勾玉】"
 ,"description":"【【神器】戦闘開始時及び５ターン毎にＡ・オルマイトを発動\n【味方全体】【全能力強化（３ターン）】【一回の発動で二重強化】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":50000,"get":"【炭鉱クリア】【交易店 交換】剛腕の神玉 1　魔術の神玉 1　獣の神玉 1　30000G"},
-{"itemTypeId":6,"id":1300,"name":"炎の短剣"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1424,"count":1},{"id":1425,"count":1},{"id":1426,"count":1}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1300,"name":"炎の短剣"
 ,"description":"【神器】戦闘開始時にＡ・ファイアを発動\n【炎】【単体】a.mat * 1【氷弱点状態付与（10％）】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 交換】儀式用短剣 1　炎の素 2　鉄鉱石 2　1000G"},
-{"itemTypeId":6,"id":1307,"name":"炎の霊剣"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":66,"count":2},{"id":52,"count":2}],"weapons":[],"armors":[{"id":1298,"count":1}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1307,"name":"炎の霊剣"
 ,"description":"【神器】戦闘開始時にＡ・フレイムを発動\n【炎】【全体】a.mat * 1【氷弱点状態付与（10％）】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】炎の短剣 2　炎の素 3　ミスリル鉱石 3　2000G"},
-{"itemTypeId":6,"id":1314,"name":"炎の神剣"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":66,"count":3},{"id":53,"count":3}],"weapons":[],"armors":[{"id":1300,"count":2}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1314,"name":"炎の神剣"
 ,"description":"【神器】戦闘開始時にＡ・フレイム：３ターン毎にＡ・ファイアを発動\n【炎】【全体】a.mat * 1【氷弱点状態付与（10％）】：【炎】【単体】a.mat * 1【氷弱点状態付与（20％）】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【炭鉱クリア】【交易店 交換】炎の霊剣 1　炎の素 3　クローム鉱石 3　10000G"},
-{"itemTypeId":6,"id":1321,"name":"神器【レーヴァテイン】"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":66,"count":3},{"id":54,"count":3}],"weapons":[],"armors":[{"id":1307,"count":1}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1321,"name":"神器【レーヴァテイン】"
 ,"description":"【神器】戦闘開始時及び３ターン毎にＡ・フレイムを発動　更に炎攻撃を強化する\n【炎】【全体】a.mat * 2【氷弱点状態付与（25％）】【炎属性攻撃力１．５倍】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】炎の神剣 3　30000G"},
-{"itemTypeId":6,"id":1328,"name":"神器【ロキ】"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1314,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1328,"name":"神器【ロキ】"
 ,"description":"【神器】【通常攻撃属性：炎属性追加】【炎属性攻撃力２倍】\n【炎耐性２０％上昇】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】炎の神剣 3　30000G"},
-{"itemTypeId":6,"id":1301,"name":"氷の短剣"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1314,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1301,"name":"氷の短剣"
 ,"description":"【神器】戦闘開始時にＡ・アイスを発動\n【氷】【単体】a.mat * 1【雷弱点状態付与（10％）】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 交換】儀式用短剣 1　氷の素 2　鉄鉱石 2　1000G"},
-{"itemTypeId":6,"id":1308,"name":"氷の霊剣"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":67,"count":2},{"id":52,"count":2}],"weapons":[],"armors":[{"id":1298,"count":1}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1308,"name":"氷の霊剣"
 ,"description":"【神器】戦闘開始時にＡ・ブリザードを発動\n【氷】【全体】a.mat * 1【雷弱点状態付与（10％）】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】氷の短剣 2　氷の素 3　ミスリル鉱石 3　2000G"},
-{"itemTypeId":6,"id":1315,"name":"氷の神剣"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":67,"count":3},{"id":53,"count":3}],"weapons":[],"armors":[{"id":1301,"count":2}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1315,"name":"氷の神剣"
 ,"description":"【神器】戦闘開始時にＡ・ブリザード：３ターン毎にＡ・アイスを発動\n【氷】【全体】a.mat * 1【雷弱点状態付与（10％）】：【氷】【単体】a.mat * 1【氷弱点状態付与（20％）】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【炭鉱クリア】【交易店 交換】氷の霊剣 1　氷の素 3　クローム鉱石 3　10000G"},
-{"itemTypeId":6,"id":1322,"name":"神器【フェンリルアーマー】"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":67,"count":3},{"id":54,"count":3}],"weapons":[],"armors":[{"id":1308,"count":1}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1322,"name":"神器【フェンリルアーマー】"
 ,"description":"【神器】戦闘開始時及び３ターン毎にＡ・ブリザードを発動　更に氷攻撃を強化する\n【氷】【全体】a.mat * 2【雷弱点状態付与（25％）】【氷属性攻撃力１．５倍】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】氷の神剣 3　30000G"},
-{"itemTypeId":6,"id":1329,"name":"神器【スカディ】"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1315,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1329,"name":"神器【スカディ】"
 ,"description":"【神器】【通常攻撃属性：氷属性追加】【氷属性攻撃力２倍】\n【氷耐性２０％上昇】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】氷の神剣 3　30000G"},
-{"itemTypeId":6,"id":1302,"name":"雷の短剣"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1315,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1302,"name":"雷の短剣"
 ,"description":"【神器】戦闘開始時にＡ・サンダーを発動\n【雷】【単体】a.mat * 1【土弱点状態付与（10％）】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 交換】儀式用短剣 1　雷の素 2　鉄鉱石 2　1000G"},
-{"itemTypeId":6,"id":1309,"name":"雷の霊剣"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":68,"count":2},{"id":52,"count":2}],"weapons":[],"armors":[{"id":1298,"count":1}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1309,"name":"雷の霊剣"
 ,"description":"【神器】戦闘開始時にＡ・スパークを発動\n【雷】【全体】a.mat * 1【土弱点状態付与（10％）】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】雷の短剣 2　雷の素 3　ミスリル鉱石 3　2000G"},
-{"itemTypeId":6,"id":1316,"name":"雷の神剣"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":68,"count":3},{"id":53,"count":3}],"weapons":[],"armors":[{"id":1302,"count":2}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1316,"name":"雷の神剣"
 ,"description":"【神器】戦闘開始時にＡ・スパーク：３ターン毎にＡ・サンダーを発動\n【雷】【全体】a.mat * 1【土弱点状態付与（10％）】：【雷】【単体】a.mat * 1【土弱点状態付与（20％）】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【炭鉱クリア】【交易店 交換】雷の霊剣 1　雷の素 3　クローム鉱石 3　10000G"},
-{"itemTypeId":6,"id":1323,"name":"神器【トールハンマー】"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[196]
+,"get":[{"progress":7,"kind":2,"items":[{"id":68,"count":3},{"id":54,"count":3}],"weapons":[],"armors":[{"id":1309,"count":1}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1323,"name":"神器【トールハンマー】"
 ,"description":"【神器】戦闘開始時及び３ターン毎にＡ・スパークを発動　更に雷攻撃を強化する\n【雷】【全体】a.mat * 2【土弱点状態付与（25％）】【雷属性攻撃力１．５倍】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】雷の神剣 3　30000G"},
-{"itemTypeId":6,"id":1330,"name":"神器【フルングニル】"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1316,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1330,"name":"神器【フルングニル】"
 ,"description":"【神器】【通常攻撃属性：雷属性追加】【雷属性攻撃力２倍】\n【雷耐性２０％上昇】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】雷の神剣 3　30000G"},
-{"itemTypeId":6,"id":1303,"name":"土の短剣"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1316,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1303,"name":"土の短剣"
 ,"description":"【神器】戦闘開始時にＡ・ストーンを発動\n【土】【単体】a.mat * 1【風弱点状態付与（10％）】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 交換】儀式用短剣 1　土の素 2　鉄鉱石 2　1000G"},
-{"itemTypeId":6,"id":1310,"name":"土の霊剣"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":69,"count":2},{"id":52,"count":2}],"weapons":[],"armors":[{"id":1298,"count":1}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1310,"name":"土の霊剣"
 ,"description":"【神器】戦闘開始時にＡ・クエイクを発動\n【土】【全体】a.mat * 1【風弱点状態付与（10％）】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】土の短剣 2　土の素 3　ミスリル鉱石 3　2000G"},
-{"itemTypeId":6,"id":1317,"name":"土の神剣"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":69,"count":3},{"id":53,"count":3}],"weapons":[],"armors":[{"id":1303,"count":2}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1317,"name":"土の神剣"
 ,"description":"【神器】戦闘開始時にＡ・クエイク：３ターン毎にＡ・ストーンを発動\n【土】【全体】a.mat * 1【風弱点状態付与（10％）】：【土】【単体】a.mat * 1【風弱点状態付与（20％）】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【炭鉱クリア】【交易店 交換】土の霊剣 1　土の素 3　クローム鉱石 3　10000G"},
-{"itemTypeId":6,"id":1324,"name":"神器【ティルフィング】"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":69,"count":3},{"id":54,"count":3}],"weapons":[],"armors":[{"id":1310,"count":1}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1324,"name":"神器【ティルフィング】"
 ,"description":"【神器】戦闘開始時及び３ターン毎にＡ・クエイクを発動　更に土攻撃を強化する\n【土】【全体】a.mat * 2【風弱点状態付与（25％）】【土属性攻撃力１．５倍】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】土の神剣 3　30000G"},
-{"itemTypeId":6,"id":1331,"name":"神器【ヨトゥン】"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1317,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1331,"name":"神器【ヨトゥン】"
 ,"description":"【神器】【通常攻撃属性：土属性追加】【土属性攻撃力２倍】\n【土耐性２０％上昇】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】土の神剣 3　30000G"},
-{"itemTypeId":6,"id":1304,"name":"風の短剣"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1317,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1304,"name":"風の短剣"
 ,"description":"【神器】戦闘開始時にＡ・ウインドを発動\n【風】【単体】a.mat * 1【炎弱点状態付与（10％）】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 交換】儀式用短剣 1　風の素 2　鉄鉱石 2　1000G"},
-{"itemTypeId":6,"id":1311,"name":"風の霊剣"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":70,"count":2},{"id":52,"count":2}],"weapons":[],"armors":[{"id":1298,"count":1}],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1311,"name":"風の霊剣"
 ,"description":"【神器】戦闘開始時にＡ・トルネードを発動\n【風】【全体】a.mat * 1【炎弱点状態付与（10％）】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 交換】風の短剣 2　風の素 3　ミスリル鉱石 3　2000G"},
-{"itemTypeId":6,"id":1318,"name":"風の神剣"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":70,"count":3},{"id":53,"count":3}],"weapons":[],"armors":[{"id":1304,"count":2}],"gold":2000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1318,"name":"風の神剣"
 ,"description":"【神器】戦闘開始時にＡ・トルネード：３ターン毎にＡ・ウインドを発動\n【風】【全体】a.mat * 1【炎弱点状態付与（10％）】：【風】【単体】a.mat * 1【炎弱点状態付与（20％）】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000,"get":"【炭鉱クリア】【交易店 交換】風の霊剣 1　風の素 3　クローム鉱石 3　10000G"},
-{"itemTypeId":6,"id":1325,"name":"神器【ミストルティン】"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":70,"count":3},{"id":54,"count":3}],"weapons":[],"armors":[{"id":1311,"count":1}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1325,"name":"神器【ミストルティン】"
 ,"description":"【神器】戦闘開始時及び３ターン毎にＡ・トルネードを発動　更に風攻撃を強化する\n【風】【全体】a.mat * 2【炎弱点状態付与（25％）】【風属性攻撃力１．５倍】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】風の神剣 3　30000G"},
-{"itemTypeId":6,"id":1332,"name":"神器【エーギル】"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1318,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":1,"id":1332,"name":"神器【エーギル】"
 ,"description":"【神器】【通常攻撃属性：風属性追加】【風属性攻撃力２倍】\n【風耐性２０％上昇】"
-,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】風の神剣 3　30000G"},
-{"itemTypeId":7,"id":1150,"name":"連続攻撃"
+,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1318,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1150,"name":"連続攻撃"
 ,"description":"【宝珠】通常攻撃を連続攻撃に変化させる。\n【単体】　a.atk * 3 - b.def * 2　×２回"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 購入】宝珠の原石 3　1000G"},
-{"itemTypeId":7,"id":1151,"name":"一刀三撃"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":42,"count":3}],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1151,"name":"一刀三撃"
 ,"description":"【宝珠】通常攻撃を一刀三撃に変化させる。\n【単体】　a.atk * 3 - b.def * 2　×３回"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】連続攻撃 3　5000G"},
-{"itemTypeId":7,"id":1152,"name":"一刀四閃"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[194,199]
+,"get":[{"progress":3,"kind":2,"items":[],"weapons":[],"armors":[{"id":1150,"count":3}],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1152,"name":"一刀四閃"
 ,"description":"【宝珠】通常攻撃を一刀四閃に変化させる。\n【単体】　a.atk * 3 - b.def * 2　×４回"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 購入】一刀三撃 3　30000G"},
-{"itemTypeId":7,"id":1155,"name":"乱打攻撃"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1151,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1155,"name":"乱打攻撃"
 ,"description":"【宝珠】通常攻撃を乱打攻撃に変化させる。\n【ランダム単体×２】　a.atk * 3 - b.def * 2　"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 購入】宝珠の原石 3　1000G"},
-{"itemTypeId":7,"id":1156,"name":"乱打三星"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":42,"count":3}],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1156,"name":"乱打三星"
 ,"description":"【宝珠】通常攻撃を乱打三星に変化させる。\n【ランダム単体×３】　a.atk * 3 - b.def * 2　"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】乱打攻撃 3　5000G"},
-{"itemTypeId":7,"id":1157,"name":"四ツ星"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[177,179]
+,"get":[{"progress":3,"kind":2,"items":[],"weapons":[],"armors":[{"id":1155,"count":3}],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1157,"name":"四ツ星"
 ,"description":"【宝珠】通常攻撃を四ツ星に変化させる。\n【ランダム単体×４】　a.atk * 3 - b.def * 2　"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 購入】乱打三星 3　30000G"},
-{"itemTypeId":7,"id":1160,"name":"全体攻撃"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1156,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1160,"name":"全体攻撃"
 ,"description":"【宝珠】通常攻撃を全体攻撃に変化させる。\n【全体】　a.atk * 2 - b.def * 2　"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 購入】宝珠の原石 3　1000G"},
-{"itemTypeId":7,"id":1161,"name":"回転切り"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[77,78,79]
+,"get":[{"progress":0,"kind":2,"items":[{"id":42,"count":3}],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1161,"name":"回転切り"
 ,"description":"【宝珠】通常攻撃を回転切りに変化させる。\n【全体】　a.atk * 3 - b.def * 2　"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】全体攻撃 3　5000G"},
-{"itemTypeId":7,"id":1162,"name":"一刀多対"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[],"weapons":[],"armors":[{"id":1160,"count":3}],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1162,"name":"一刀多対"
 ,"description":"【宝珠】通常攻撃を一刀多対に変化させる。\n【全体】　a.atk * 4 - b.def * 2　","etypeId":6,"traits":[],"iconIndex":272
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 購入】回転切り 3　30000G"},
-{"itemTypeId":7,"id":1165,"name":"強攻撃"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1161,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1165,"name":"強攻撃"
 ,"description":"【宝珠】通常攻撃を強攻撃に変化させる。\n【単体】　a.atk * 5 - b.def * 2　"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 購入】宝珠の原石 3　1000G"},
-{"itemTypeId":7,"id":1166,"name":"兜割り"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[7]
+,"get":[{"progress":0,"kind":2,"items":[{"id":42,"count":3}],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1166,"name":"兜割り"
 ,"description":"【宝珠】通常攻撃を兜割りに変化させる。\n【単体】　a.atk * 6 - b.def * 2　"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】強攻撃 3　5000G"},
-{"itemTypeId":7,"id":1167,"name":"龍頭龍尾"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[139,178]
+,"get":[{"progress":3,"kind":2,"items":[],"weapons":[],"armors":[{"id":1165,"count":3}],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1167,"name":"龍頭龍尾"
 ,"description":"【宝珠】通常攻撃を龍頭龍尾に変化させる。\n【単体】　a.atk * 7 - b.def * 2　","etypeId":6,"traits":[],"iconIndex":272
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 購入】兜割り 3　30000G"},
-{"itemTypeId":7,"id":1170,"name":"吸血剣"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1166,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1170,"name":"吸血剣"
 ,"description":"【宝珠】通常攻撃を吸血剣に変化させる。\n【単体】　a.atk * 3 - b.def * 2　（HP吸収）"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 購入】宝珠の原石 3　1000G"},
-{"itemTypeId":7,"id":1171,"name":"吸血ノ舞"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[19,97,99]
+,"get":[{"progress":0,"kind":2,"items":[{"id":42,"count":3}],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1171,"name":"吸血ノ舞"
 ,"description":"【宝珠】通常攻撃を吸血ノ舞に変化させる。\n【単体】　a.atk * 3 - b.def * 2　×２回（HP吸収）"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】吸血剣 3　5000G"},
-{"itemTypeId":7,"id":1172,"name":"吸血剣舞"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[],"weapons":[],"armors":[{"id":1170,"count":3}],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1172,"name":"吸血剣舞"
 ,"description":"【宝珠】通常攻撃を吸血剣舞に変化させる。\n【単体】　a.atk * 3 - b.def * 2　×３回（HP吸収）"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 購入】吸血ノ舞 3　30000G"},
-{"itemTypeId":7,"id":1175,"name":"必中攻撃"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1171,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1175,"name":"必中攻撃"
 ,"description":"【宝珠】通常攻撃を必中攻撃に変化させる。\n【単体】　a.atk * 4 - b.def * 2　（必中）"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 購入】宝珠の原石 3　1000G"},
-{"itemTypeId":7,"id":1176,"name":"居合斬"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[37,38,39]
+,"get":[{"progress":0,"kind":2,"items":[{"id":42,"count":3}],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1176,"name":"居合斬"
 ,"description":"【宝珠】通常攻撃を居合斬に変化させる。\n【単体】　a.atk * 5 - b.def * 2　（必中）"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】必中攻撃 3　5000G"},
-{"itemTypeId":7,"id":1177,"name":"居合連撃"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[],"weapons":[],"armors":[{"id":1175,"count":3}],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1177,"name":"居合連撃"
 ,"description":"【宝珠】通常攻撃を居合連撃に変化させる。\n【単体】　a.atk * 5 - b.def * 2　×２回（必中）"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 購入】居合斬 3　30000G"},
-{"itemTypeId":7,"id":1180,"name":"貫通攻撃"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1176,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1180,"name":"貫通攻撃"
 ,"description":"【宝珠】通常攻撃を貫通攻撃に変化させる。\n【単体】　a.atk * 3"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 購入】宝珠の原石 3　1000G"},
-{"itemTypeId":7,"id":1181,"name":"鎧通し"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[18,57,58,59,137]
+,"get":[{"progress":0,"kind":2,"items":[{"id":42,"count":3}],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1181,"name":"鎧通し"
 ,"description":"【宝珠】通常攻撃を鎧通しに変化させる。\n【単体】　a.atk * 4"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】貫通攻撃 3　5000G"},
-{"itemTypeId":7,"id":1182,"name":"徹甲斬"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[],"weapons":[],"armors":[{"id":1180,"count":3}],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1182,"name":"徹甲斬"
 ,"description":"【宝珠】通常攻撃を徹甲斬に変化させる。\n【単体】　a.atk * 5"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 購入】鎧通し 3　30000G"},
-{"itemTypeId":7,"id":1185,"name":"魔法剣"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1181,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1185,"name":"魔法剣"
 ,"description":"【宝珠】通常攻撃を魔法剣に変化させる。\n【単体】【魔攻】a.atk + .a.mat * 3 - b.mdf * 2"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【交易店 購入】宝珠の原石 3　1000G"},
-{"itemTypeId":7,"id":1186,"name":"魔法剣戟"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[98]
+,"get":[{"progress":0,"kind":2,"items":[{"id":42,"count":3}],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1186,"name":"魔法剣戟"
 ,"description":"【宝珠】通常攻撃を魔法剣戟に変化させる。\n【単体】【魔攻】a.atk + .a.mat * 4 - b.mdf * 2"
-,"itemType":"宝珠","attribute":"","params":[0,0,-3,0,0,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】魔法剣 3　5000G"},
-{"itemTypeId":7,"id":1187,"name":"魔導発破"
+,"itemType":"宝珠","attribute":"","params":[0,0,-3,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[],"weapons":[],"armors":[{"id":1185,"count":3}],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1187,"name":"魔導発破"
 ,"description":"【宝珠】通常攻撃を魔導発破に変化させる。\n【単体】【魔攻】a.atk + .a.mat * 4 - b.mdf * 2"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 購入】魔法剣戟 3　30000G"},
-{"itemTypeId":7,"id":1193,"name":"炎爆剣"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1186,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1193,"name":"炎爆剣"
 ,"description":"【宝珠】通常攻撃を炎爆剣に変化させる。\n【単体】　a.atk * 4 - b.def * 2【弱点を突いた時ファイアⅠを発動】"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,5,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】宝珠の原石 3　炎の素 5　5000G"},
-{"itemTypeId":7,"id":1273,"name":"紅炎爆剣"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,5,0,0,0],"price":5000
+,"dropEnemyId":[116,117,119]
+,"get":[{"progress":3,"kind":2,"items":[{"id":42,"count":3},{"id":66,"count":5}],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1273,"name":"紅炎爆剣"
 ,"description":"【宝珠】通常攻撃を爆炎剣に変化させる。\n【単体】　a.atk * 5 - b.def * 2【弱点を突いた時ファイアⅢを発動】"
-,"itemType":"宝珠","attribute":"","params":[0,0,5,0,15,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 購入】炎爆剣 2　炎の素 5　クローム鉱石 5　10000G"},
-{"itemTypeId":7,"id":1194,"name":"氷雪剣"
+,"itemType":"宝珠","attribute":"","params":[0,0,5,0,15,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":66,"count":5},{"id":54,"count":5}],"weapons":[],"armors":[{"id":1193,"count":2}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1194,"name":"氷雪剣"
 ,"description":"【宝珠】通常攻撃を氷雪剣に変化させる。\n【単体】　a.atk * 4 - b.def * 2【弱点を突いた時アイスⅠを発動】"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,5,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】宝珠の原石 3　氷の素 5　5000G"},
-{"itemTypeId":7,"id":1274,"name":"蒼氷雪剣"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,5,0,0,0],"price":5000
+,"dropEnemyId":[156,157,159]
+,"get":[{"progress":3,"kind":2,"items":[{"id":42,"count":3},{"id":67,"count":5}],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1274,"name":"蒼氷雪剣"
 ,"description":"【宝珠】通常攻撃を氷雪剣に変化させる。\n【単体】　a.atk * 5 - b.def * 2【弱点を突いた時アイスⅢを発動】"
-,"itemType":"宝珠","attribute":"","params":[0,0,5,0,15,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 購入】氷雪剣 2　氷の素 5　クローム鉱石 5　10000G"},
-{"itemTypeId":7,"id":1195,"name":"雷撃剣"
+,"itemType":"宝珠","attribute":"","params":[0,0,5,0,15,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":67,"count":5},{"id":54,"count":5}],"weapons":[],"armors":[{"id":1194,"count":2}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1195,"name":"雷撃剣"
 ,"description":"【宝珠】通常攻撃を雷撃剣に変化させる。\n【単体】　a.atk * 4 - b.def * 2【弱点を突いた時サンダーⅠを発動】"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,5,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】宝珠の原石 3　雷の素 5　5000G"},
-{"itemTypeId":7,"id":1275,"name":"雷撃閃剣"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,5,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":42,"count":3},{"id":68,"count":5}],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1275,"name":"雷撃閃剣"
 ,"description":"【宝珠】通常攻撃を雷撃剣に変化させる。\n【単体】　a.atk * 5 - b.def * 2【弱点を突いた時サンダーⅢを発動】"
-,"itemType":"宝珠","attribute":"","params":[0,0,5,0,15,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 購入】雷撃剣 2　雷の素 5　クローム鉱石 5　10000G"},
-{"itemTypeId":7,"id":1196,"name":"地烈剣"
+,"itemType":"宝珠","attribute":"","params":[0,0,5,0,15,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":68,"count":5},{"id":54,"count":5}],"weapons":[],"armors":[{"id":1195,"count":2}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1196,"name":"地烈剣"
 ,"description":"【宝珠】通常攻撃を地烈剣に変化させる。\n【単体】　a.atk * 4 - b.def * 2【弱点を突いた時ストーンⅠを発動】"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,5,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】宝珠の原石 3　土の素 5　5000G"},
-{"itemTypeId":7,"id":1276,"name":"地岩烈剣"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,5,0,0,0],"price":5000
+,"dropEnemyId":[138]
+,"get":[{"progress":3,"kind":2,"items":[{"id":42,"count":3},{"id":69,"count":5}],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1276,"name":"地岩烈剣"
 ,"description":"【宝珠】通常攻撃を地烈剣に変化させる。\n【単体】　a.atk * 5 - b.def * 2【弱点を突いた時ストーンⅢを発動】"
-,"itemType":"宝珠","attribute":"","params":[0,0,5,0,15,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 購入】地烈剣 2　土の素 5　クローム鉱石 5　10000G"},
-{"itemTypeId":7,"id":1197,"name":"風荒剣"
+,"itemType":"宝珠","attribute":"","params":[0,0,5,0,15,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":69,"count":5},{"id":54,"count":5}],"weapons":[],"armors":[{"id":1196,"count":2}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1197,"name":"風荒剣"
 ,"description":"【宝珠】通常攻撃を風荒剣に変化させる。\n【単体】　a.atk * 4 - b.def * 2【弱点を突いた時ウインドⅠを発動】"
-,"itemType":"宝珠","attribute":"","params":[0,0,0,0,5,0,0,0],"price":5000,"get":"【砂漠クリア】【交易店 購入】宝珠の原石 3　風の素 5　5000G"},
-{"itemTypeId":7,"id":1277,"name":"暴風荒剣"
+,"itemType":"宝珠","attribute":"","params":[0,0,0,0,5,0,0,0],"price":5000
+,"dropEnemyId":[96,118]
+,"get":[{"progress":3,"kind":2,"items":[{"id":42,"count":3},{"id":70,"count":5}],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1277,"name":"暴風荒剣"
 ,"description":"【宝珠】通常攻撃を風荒剣に変化させる。\n【単体】　a.atk * 5 - b.def * 2【弱点を突いた時ウインドⅢを発動】"
-,"itemType":"宝珠","attribute":"","params":[0,0,5,0,15,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 購入】風荒剣 2　風の素 5　クローム鉱石 5　10000G"},
-{"itemTypeId":7,"id":1269,"name":"触ノ贄"
+,"itemType":"宝珠","attribute":"","params":[0,0,5,0,15,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":70,"count":5},{"id":54,"count":5}],"weapons":[],"armors":[{"id":1197,"count":2}],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":0,"id":1269,"name":"触ノ贄"
 ,"description":"【宝珠】通常攻撃を触ノ贄に変化させる。\n【単体】　a.atk * 4 - b.def * 2【会心時ぺネトレイトを発動】"
-,"itemType":"宝珠","attribute":"","params":[0,0,10,10,0,0,0,0],"price":50000,"get":"【ドロップ】変異集合体"},
-{"itemTypeId":8,"id":1207,"name":"クインビー"
+,"itemType":"宝珠","attribute":"","params":[0,0,10,10,0,0,0,0],"price":50000
+,"dropEnemyId":[294]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1207,"name":"クインビー"
 ,"description":"【使い魔】攻撃後にＳ・ベノムで追撃\n【物理】【単体】a.atk * 1【毒状態付与（25％）】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【ドロップ】クインビー\n【工房クリア】【交易店 魔物娘 森】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　  スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1208,"name":"バグクイン"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[8]
+,"get":[{"progress":10,"kind":71,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1208,"name":"バグクイン"
 ,"description":"【使い魔】攻撃後にＳ・ホールドで追撃\n【物理】【単体】a.atk * 1【俊敏性弱体付与】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【ドロップ】バグクイン\n【工房クリア】【交易店 魔物娘 森】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　  スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1204,"name":"ウインドラビット"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[9]
+,"get":[{"progress":10,"kind":71,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1204,"name":"ウインドラビット"
 ,"description":"【使い魔】攻撃後にＳ・ウインドで追撃\n【風】【単体】a.mat * 1【炎弱点状態付与（10％）】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【ドロップ】ウインドラビット\n【工房クリア】【交易店 魔物娘 森】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　  スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1205,"name":"妹ハーピィ"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[10]
+,"get":[{"progress":10,"kind":71,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1205,"name":"妹ハーピィ"
 ,"description":"【使い魔】攻撃後にＳ・ウインドスピアで追撃\n【風】【単体】a.mat * 1 ×　２回【炎弱点状態付与（10％）】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【ドロップ】妹ハーピィ\n【工房クリア】【交易店 魔物娘 森】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　  スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1206,"name":"姉ハーピィ"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[11]
+,"get":[{"progress":10,"kind":71,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1206,"name":"姉ハーピィ"
 ,"description":"【使い魔】攻撃後にＳ・ウインドダガーで追撃\n【風】【単体】a.mat * 1【風弱点状態付与（30％）】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000,"get":"【ドロップ】姉ハーピィ\n【工房クリア】【交易店 魔物娘 森】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　  スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1203,"name":"ストーンラビット"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[12]
+,"get":[{"progress":10,"kind":71,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1203,"name":"ストーンラビット"
 ,"description":"【使い魔】攻撃後にＳ・ストーンで追撃\n【地】【単体】a.mat * 1【風弱点状態付与（10％）】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【ドロップ】ガイアラビット"},
-{"itemTypeId":8,"id":1211,"name":"リザードガール"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[27]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1211,"name":"リザードガール"
 ,"description":"【使い魔】攻撃後にＳ・ネイルで追撃\n【物理】【単体】a.atk * 2"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【ドロップ】リザードガール\n【工房クリア】【交易店 魔物娘 山】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　  スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1212,"name":"アルラウネ"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[28]
+,"get":[{"progress":10,"kind":72,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1212,"name":"アルラウネ"
 ,"description":"【使い魔】戦闘時に光合成状態を付与する。\n【１Ｔ毎：ＨＰ１０％回復（３Ｔまで）】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【ドロップ】アルラウネ\n【工房クリア】【交易店 魔物娘 山】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　  スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1202,"name":"サンダーラビット"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[31]
+,"get":[{"progress":10,"kind":72,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1202,"name":"サンダーラビット"
 ,"description":"【使い魔】攻撃後にＳ・サンダーで追撃\n【雷】【単体】a.mat * 1【土弱点状態付与（10％）】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【ドロップ】サンダーラビット\n【工房クリア】【交易店 魔物娘 山】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　  スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1214,"name":"テンダー・G"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[43]
+,"get":[{"progress":10,"kind":72,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1214,"name":"テンダー・G"
 ,"description":"【使い魔】攻撃後にＳ・ヘイトで追撃\n【物理】【単体】a.atk * 1【激昂状態付与（25％）】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【ドロップ】テンダー・G\n【工房クリア】【交易店 魔物娘 砂漠】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1201,"name":"アイスラビット"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[45]
+,"get":[{"progress":10,"kind":73,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1201,"name":"アイスラビット"
 ,"description":"【使い魔】攻撃後にＳ・アイスで追撃\n【氷】【単体】a.mat * 1【雷弱点状態付与（10％）】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【ドロップ】アイスラビット\n【工房クリア】【交易店 魔物娘 雪原】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1217,"name":"ワーベアー"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[62]
+,"get":[{"progress":10,"kind":74,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1217,"name":"ワーベアー"
 ,"description":"【使い魔】攻撃後にＳ・ストンプで追撃【成功率２５％】\n【物理】【単体】a.atk * 3"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":2000,"get":"【ドロップ】ワーベアー\n【工房クリア】【交易店 魔物娘 雪原】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1220,"name":"パープルゴースト"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":2000
+,"dropEnemyId":[64]
+,"get":[{"progress":10,"kind":74,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1220,"name":"パープルゴースト"
 ,"description":"【使い魔】攻撃後にＳ・ドレインで追撃\n【物理】【単体】a.atk * 1【与ダメージの２５％を回復】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":2000,"get":"【ドロップ】パープルゴースト\n【工房クリア】【交易店 魔物娘 墓地】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1221,"name":"ブルーゴースト"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":2000
+,"dropEnemyId":[80]
+,"get":[{"progress":10,"kind":75,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1221,"name":"ブルーゴースト"
 ,"description":"【使い魔】攻撃後にＳ・マナドレインで追撃\n【単体】【MP10吸収（50％）】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":2000,"get":"【ドロップ】ブルーゴースト\n【工房クリア】【交易店 魔物娘 墓地】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1219,"name":"ファントム"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":2000
+,"dropEnemyId":[81]
+,"get":[{"progress":10,"kind":75,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1219,"name":"ファントム"
 ,"description":"【使い魔】攻撃後にＳ・ブラインドで追撃\n【物理】【単体】a.atk * 1【暗闇状態付与（25％）】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":2000,"get":"【ドロップ】ファントム\n【工房クリア】【交易店 魔物娘 墓地】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1222,"name":"スケスケルトン"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":2000
+,"dropEnemyId":[84]
+,"get":[{"progress":10,"kind":75,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1222,"name":"スケスケルトン"
 ,"description":"【使い魔】自身の戦闘不能時にＣ・レイズで自身を蘇生【成功率２０％】\n【自身】【戦闘不能解除】【ＨＰ回復】a.mhp / 2"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":2000,"get":"【ドロップ】スケスケルトン\n【工房クリア】【交易店 魔物娘 墓地】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1225,"name":"ケルベガール"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":2000
+,"dropEnemyId":[87]
+,"get":[{"progress":10,"kind":75,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1225,"name":"ケルベガール"
 ,"description":"【使い魔】攻撃後にＳ・ファングで追撃\n【物理】【単体】a.atk * 2"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000,"get":"【ドロップ】ケルベスガール\n【工房クリア】【交易店 魔物娘 火山】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1200,"name":"ファイアラビット"
-,"description":"【【使い魔】攻撃後にＳ・ファイアで追撃\n【炎】【単体】a.mat * 1【氷弱点状態付与（10％）】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000,"get":"【ドロップ】ファイアラビット"},
-{"itemTypeId":8,"id":1226,"name":"ドラグーン"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000
+,"dropEnemyId":[101]
+,"get":[{"progress":10,"kind":76,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1200,"name":"ファイアラビット"
+,"description":"【使い魔】攻撃後にＳ・ファイアで追撃\n【炎】【単体】a.mat * 1【氷弱点状態付与（10％）】"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
+,"dropEnemyId":[106]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1226,"name":"ドラグーン"
 ,"description":"【使い魔】攻撃後にＳ・カースで追撃【成功率５０％】\n【物理】【単体】a.atk * 1【魔法力・魔法防御強化状態解除】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000,"get":"【ドロップ】ドラグーン\n【工房クリア】【交易店 魔物娘 火山】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1230,"name":"スライム(擬態)"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000
+,"dropEnemyId":[107]
+,"get":[{"progress":10,"kind":76,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1230,"name":"スライム(擬態)"
 ,"description":"【使い魔】攻撃後にＳ・アシッドで追撃【成功率５０％】\n【物理】【単体】a.atk * 1【防御力弱体付与】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000,"get":"【ドロップ】スライム(擬態)\n【工房クリア】【交易店 魔物娘 炭鉱】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1229,"name":"クモジョロウ"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000
+,"dropEnemyId":[124]
+,"get":[{"progress":10,"kind":77,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1229,"name":"クモジョロウ"
 ,"description":"【使い魔】攻撃後にＳ・ディスペルで追撃【成功率５０％】\n【物理】【単体】a.atk * 1【魔法防御弱体付与】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000,"get":"【ドロップ】クモジョロウ\n【工房クリア】【交易店 魔物娘 炭鉱】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1231,"name":"マイコッド"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000
+,"dropEnemyId":[127]
+,"get":[{"progress":10,"kind":77,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1231,"name":"マイコッド"
 ,"description":"【使い魔】攻撃力・魔法力がアップ\n　※デメリット：毒状態を付与"
-,"itemType":"使い魔","attribute":"","params":[0,0,20,0,20,0,0,0],"price":3000,"get":"【ドロップ】マイコッド\n【工房クリア】【交易店 魔物娘 炭鉱】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1234,"name":"リバースジェリー"
+,"itemType":"使い魔","attribute":"","params":[0,0,20,0,20,0,0,0],"price":3000
+,"dropEnemyId":[129]
+,"get":[{"progress":10,"kind":77,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1234,"name":"リバースジェリー"
 ,"description":"【使い魔】攻撃後にＳ・パライズで追撃\n【物理】【単体】a.atk * 1【麻痺状態付与（25％）】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000,"get":"【ドロップ】リバースジェリー\n【工房クリア】【交易店 魔物娘 海底】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1233,"name":"セイレーン"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000
+,"dropEnemyId":[142]
+,"get":[{"progress":10,"kind":78,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1233,"name":"セイレーン"
 ,"description":"【使い魔】自身の被ダメージ時にＣ・ヒールで自身を回復【成功率５０％】\n【自身】【ＨＰ回復】a.mat * 1 ※時折他メンバーを回復"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000,"get":"【ドロップ】セイレーン\n【工房クリア】【交易店 魔物娘 海底】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1237,"name":"白虎十七号"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000
+,"dropEnemyId":[145]
+,"get":[{"progress":10,"kind":78,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1237,"name":"白虎十七号"
 ,"description":"【使い魔】攻撃後にＳ・シンクロで追撃\n【物理】【単体】a.atk * 1【通常攻撃属性を纏う】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000,"get":"【ドロップ】白虎十七号\n【工房クリア】【交易店 魔物娘 黒船】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1238,"name":"試作型九尾"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000
+,"dropEnemyId":[161]
+,"get":[{"progress":10,"kind":79,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1238,"name":"試作型九尾"
 ,"description":"【使い魔】攻撃後にＳ・クリアで追撃\n【無属性】【単体】a.mat * 1【戦闘中敵が得た状態耐性を解除（各10％）】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000,"get":"【ドロップ】試作型九尾\n【工房クリア】【交易店 魔物娘 黒船】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1239,"name":"青龍十八号"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000
+,"dropEnemyId":[165]
+,"get":[{"progress":10,"kind":79,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1239,"name":"青龍十八号"
 ,"description":"【使い魔】攻撃後にＳ・バーストで追撃【成功率５０％】\n【物理】【単体】a.atk * 1【攻撃力・防御力強化状態解除】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000,"get":"【ドロップ】青龍十八号\n【工房クリア】【交易店 魔物娘 黒船】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1243,"name":"クロネコ"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000
+,"dropEnemyId":[167]
+,"get":[{"progress":10,"kind":79,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1243,"name":"クロネコ"
 ,"description":"【使い魔】攻撃後にＳ・スリープで追撃\n【物理】【単体】a.atk * 2【沈黙状態付与（25％）】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000,"get":"【ドロップ】クロネコ\n【工房クリア】【交易店 魔物娘 工房】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1242,"name":"シロネコ"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000
+,"dropEnemyId":[181]
+,"get":[{"progress":10,"kind":80,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1242,"name":"シロネコ"
 ,"description":"【使い魔】攻撃後にＳ・サイレスで追撃\n【物理】【単体】a.atk * 2【沈黙状態付与（25％）】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000,"get":"【ドロップ】シロネコ\n【工房クリア】【交易店 魔物娘 工房】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"},
-{"itemTypeId":8,"id":1244,"name":"ムーンラビット"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000
+,"dropEnemyId":[182]
+,"get":[{"progress":10,"kind":80,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1244,"name":"ムーンラビット"
 ,"description":"【使い魔】攻撃後にＳ・ブラストで追撃\n【無属性】【単体】a.mat * 1【属性弱体状態付与（各属性10％）】"
-,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000,"get":"【ドロップ】ムーンラビット\n【工房クリア】【交易店 魔物娘 工房】パワーアップ 1　ガードアップ 1　マジックアップ 1　レジストアップ 1　\n　　　　　　　　　　　　　　　　 　 スピードアップ 1　ラックアップ 1"}
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000
+,"dropEnemyId":[183]
+,"get":[{"progress":10,"kind":80,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]}
 ]
 
 

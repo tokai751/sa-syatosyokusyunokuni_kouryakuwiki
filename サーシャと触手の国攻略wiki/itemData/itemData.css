@@ -20,3 +20,34 @@ width: calc(105px * 5 + 40px * 4);
     position: relative;
     top: 110px;
 }
+
+details{
+    width: 800px;
+    position: relative;
+
+    left: 0px;
+}
+
+.table tr{
+    height: auto !important;
+}
+
+.table td{
+    height: auto !important;
+}
+
+.table details{
+    height: auto !important;
+}
+
+.table summary{
+    height: auto !important;
+}
+
+.getData{
+    height: auto !important;
+}
+
+.mermaid {
+  visibility: hidden;
+}

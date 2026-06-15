@@ -2,266 +2,284 @@
 {"itemTypeId":1,"process":0,"id":25,"name":"パワーアップ"
 ,"description":"攻撃力を３ポイント上げる。"
 ,"itemType":"アイテム"
-,"price":"3000"
-,"get":"【ギルド 購入】強化PT 3000\n【炭鉱クリア後】【交易店 秘密の品】999999G"},
+,"price":"3000","dropEnemyId":[]
+,"get":[{"progress":0,"kind":12,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":3000}
+,{"progress":7,"kind":3,"items":[],"weapons":[],"armors":[],"gold":999999,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":26,"name":"ガードアップ"
 ,"description":"防御力を３ポイント上げる。"
 ,"itemType":"アイテム"
-,"price":"3000"
-,"get":"【ギルド 購入】強化PT 3000\n【炭鉱クリア後】【交易店 秘密の品】999999G"},
+,"price":"3000","dropEnemyId":[]
+,"get":[{"progress":0,"kind":12,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":3000}
+,{"progress":7,"kind":3,"items":[],"weapons":[],"armors":[],"gold":999999,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":27,"name":"マジックアップ"
 ,"description":"魔法力を３ポイント上げる。"
 ,"itemType":"アイテム"
-,"price":"3000"
-,"get":"【ギルド 購入】強化PT 3000\n【炭鉱クリア後】【交易店 秘密の品】999999G"},
+,"price":"3000","dropEnemyId":[]
+,"get":[{"progress":0,"kind":12,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":3000}
+,{"progress":7,"kind":3,"items":[],"weapons":[],"armors":[],"gold":999999,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":28,"name":"レジストアップ"
 ,"description":"魔法防御を３ポイント上げる。"
 ,"itemType":"アイテム"
-,"price":"3000"
-,"get":"【ギルド 購入】強化PT 3000\n【炭鉱クリア後】【交易店 秘密の品】999999G"},
+,"price":"3000","dropEnemyId":[]
+,"get":[{"progress":0,"kind":12,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":3000}
+,{"progress":7,"kind":3,"items":[],"weapons":[],"armors":[],"gold":999999,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":29,"name":"スピードアップ"
 ,"description":"敏捷性を３ポイント上げる。"
 ,"itemType":"アイテム"
-,"price":"3000"
-,"get":"【ギルド 購入】強化PT 3000\n【炭鉱クリア後】【交易店 秘密の品】999999G"},
+,"price":"3000","dropEnemyId":[]
+,"get":[{"progress":0,"kind":12,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":3000}
+,{"progress":7,"kind":3,"items":[],"weapons":[],"armors":[],"gold":999999,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":30,"name":"ラックアップ"
 ,"description":"運を３ポイント上げる。"
 ,"itemType":"アイテム"
-,"price":"3000"
-,"get":"【ギルド 購入】強化PT 3000\n【炭鉱クリア後】【交易店 秘密の品】999999G"},
+,"price":"3000","dropEnemyId":[]
+,"get":[{"progress":0,"kind":12,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":3000}
+,{"progress":7,"kind":3,"items":[],"weapons":[],"armors":[],"gold":999999,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":41,"name":"宝珠の欠片"
 ,"description":"【交換アイテム】集める事で宝珠の原石を合成できる。"
 ,"itemType":"アイテム"
-,"price":"1000"
-,"get":"【ドロップ ボス】"},
-{"itemTypeId":1,"process":0,"id":42,"name":"宝珠の原石"
+,"price":"1000","dropEnemyId":[18,19,37,38,57,58,77,78,97,98,116,117,118,137,138,156,157,158,159,294,295,298,299,300,178,179,194,196,197,198,199]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":1,"process":1,"id":42,"name":"宝珠の原石"
 ,"description":"【交換アイテム】集める事で宝珠を合成できる。"
 ,"itemType":"アイテム"
-,"price":"5000"
-,"get":"【ドロップ ボス】\n【交易店 交換】宝珠の欠片 5　100G"},
+,"price":"5000","dropEnemyId":[18,19,37,38,57,58,77,78,97,98,116,117,118,137,138,156,157,158,159,294,298,299,300,177,178,179,196,197,198,199]
+,"get":[{"progress":0,"kind":2,"items":[{"id":41,"count":3}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":52,"name":"鉄鉱石"
 ,"description":"【交換アイテム】剣や鎧に使われる一般的な鉱石。"
 ,"itemType":"アイテム"
-,"price":"500"
-,"get":"【ドロップ 敵】\n【ミスリル商の証】【交易店 交換】ミスリル鉱石 1\n【アイアンドリル】ボス討伐して帰還[1～3]"},
+,"price":"500","dropEnemyId":[1,2,3,4,6,20,21,22,23,26,30,40,41,46,48,49,128]
+,"get":[{"progress":22,"kind":2,"items":[{"id":53,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}
+,{"progress":25,"kind":21,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":53,"name":"ミスリル鉱石"
 ,"description":"【交換アイテム】剣や鎧に使われる魔力を帯びた鉱石。"
 ,"itemType":"アイテム"
-,"price":"1000"
-,"get":"【ドロップ 敵】\n【クローム商の証】【交易店 交換】クローム鉱石 1\n【ミスリルドリル】ボス討伐して帰還[1～3]"},
+,"price":"1000","dropEnemyId":[60,61,64,66,83,86,88,100,102,107,120,125,128,295]
+,"get":[{"progress":23,"kind":2,"items":[{"id":53,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}
+,{"progress":26,"kind":21,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":54,"name":"クローム鉱石"
 ,"description":"【交換アイテム】剣や鎧に使われる魔力を帯びた最高級の鉱石。"
 ,"itemType":"アイテム"
-,"price":"2000"
-,"get":"【ドロップ 敵】\n【クロームドリル】ボス討伐して帰還[1～3]"},
+,"price":"2000","dropEnemyId":[144,145,146,148,298,299,300,160,162,165,166,180,183,184,185,186,187,189,190]
+,"get":[{"progress":27,"kind":21,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":66,"name":"炎の素"
 ,"description":"【交換アイテム】炎属性の装備などの作成に使用できる。"
 ,"itemType":"アイテム"
-,"price":"500"
-,"get":"【ドロップ 敵】\n【交易店 交換】属性の素 1　100G"},
+,"price":"500","dropEnemyId":[1,48,83,100,101,103,106,108,168,180,184]
+,"get":[{"progress":0,"kind":2,"items":[{"id":71,"count":1}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":67,"name":"氷の素"
 ,"description":"【交換アイテム】氷属性の装備などの作成に使用できる。"
 ,"itemType":"アイテム"
-,"price":"500"
-,"get":"【ドロップ 敵】\n【交易店 交換】属性の素 1　100G"},
+,"price":"500","dropEnemyId":[3,4,60,61,62,65,67,123,124,143,144,146,147,149,167,188]
+,"get":[{"progress":0,"kind":2,"items":[{"id":71,"count":1}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":68,"name":"雷の素"
 ,"description":"【交換アイテム】雷属性の装備などの作成に使用できる。"
 ,"itemType":"アイテム"
-,"price":"500"
-,"get":"【ドロップ 敵】\n【交易店 交換】属性の素 1　100G"},
+,"price":"500","dropEnemyId":[23,29,43,80,81,160,161,181,182,188]
+,"get":[{"progress":0,"kind":2,"items":[{"id":71,"count":1}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":69,"name":"土の素"
 ,"description":"【交換アイテム】土属性の装備などの作成に使用できる。"
 ,"itemType":"アイテム"
-,"price":"500"
-,"get":"【ドロップ 敵】\n【交易店 交換】属性の素 1　100G"},
+,"price":"500","dropEnemyId":[24,26,27,40,42,49,85,86,87,121,125,162]
+,"get":[{"progress":0,"kind":2,"items":[{"id":71,"count":1}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":70,"name":"風の素"
 ,"description":"【交換アイテム】風属性の装備などの作成に使用できる。"
 ,"itemType":"アイテム"
-,"price":"500"
-,"get":"【ドロップ 敵】\n【交易店 交換】属性の素 1　100G"},
+,"price":"500","dropEnemyId":[10,11,12,25,31,46,82,104,105,163,164,189]
+,"get":[{"progress":0,"kind":2,"items":[{"id":71,"count":1}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":71,"name":"属性の素"
 ,"description":"【交換アイテム】各種属性の素と交換できる。"
 ,"itemType":"アイテム"
-,"price":"500"
-,"get":"【交易店 交換】各種属性の素 3　100G"},
+,"price":"500","dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":66,"count":3}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}
+,{"progress":0,"kind":2,"items":[{"id":67,"count":3}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}
+,{"progress":0,"kind":2,"items":[{"id":68,"count":3}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}
+,{"progress":0,"kind":2,"items":[{"id":69,"count":3}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}
+,{"progress":0,"kind":2,"items":[{"id":70,"count":3}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":72,"name":"毒の素"
 ,"description":"【交換アイテム】毒系の装備などの作成に使用できる。"
 ,"itemType":"アイテム"
-,"price":"500"
-,"get":"【ドロップ 敵】\n【交易店 交換】医学の素 1　100G"},
+,"price":"500","dropEnemyId":[6,8,47,122,123,129,187]
+,"get":[{"progress":0,"kind":2,"items":[{"id":79,"count":1}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":73,"name":"暗闇の素"
 ,"description":"【交換アイテム】暗闇系の装備などの作成に使用できる。"
 ,"itemType":"アイテム"
-,"price":"500"
-,"get":"【ドロップ 敵】\n【交易店 交換】医学の素 1　100G"},
+,"price":"500","dropEnemyId":[20,28,82,88,120,121,140]
+,"get":[{"progress":0,"kind":2,"items":[{"id":79,"count":1}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":74,"name":"沈黙の素"
 ,"description":"【交換アイテム】沈黙系の装備などの作成に使用できる。"
 ,"itemType":"アイテム"
-,"price":"500"
-,"get":"【ドロップ 敵】\n【交易店 交換】医学の素 1　100G"},
+,"price":"500","dropEnemyId":[67,103,143,149]
+,"get":[{"progress":0,"kind":2,"items":[{"id":79,"count":1}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":75,"name":"激昂の素"
 ,"description":"【交換アイテム】激昂系の装備などの作成に使用できる。"
 ,"itemType":"アイテム"
-,"price":"500"
-,"get":"【ドロップ 敵】\n【交易店 交換】医学の素 1　100G"},
+,"price":"500","dropEnemyId":[5,63,126,164]
+,"get":[{"progress":0,"kind":2,"items":[{"id":79,"count":1}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":76,"name":"魅了の素"
 ,"description":"【交換アイテム】魅了系の装備などの作成に使用できる。"
 ,"itemType":"アイテム"
-,"price":"500"
-,"get":"【ドロップ 敵】\n【交易店 交換】医学の素 1　100G"},
+,"price":"500","dropEnemyId":[9,45,64,87,101,127,163,182]
+,"get":[{"progress":0,"kind":2,"items":[{"id":79,"count":1}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":77,"name":"睡眠の素"
 ,"description":"【交換アイテム】睡眠系の装備などの作成に使用できる。"
 ,"itemType":"アイテム"
-,"price":"500"
-,"get":"【ドロップ 敵】\n【交易店 交換】医学の素 1　100G"},
+,"price":"500","dropEnemyId":[30,31,84,148,181]
+,"get":[{"progress":0,"kind":2,"items":[{"id":79,"count":1}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":78,"name":"麻痺の素"
 ,"description":"【交換アイテム】麻痺系の装備などの作成に使用できる。"
 ,"itemType":"アイテム"
-,"price":"500"
-,"get":"【ドロップ 敵】\n【交易店 交換】医学の素 1　100G"},
+,"price":"500","dropEnemyId":[22,44,108,141,142,147,190]
+,"get":[{"progress":0,"kind":2,"items":[{"id":79,"count":1}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":79,"name":"医学の素"
 ,"description":"【交換アイテム】各種状態異常の素と交換できる。"
 ,"itemType":"アイテム"
-,"price":"500"
-,"get":"【交易店 交換】各種状態異常の素 3　100G"},
+,"price":"500","dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":72,"count":3}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}
+,{"progress":0,"kind":2,"items":[{"id":73,"count":3}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}
+,{"progress":0,"kind":2,"items":[{"id":74,"count":3}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}
+,{"progress":0,"kind":2,"items":[{"id":75,"count":3}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}
+,{"progress":0,"kind":2,"items":[{"id":76,"count":3}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}
+,{"progress":0,"kind":2,"items":[{"id":77,"count":3}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}
+,{"progress":0,"kind":2,"items":[{"id":78,"count":3}],"weapons":[],"armors":[],"gold":100,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":200,"name":"うさぎの毛"
 ,"description":"【交換アイテム】ラビット系の魔物から取れる。\nラビットマニアにはたまらない（意味深）一品。"
 ,"itemType":"アイテム"
-,"price":"500"
-,"get":"【ドロップ 敵】"},
+,"price":"500","dropEnemyId":[10,27,43,62,106,183]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":1588,"name":"サキュバス結晶"
 ,"description":"サーシャの性欲をサキュバス族と交換したもの。\n最大HPを50ポイント上げる。※詳細は用語図鑑へ"
 ,"itemType":"アイテム"
-,"price":"3000"
-,"get":"【海底クリア後】【交易店 余った性欲PT】性欲PT 999999"},
+,"price":"3000","dropEnemyId":[]
+,"get":[{"progress":8,"kind":4,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":999999,"strengthPt":0}]},
 {"itemTypeId":1,"process":0,"id":1589,"name":"サキュバス魔結晶"
 ,"description":"サーシャの性欲をサキュバス族と交換したもの。\n最大MPを10ポイント上げる。※詳細は用語図鑑へ"
 ,"itemType":"アイテム"
-,"price":"3000"
-,"get":"【海底クリア後】【交易店 余った性欲PT】性欲PT 999999"},
+,"price":"3000","dropEnemyId":[]
+,"get":[{"progress":8,"kind":4,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":999999,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":40,"name":"会員証"
 ,"description":"【重要アイテム】【交換品追加アイテム】\nエリーの交易店で交換が行えるようになる。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"初めての商店街イベント"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":0,"kind":31,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":39,"name":"高級会員証"
 ,"description":"【重要アイテム】【交換品追加アイテム】\nエリーの交易店で上位の物品の交換が行えるようになる。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"砂漠クリア後のギルドイベント"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":0,"kind":34,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":38,"name":"秘密の会員証"
 ,"description":"【重要アイテム】【交換品追加アイテム】\nエリーの交易店で更に上位の物品の交換が行えるようになる。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"炭鉱クリア後のギルドイベント"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":0,"kind":38,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":45,"name":"採寸表Ⅰ"
 ,"description":"【重要アイテム】【交換品追加アイテム】\n交易店でセレナ・ソフィアの服を交換できるようになる。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"森クリア後のギルドイベント"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":0,"kind":52,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":46,"name":"採寸表Ⅱ"
 ,"description":"【重要アイテム】【交換品追加アイテム】\n交易店でダリア・チェルシー・ツバキの服を交換できるようになる。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"砂漠後のギルドイベント"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":0,"kind":54,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":90,"name":"アイアンストロー"
 ,"description":"【重要アイテム】エリクシール使用時、消費しない確率が１５％上昇\n　※同名アイテムは重複しない"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】鉄鉱石 3　1000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":52,"count":3}],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":91,"name":"ミスリルストロー"
 ,"description":"【重要アイテム】エリクシール使用時、消費しない確率が１５％上昇\n　※同名アイテムは重複しない"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】ミスリル鉱石 4　医学の素 2　5000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":53,"count":4},{"id":79,"count":2}],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":92,"name":"クロームストロー"
 ,"description":"【重要アイテム】エリクシール使用時、消費しない確率が２０％上昇\n　※同名アイテムは重複しない"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】クローム鉱石 5　医学の素 3　10000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":54,"count":5},{"id":79,"count":3}],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":84,"name":"アイアンチャーム"
 ,"description":"【重要アイテム】戦闘勝利時のサーシャの興奮値上昇値を＋５にする。\n　※基本値は１０　※同名アイテムは重複しない"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】鉄鉱石 3　1000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":52,"count":3}],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":85,"name":"ミスリルチャーム"
 ,"description":"【重要アイテム】戦闘勝利時のサーシャの興奮値上昇値を＋５にする。\n　※基本値は１０　※同名アイテムは重複しない"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】ミスリル鉱石 4　医学の素 2　5000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":53,"count":4},{"id":79,"count":2}],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":86,"name":"クロームチャーム"
 ,"description":"【重要アイテム】ボスエリアに到着した瞬間サーシャの興奮値を最大にする。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】クローム鉱石 5　医学の素 3　10000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":54,"count":5},{"id":79,"count":3}],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":102,"name":"アイアンブースター"
 ,"description":"【重要アイテム】探索開始時にパーティー全体のレベルを３上げる。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】鉄鉱石 3　1000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":52,"count":3}],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":103,"name":"ミスリルブースター"
 ,"description":"【重要アイテム】キャンプ到着時パーティーのレベルを３上げる。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】ミスリル鉱石 4　医学の素 2　5000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":53,"count":4},{"id":79,"count":2}],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":104,"name":"クロームブースター"
 ,"description":"【重要アイテム】ボスエリア到着時パーティーのレベルを３上げる。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】クローム鉱石 5　医学の素 3　10000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":54,"count":5},{"id":79,"count":3}],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":96,"name":"アイアンタリスマン"
 ,"description":"【重要アイテム】サーシャが探索で１ｍ歩いた時にお金を拾う判定を追加する。\n　※１ｍで１％・金額はサーシャの運と探索場所による。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】鉄鉱石 3　1000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":52,"count":3}],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":97,"name":"ミスリルタリスマン"
 ,"description":"【重要アイテム】サーシャが探索でお金を拾った際の金額を５倍にする。\n　※戦闘ではなくアイアンタリスマンの効果による取得金額のみ。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】ミスリル鉱石 4　医学の素 2　5000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":53,"count":4},{"id":79,"count":2}],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":98,"name":"クロームタリスマン"
 ,"description":"【重要アイテム】サーシャが探索でお金を拾った際の金額を２倍にする。\n　※単体でも効果があるがミスリルタリスマンと効果が重複する。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】クローム鉱石 5　医学の素 3　10000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":54,"count":5},{"id":79,"count":3}],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":108,"name":"アイアンハッチ"
 ,"description":"【重要アイテム】ボスエリアでも帰還できるようになる。\n　※本来はキャンプでしか帰還できない。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】鉄鉱石 3　1000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":52,"count":3}],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":109,"name":"ミスリルノート"
 ,"description":"【重要アイテム】キャンプにてセーブが可能となる。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】ミスリル鉱石 4　医学の素 2　5000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":53,"count":4},{"id":79,"count":2}],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":110,"name":"クロームノート"
 ,"description":"【重要アイテム】ボスエリアにてセーブが可能となる。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】クローム鉱石 5　医学の素 3　10000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":54,"count":5},{"id":79,"count":3}],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":114,"name":"アイアンドリル"
 ,"description":"【重要アイテム】探索帰還時に鉄鉱石を１～３個入手する。\n　※ボスを撃破して帰還した時のみ"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】鉄鉱石 3　1000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":52,"count":3}],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":115,"name":"ミスリルドリル"
 ,"description":"【重要アイテム】探索帰還時にミスリル鉱石を１～３個入手する。\n　※ボスを撃破して帰還した時のみ。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】ミスリル鉱石 4　医学の素 2　5000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":53,"count":4},{"id":79,"count":2}],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":116,"name":"クロームドリル"
 ,"description":"【重要アイテム】探索帰還時にクローム鉱石を１～３個入手する。\n　※ボスを撃破して帰還した時のみ"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】クローム鉱石 5　医学の素 3　10000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":54,"count":5},{"id":79,"count":3}],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":34,"name":"ミスリル商の証"
 ,"description":"【重要アイテム】【交換品追加アイテム】\nエリーの交易店でミスリル鉱石を鉄鉱石に変換できるようになる。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】ミスリル鉱石 3　5000G"},
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":53,"count":3}],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":9,"process":0,"id":33,"name":"クローム商の証"
 ,"description":"重要アイテム】【交換品追加アイテム】\nエリーの交易店でクローム鉱石をミスリル鉱石に変換できるようになる。"
 ,"itemType":"大事なもの"
-,"price":"0"
-,"get":"【交易店 交換】クローム鉱石 5　5000G"}
+,"price":"0","dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":54,"count":5}],"weapons":[],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]}
 ]

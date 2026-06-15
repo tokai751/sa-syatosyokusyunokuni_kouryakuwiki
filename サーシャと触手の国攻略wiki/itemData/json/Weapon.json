@@ -1,208 +1,344 @@
 [
 {"itemTypeId":2,"process":0,"id":60,"name":"ショートソード"
 ,"description":"【武器】軽くて扱いやすい刀身の短い剣。\n【通常攻撃武器】【物理属性】今後大量に買う事になるかも……？"
-,"itemType":"武器","attribute":"物理","params":[0,0,8,0,0,0,0,0],"price":300,"get":"【交易店 購入】300G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,8,0,0,0,0,0],"price":300
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":300,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":61,"name":"アイアンソード"
 ,"description":"【武器】威力の高い鉄製の剣。\n【通常攻撃武器】【物理属性】"
-,"itemType":"武器","attribute":"物理","params":[0,0,16,0,0,0,0,0],"price":2000,"get":"【砂漠クリア】【交易店 購入】2000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,16,0,0,0,0,0],"price":2000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":2000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":62,"name":"ミスリルソード"
 ,"description":"【武器】威力の高いミスリル製の剣。\n【通常攻撃武器】【物理属性】"
-,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,0,0],"price":6000,"get":"【炭鉱クリア】【交易店 購入】6000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,0,0],"price":6000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":6000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":90,"name":"ファイアソード"
 ,"description":"【武器】炎の力を纏った剣。\n【通常攻撃武器】【物理・炎属性】"
-,"itemType":"武器","attribute":"物理・炎","params":[0,0,10,0,10,0,0,0],"price":2000,"get":"【交易店 交換】ショートソード 1　炎の素 2　鉄鉱石 1　500G"},
+,"itemType":"武器","attribute":"物理・炎","params":[0,0,10,0,10,0,0,0],"price":2000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":66,"count":2},{"id":52,"count":1}],"weapons":[{"id":60,"count":1}],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":96,"name":"ファイアブレイド"
 ,"description":"【武器】【武器】炎の力を纏った剣。\n【通常攻撃武器】【物理・炎属性】【炎属性攻撃力１．２倍】"
-,"itemType":"武器","attribute":"物理・炎","params":[0,0,25,0,25,0,0,0],"price":6000,"get":"【砂漠クリア】【交易店 交換】ファイアソード 2　炎の素 3　ミスリル鉱石 3　1000G"},
+,"itemType":"武器","attribute":"物理・炎","params":[0,0,25,0,25,0,0,0],"price":6000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":66,"count":3},{"id":53,"count":3}],"weapons":[{"id":90,"count":2}],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":102,"name":"極炎剣【スルト】"
 ,"description":"【武器】極炎の力を纏った霊剣。\n【通常攻撃武器】【物理・炎属性】【炎属性攻撃力１．５倍】"
-,"itemType":"武器","attribute":"物理・炎","params":[0,0,40,0,40,0,0,0],"price":40000,"get":"【炭鉱クリア】【交易店 交換】ファイアブレイド 2　炎の素 5　クローム鉱石 5　20000G"},
+,"itemType":"武器","attribute":"物理・炎","params":[0,0,40,0,40,0,0,0],"price":40000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":66,"count":5},{"id":54,"count":5}],"weapons":[{"id":96,"count":2}],"armors":[],"gold":20000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":91,"name":"アイスソード"
 ,"description":"【武器】氷の力を纏った剣。\n【通常攻撃武器】【物理・氷属性】"
-,"itemType":"武器","attribute":"物理・氷","params":[0,0,10,0,10,0,0,0],"price":2000,"get":"【交易店 交換】ショートソード 1　氷の素 2　鉄鉱石 1　500G"},
+,"itemType":"武器","attribute":"物理・氷","params":[0,0,10,0,10,0,0,0],"price":2000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":67,"count":2},{"id":52,"count":1}],"weapons":[{"id":60,"count":1}],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":97,"name":"アイスブレイド"
 ,"description":"【武器】【武器】氷の力を纏った剣。\n【通常攻撃武器】【物理・氷属性】【氷属性攻撃力１．２倍】"
-,"itemType":"武器","attribute":"物理・氷","params":[0,0,25,0,25,0,0,0],"price":6000,"get":"【砂漠クリア】【交易店 交換】アイスソード 2　氷の素 3　ミスリル鉱石 3　1000G"},
+,"itemType":"武器","attribute":"物理・氷","params":[0,0,25,0,25,0,0,0],"price":6000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":67,"count":3},{"id":53,"count":3}],"weapons":[{"id":91,"count":2}],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":103,"name":"氷結剣【ユミル】"
 ,"description":"【武器】極氷の力を纏った霊剣。\n【通常攻撃武器】【物理・氷属性】【氷属性攻撃力１．５倍】"
-,"itemType":"武器","attribute":"物理・氷","params":[0,0,40,0,40,0,0,0],"price":40000,"get":"【炭鉱クリア】【交易店 交換】アイスブレイド 2　氷の素 5　クローム鉱石 5　20000G"},
+,"itemType":"武器","attribute":"物理・氷","params":[0,0,40,0,40,0,0,0],"price":40000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":67,"count":5},{"id":54,"count":5}],"weapons":[{"id":97,"count":2}],"armors":[],"gold":20000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":92,"name":"サンダーソード"
 ,"description":"【武器】雷の力を纏った剣。\n【通常攻撃武器】【物理・雷属性】"
-,"itemType":"武器","attribute":"物理・雷","params":[0,0,10,0,10,0,0,0],"price":2000,"get":"【交易店 交換】ショートソード 1　雷の素 2　鉄鉱石 1　500G"},
+,"itemType":"武器","attribute":"物理・雷","params":[0,0,10,0,10,0,0,0],"price":2000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":68,"count":2},{"id":52,"count":1}],"weapons":[{"id":60,"count":1}],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":98,"name":"サンダーブレイド"
 ,"description":"【武器】【武器】雷の力を纏った剣。\n【通常攻撃武器】【物理・雷属性】【雷属性攻撃力１．２倍】"
-,"itemType":"武器","attribute":"物理・雷","params":[0,0,25,0,25,0,0,0],"price":6000,"get":"【砂漠クリア】【交易店 交換】サンダーソード 2　雷の素 3　ミスリル鉱石 3　1000G"},
+,"itemType":"武器","attribute":"物理・雷","params":[0,0,25,0,25,0,0,0],"price":6000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":68,"count":3},{"id":53,"count":3}],"weapons":[{"id":92,"count":2}],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":104,"name":"雷鳴剣【トール】"
 ,"description":"【武器】極雷の力を纏った霊剣。\n【通常攻撃武器】【物理・雷属性】【雷属性攻撃力１．５倍】"
-,"itemType":"武器","attribute":"物理・雷","params":[0,0,40,0,40,0,0,0],"price":40000,"get":"【炭鉱クリア】【交易店 交換】サンダーブレイド 2　雷の素 5　クローム鉱石 5　20000G"},
+,"itemType":"武器","attribute":"物理・雷","params":[0,0,40,0,40,0,0,0],"price":40000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":68,"count":5},{"id":54,"count":5}],"weapons":[{"id":98,"count":2}],"armors":[],"gold":20000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":93,"name":"ストーンソード"
 ,"description":"【武器】土の力を纏った剣。\n【通常攻撃武器】【物理・土属性】"
-,"itemType":"武器","attribute":"物理・土","params":[0,0,10,0,10,0,0,0],"price":2000,"get":"【交易店 交換】ショートソード 1　土の素 2　鉄鉱石 1　500G"},
+,"itemType":"武器","attribute":"物理・土","params":[0,0,10,0,10,0,0,0],"price":2000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":69,"count":2},{"id":52,"count":1}],"weapons":[{"id":60,"count":1}],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":99,"name":"ストーンブレイド"
 ,"description":"【武器】【武器】土の力を纏った剣。\n【通常攻撃武器】【物理・土属性】【土属性攻撃力１．２倍】"
-,"itemType":"武器","attribute":"物理・土","params":[0,0,25,0,25,0,0,0],"price":6000,"get":"【砂漠クリア】【交易店 交換】ストーンソード 2　土の素 3　ミスリル鉱石 3　1000G"},
+,"itemType":"武器","attribute":"物理・土","params":[0,0,25,0,25,0,0,0],"price":6000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":69,"count":3},{"id":53,"count":3}],"weapons":[{"id":93,"count":2}],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":105,"name":"地烈剣【ガイア】"
 ,"description":"【武器】極土の力を纏った霊剣。\n【通常攻撃武器】【物理・土属性】【土属性攻撃力１．５倍】"
-,"itemType":"武器","attribute":"物理・土","params":[0,0,40,0,40,0,0,0],"price":40000,"get":"【炭鉱クリア】【交易店 交換】ストーンブレイド 2　土の素 5　クローム鉱石 5　20000G"},
+,"itemType":"武器","attribute":"物理・土","params":[0,0,40,0,40,0,0,0],"price":40000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":69,"count":5},{"id":54,"count":5}],"weapons":[{"id":99,"count":2}],"armors":[],"gold":20000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":94,"name":"ウインドソード"
 ,"description":"【武器】風の力を纏った剣。\n【通常攻撃武器】【物理・風属性】"
-,"itemType":"武器","attribute":"物理・風","params":[0,0,10,0,10,0,0,0],"price":2000,"get":"【交易店 交換】ショートソード 1　風の素 2　鉄鉱石 1　500G"},
+,"itemType":"武器","attribute":"物理・風","params":[0,0,10,0,10,0,0,0],"price":2000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":70,"count":2},{"id":52,"count":1}],"weapons":[{"id":60,"count":1}],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":100,"name":"ウインドブレイド"
 ,"description":"【武器】【武器】風の力を纏った剣。\n【通常攻撃武器】【物理・風属性】【風属性攻撃力１．２倍】"
-,"itemType":"武器","attribute":"物理・風","params":[0,0,25,0,25,0,0,0],"price":6000,"get":"【砂漠クリア】【交易店 交換】ウインドソード 2　風の素 3　ミスリル鉱石 3　1000G"},
+,"itemType":"武器","attribute":"物理・風","params":[0,0,25,0,25,0,0,0],"price":6000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":70,"count":3},{"id":53,"count":3}],"weapons":[{"id":94,"count":2}],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":106,"name":"暴風剣【フレイ】"
 ,"description":"【武器】極風の力を纏った霊剣。\n【通常攻撃武器】【物理・風属性】【風属性攻撃力１．５倍】"
-,"itemType":"武器","attribute":"物理・風・氷","params":[0,0,40,0,40,0,0,0],"price":40000,"get":"【炭鉱クリア】【交易店 交換】ウインドブレイド 2　風の素 5　クローム鉱石 5　20000G"},
+,"itemType":"武器","attribute":"物理・風・氷","params":[0,0,40,0,40,0,0,0],"price":40000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":70,"count":5},{"id":54,"count":5}],"weapons":[{"id":100,"count":2}],"armors":[],"gold":20000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":120,"name":"ベノムソード"
 ,"description":"【武器】刀身に薬品が塗られた剣。\n【通常攻撃武器】【物理属性】【毒状態付与（20％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,12,0,100,0,0,0],"price":2000,"get":"【ドロップ】クインビー　サンドスコルピオ\n【交易店 交換】ショートソード 1　毒の素 2　鉄鉱石 1　500G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,12,0,100,0,0,0],"price":2000
+,"dropEnemyId":[8,47]
+,"get":[{"progress":0,"kind":2,"items":[{"id":72,"count":2},{"id":52,"count":1}],"weapons":[{"id":60,"count":1}],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":128,"name":"ベノムブレイド"
 ,"description":"【武器】刀身に薬品が塗られた剣。\n【通常攻撃武器】【物理属性】【毒状態付与（40％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,20,0,0,0,0,0],"price":6000,"get":"【砂漠クリア】【交易店 交換】ベノムソード 2　毒の素 3　ミスリル鉱石 3　1000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,20,0,0,0,0,0],"price":6000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":72,"count":3},{"id":53,"count":3}],"weapons":[{"id":120,"count":2}],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":136,"name":"毒牙剣【ヨルムンガンド】"
 ,"description":"【武器】刀身にルーンの力が込められた剣。【通常攻撃武器】\n【物理属性】【毒状態付与（40％）】【毒耐性解除（10％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】ベノムブレイド 2　毒の素 5　クローム鉱石 5　20000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":72,"count":5},{"id":54,"count":5}],"weapons":[{"id":128,"count":2}],"armors":[],"gold":20000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":121,"name":"ブラインソード"
 ,"description":"【武器】刀身に薬品が塗られた剣。\n【通常攻撃武器】【物理属性】【暗闇状態付与（20％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,12,0,100,0,0,0],"price":2000,"get":"【交易店 交換】ショートソード 1　暗闇の素 2　鉄鉱石 1　500G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,12,0,100,0,0,0],"price":2000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":73,"count":2},{"id":52,"count":1}],"weapons":[{"id":60,"count":1}],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":129,"name":"ブラインブレイド"
 ,"description":"【武器】刀身に薬品が塗られた剣。\n【通常攻撃武器】【物理属性】【暗闇状態付与（40％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,20,0,0,0,0,0],"price":6000,"get":"【砂漠クリア】【交易店 交換】ブラインソード 2　暗闇の素 3　ミスリル鉱石 3　1000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,20,0,0,0,0,0],"price":6000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":73,"count":3},{"id":53,"count":3}],"weapons":[{"id":121,"count":2}],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":137,"name":"闇影剣【ヘル】"
 ,"description":"【武器】刀身にルーンの力が込められた剣。【通常攻撃武器】\n【物理属性】【暗闇状態付与（40％）】【暗闇耐性解除（10％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】ブラインブレイド 2　暗闇の素 5　クローム鉱石 5　20000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":73,"count":5},{"id":54,"count":5}],"weapons":[{"id":129,"count":2}],"armors":[],"gold":20000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":122,"name":"サイレスソード"
 ,"description":"【武器】刀身に薬品が塗られた剣。\n【通常攻撃武器】【物理属性】【沈黙状態付与（20％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,12,0,100,0,0,0],"price":2000,"get":"【交易店 交換】ショートソード 1　沈黙の素 2　鉄鉱石 1　500G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,12,0,100,0,0,0],"price":2000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":74,"count":2},{"id":52,"count":1}],"weapons":[{"id":60,"count":1}],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":130,"name":"サイレスブレイド"
 ,"description":"【武器】刀身に薬品が塗られた剣。\n【通常攻撃武器】【物理属性】【沈黙状態付与（40％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,20,0,0,0,0,0],"price":6000,"get":"【砂漠クリア】【交易店 交換】サイレスソード 2　沈黙の素 3　ミスリル鉱石 3　1000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,20,0,0,0,0,0],"price":6000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":74,"count":3},{"id":53,"count":3}],"weapons":[{"id":122,"count":2}],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":138,"name":"秘誓剣【ヴァーリ】"
 ,"description":"【武器】刀身にルーンの力が込められた剣。【通常攻撃武器】\n【物理属性】【沈黙状態付与（40％）】【沈黙耐性解除（10％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】サイレスブレイド 2　沈黙の素 5　クローム鉱石 5　20000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":74,"count":5},{"id":54,"count":5}],"weapons":[{"id":130,"count":2}],"armors":[],"gold":20000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":123,"name":"ヘイトソード"
 ,"description":"【武器】刀身に薬品が塗られた剣。\n【通常攻撃武器】【物理属性】【激昂状態付与（20％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,12,0,100,0,0,0],"price":2000,"get":"【交易店 交換】ショートソード 1　激昂の素 2　鉄鉱石 1　500G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,12,0,100,0,0,0],"price":2000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":75,"count":2},{"id":52,"count":1}],"weapons":[{"id":60,"count":1}],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":131,"name":"ヘイトブレイド"
 ,"description":"【武器】刀身に薬品が塗られた剣。\n【通常攻撃武器】【物理属性】【激昂状態付与（40％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,20,0,0,0,0,0],"price":6000,"get":"【砂漠クリア】【交易店 交換】ヘイトソード 2　激昂の素 3　ミスリル鉱石 3　1000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,20,0,0,0,0,0],"price":6000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":75,"count":3},{"id":53,"count":3}],"weapons":[{"id":123,"count":2}],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":139,"name":"狂剣【ベルセルク】"
 ,"description":"【武器】刀身にルーンの力が込められた剣。【通常攻撃武器】\n【物理属性】【激昂状態付与（40％）】【激昂耐性解除（10％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】ヘイトブレイド 2　暗闇の素 5　クローム鉱石 5　20000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":75,"count":5},{"id":54,"count":5}],"weapons":[{"id":131,"count":2}],"armors":[],"gold":20000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":124,"name":"テンプソード"
 ,"description":"【武器】刀身に薬品が塗られた剣。\n【通常攻撃武器】【物理属性】【魅了状態付与（20％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,12,0,100,0,0,0],"price":2000,"get":"【交易店 交換】ショートソード 1　魅了の素 2　鉄鉱石 1　500G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,12,0,100,0,0,0],"price":2000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":76,"count":2},{"id":52,"count":1}],"weapons":[{"id":60,"count":1}],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":132,"name":"テンプブレイド"
 ,"description":"【武器】刀身に薬品が塗られた剣。\n【通常攻撃武器】【物理属性】【魅了状態付与（40％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,20,0,0,0,0,0],"price":6000,"get":"【砂漠クリア】【交易店 交換】ブラインソード 2　魅了の素 3　ミスリル鉱石 3　1000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,20,0,0,0,0,0],"price":6000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":76,"count":3},{"id":53,"count":3}],"weapons":[{"id":124,"count":2}],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":140,"name":"幻惑剣【イドゥン】"
 ,"description":"【武器】刀身にルーンの力が込められた剣。【通常攻撃武器】\n【物理属性】【魅了状態付与（40％）】【魅了耐性解除（10％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】ブラインブレイド 2　魅了の素 5　クローム鉱石 5　20000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":76,"count":5},{"id":54,"count":5}],"weapons":[{"id":132,"count":2}],"armors":[],"gold":20000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":125,"name":"スリプルソード"
 ,"description":"【武器】刀身に薬品が塗られた剣。\n【通常攻撃武器】【物理属性】【睡眠状態付与（20％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,12,0,100,0,0,0],"price":2000,"get":"【交易店 交換】ショートソード 1　睡眠の素 2　鉄鉱石 1　500G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,12,0,100,0,0,0],"price":2000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":77,"count":2},{"id":52,"count":1}],"weapons":[{"id":60,"count":1}],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":133,"name":"スリプルブレイド"
 ,"description":"【武器】刀身に薬品が塗られた剣。\n【通常攻撃武器】【物理属性】【睡眠状態付与（40％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,20,0,0,0,0,0],"price":6000,"get":"【砂漠クリア】【交易店 交換】スリプルソード 2　魅了の素 3　ミスリル鉱石 3　1000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,20,0,0,0,0,0],"price":6000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":77,"count":3},{"id":53,"count":3}],"weapons":[{"id":125,"count":2}],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":141,"name":"夢幻剣【ヘルモーズ】"
 ,"description":"【武器】刀身にルーンの力が込められた剣。【通常攻撃武器】\n【物理属性】【睡眠状態付与（40％）】【睡眠耐性解除（10％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】ブラインブレイド 2　睡眠の素 5　クローム鉱石 5　20000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":77,"count":5},{"id":54,"count":5}],"weapons":[{"id":133,"count":2}],"armors":[],"gold":20000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":126,"name":"パラライズソード"
 ,"description":"【武器】刀身に薬品が塗られた剣。\n【通常攻撃武器】【物理属性】【麻痺状態付与（20％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,12,0,100,0,0,0],"price":2000,"get":"【交易店 交換】ショートソード 1　麻痺の素 2　鉄鉱石 1　500G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,12,0,100,0,0,0],"price":2000
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":2,"items":[{"id":78,"count":2},{"id":52,"count":1}],"weapons":[{"id":60,"count":1}],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":134,"name":"パラライズブレイド"
 ,"description":"【武器】刀身に薬品が塗られた剣。\n【通常攻撃武器】【物理属性】【麻痺状態付与（40％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,20,0,0,0,0,0],"price":6000,"get":"【砂漠クリア】【交易店 交換】パラライズソード 2　麻痺の素 3　ミスリル鉱石 3　1000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,20,0,0,0,0,0],"price":6000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":78,"count":3},{"id":53,"count":3}],"weapons":[{"id":126,"count":2}],"armors":[],"gold":1000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":142,"name":"束縛剣【グレイプニル】"
 ,"description":"【武器】刀身にルーンの力が込められた剣。【通常攻撃武器】\n【物理属性】【麻痺状態付与（40％）】【麻痺耐性解除（10％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,0,0],"price":20000,"get":"【炭鉱クリア】【交易店 交換】ブラインブレイド 2　麻痺の素 5　クローム鉱石 5　20000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":78,"count":5},{"id":54,"count":5}],"weapons":[{"id":134,"count":2}],"armors":[],"gold":20000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":164,"name":"インセクトソード"
+,"dropEnemyId":[5]
 ,"description":"【武器】甲虫系の魔物から取れた刃をそのまま転用した剣。\n【通常攻撃武器】【物理属性】"
-,"itemType":"武器","attribute":"物理","params":[0,0,12,0,0,0,0,0],"price":2000,"get":"【ドロップ】バグスバウ"},
+,"itemType":"武器","attribute":"物理","params":[0,0,12,0,0,0,0,0],"price":2000
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":165,"name":"アラクネソード"
 ,"description":"【武器】素早さが高ければ高いほど追加ダメージが出る蜘蛛の女王の剣。\n【通常攻撃武器】【物理属性】【追加ダメージ：a.agi * 2 - b.agi】"
-,"itemType":"武器","attribute":"物理","params":[0,0,10,0,0,0,0,0],"price":2000,"get":"【ドロップ】バグクイン"},
+,"itemType":"武器","attribute":"物理","params":[0,0,10,0,0,0,0,0],"price":2000
+,"dropEnemyId":[9]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":167,"name":"ゴーレムソード"
 ,"description":"【武器】ゴーレムの体表から取れた土の力を纏った剣。\n【通常攻撃武器】【物理・土属性】"
-,"itemType":"武器","attribute":"物理","params":[0,0,10,10,5,0,0,0],"price":2000,"get":"【ドロップ】ゴーレム"},
+,"itemType":"武器","attribute":"物理","params":[0,0,10,10,5,0,0,0],"price":2000
+,"dropEnemyId":[24]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":168,"name":"リザードテイル"
 ,"description":"【武器】固定で追加ダメージが出る蜥蜴族の尻尾を用いた剣。\n【通常攻撃武器】【物理属性】【追加ダメージ：２０】"
-,"itemType":"武器","attribute":"物理","params":[0,0,10,5,0,0,0,0],"price":2000,"get":"【ドロップ】リザードガール"},
+,"itemType":"武器","attribute":"物理","params":[0,0,10,5,0,0,0,0],"price":2000
+,"dropEnemyId":[28]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":171,"name":"キャノンマスト"
 ,"description":"【武器】武装したラクダから取り外した火薬入りの筒。\n【通常攻撃武器】【物理・炎属性】"
-,"itemType":"武器","attribute":"物理・炎","params":[0,0,10,10,0,10,0,0],"price":2000,"get":"【ドロップ】キャメルキャノン"},
+,"itemType":"武器","attribute":"物理・炎","params":[0,0,10,10,0,10,0,0],"price":2000
+,"dropEnemyId":[41]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":170,"name":"サボットレイピア"
 ,"description":"【武器】サボテンの針から取れた刺突剣。\n【通常攻撃武器】【物理】【会心率１０％ＵＰ】"
-,"itemType":"武器","attribute":"物理","params":[0,0,20,10,5,0,0,0],"price":2000,"get":"【ドロップ】ビックテンボ　テンダー・G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,20,10,5,0,0,0],"price":2000
+,"dropEnemyId":[44,45]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":174,"name":"ダイナモフィン"
 ,"description":"【武器】【武器】電気ウナギから取り出したヒレを加工した剣。\n【通常攻撃武器】【物理・雷属性】【土弱点状態付与（25％）】"
-,"itemType":"武器","attribute":"物理・雷","params":[0,0,10,10,0,10,0,0],"price":2000,"get":"【ドロップ】ウロボロウナギ"},
+,"itemType":"武器","attribute":"物理・雷","params":[0,0,10,10,0,10,0,0],"price":2000
+,"dropEnemyId":[66]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":177,"name":"ゴーストハンド【紫】"
 ,"description":"【武器】パープルゴーストが持っていた実体の無い虚影の剣。\n【通常攻撃武器】【雷属性】【雷属性攻撃力１．１倍】"
-,"itemType":"武器","attribute":"雷","params":[0,0,10,0,0,0,0,0],"price":2000,"get":"【ドロップ】パープルゴースト"},
+,"itemType":"武器","attribute":"雷","params":[0,0,10,0,0,0,0,0],"price":2000
+,"dropEnemyId":[80]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":178,"name":"ゴーストハンド【蒼】"
 ,"description":"【武器】ブルーゴーストが持っていた実体の無い虚影の剣。\n【通常攻撃武器】【物理属性】【追加ダメージ：a.mat * 1】"
-,"itemType":"武器","attribute":"物理","params":[0,0,0,0,15,0,0,0],"price":2000,"get":"【ドロップ】ブルーゴースト"},
+,"itemType":"武器","attribute":"物理","params":[0,0,0,0,15,0,0,0],"price":2000
+,"dropEnemyId":[81]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":176,"name":"デッドソード"
 ,"description":"【武器】アンデッドが持っていた切れ味の良い剣。\n【通常攻撃武器】【物理属性】【会心率２０％ＵＰ】"
-,"itemType":"武器","attribute":"物理","params":[0,0,15,0,0,0,0,0],"price":2000,"get":"【ドロップ】ソードスケルトン"},
+,"itemType":"武器","attribute":"物理","params":[0,0,15,0,0,0,0,0],"price":2000
+,"dropEnemyId":[85]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":180,"name":"喜剣【麗しの姫】"
 ,"description":"【武器】雌（メス）ヒノトリの羽から生成された剣。\n【通常攻撃武器】【物理属性】【通常攻撃回数＋１】"
-,"itemType":"武器","attribute":"物理","params":[0,0,0,0,0,0,0,0],"price":2000,"get":"【ドロップ】ヒノトリ(雌)"},
+,"itemType":"武器","attribute":"物理","params":[0,0,0,0,0,0,0,0],"price":2000
+,"dropEnemyId":[104]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":181,"name":"悲剣【悲痛な叫び】"
 ,"description":"【武器】雄（オス）ヒノトリの羽から生成された剣。\n【通常攻撃武器】【物理・風属性】【風属性攻撃力１．１倍】"
-,"itemType":"武器","attribute":"物理・風","params":[0,0,15,0,15,0,0,0],"price":2000,"get":"【ドロップ】ヒノトリ(雄)"},
+,"itemType":"武器","attribute":"物理・風","params":[0,0,15,0,15,0,0,0],"price":2000
+,"dropEnemyId":[105]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":183,"name":"スタンピード"
 ,"description":"【武器】たくさんの刃が付いた大ムカデから生成された剣。【通常攻撃武器】\n【物理・土属性】【土属性攻撃力１．１倍】【追加ダメージ：a.atk * 1】"
-,"itemType":"武器","attribute":"物理・土","params":[0,0,15,0,0,0,0,0],"price":2000,"get":"【ドロップ】大ムカデ"},
+,"itemType":"武器","attribute":"物理・土","params":[0,0,15,0,0,0,0,0],"price":2000
+,"dropEnemyId":[122]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":184,"name":"タランチュラ"
 ,"description":"【武器】巨大な蜘蛛の甲殻から作られた麻痺毒を持つ剣。\n【通常攻撃武器】【物理】【麻痺状態付与（25％）】"
-,"itemType":"武器","attribute":"物理","params":[0,0,30,0,0,0,0,0],"price":2000,"get":"【ドロップ】オオ土グモ　クモジョロウ"},
+,"itemType":"武器","attribute":"物理","params":[0,0,30,0,0,0,0,0],"price":2000
+,"dropEnemyId":[126,127]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":186,"name":"雷撃鞭"
 ,"description":"【武器】海月から取れた触手を武器に転用したもの。\n【通常攻撃武器】【物理・雷属性】【雷属性攻撃力１．２倍】【麻痺状態付与（25％）】"
-,"itemType":"武器","attribute":"物理・雷","params":[0,0,20,0,20,0,0,0],"price":4000,"get":"【ドロップ】フライジェリー　リバースジェリー"},
+,"itemType":"武器","attribute":"物理・雷","params":[0,0,20,0,20,0,0,0],"price":4000
+,"dropEnemyId":[141,142]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":187,"name":"海の竪琴"
 ,"description":"【武器】セイレーンが持っていた楽器にもなる剣。【通常攻撃武器】\n【物理・氷属性】【氷属性攻撃力１．２倍】【睡眠状態付与（25％）】"
-,"itemType":"武器","attribute":"物理・氷","params":[0,0,20,0,20,0,0,0],"price":4000,"get":"【ドロップ】セイレーン"},
+,"itemType":"武器","attribute":"物理・氷","params":[0,0,20,0,20,0,0,0],"price":4000
+,"dropEnemyId":[145]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":189,"name":"キュウビテール"
 ,"description":"【武器】九尾の尻尾から作られた剣。\n【通常攻撃武器】【物理・炎属性】【炎属性攻撃力１．２倍】"
-,"itemType":"武器","attribute":"物理・炎","params":[0,0,25,0,0,0,0,0],"price":5000,"get":"【ドロップ】試作型九尾"},
+,"itemType":"武器","attribute":"物理・炎","params":[0,0,25,0,0,0,0,0],"price":5000
+,"dropEnemyId":[165]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":192,"name":"スコーピオテール"
 ,"description":"【武器】機械仕掛けのサソリから作られた剣。\n【通常攻撃武器】【会心率４０％ＵＰ】【命中率２０％ＤＯＷＮ】"
-,"itemType":"武器","attribute":"物理","params":[0,0,40,0,40,0,0,0],"price":5000,"get":"【ドロップ】M・スコルピオ"},
+,"itemType":"武器","attribute":"物理","params":[0,0,40,0,40,0,0,0],"price":5000
+,"dropEnemyId":[186]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":179,"name":"ゴーストハンド【紫電】"
 ,"description":"【武器】二対の虚影の剣を組み合わせて作られた。【通常攻撃武器】\n【雷属性】【雷属性攻撃力１．２倍】【追加ダメージ：a.mat * 2】"
-,"itemType":"武器","attribute":"物理・雷","params":[0,0,15,0,15,0,0,0],"price":4000,"get":"【砂漠クリア】【交易店 交換】ゴーストハンド【紫】1　ゴーストハンド【蒼】1　ミスリル鉱石 5　2000G"},
+,"itemType":"武器","attribute":"物理・雷","params":[0,0,15,0,15,0,0,0],"price":4000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":53,"count":5}],"weapons":[{"id":177,"count":1},{"id":178,"count":1}],"armors":[],"gold":2000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":182,"name":"夫婦円満剣"
 ,"description":"【武器】タスケテ……タスケテ……ッ！【通常攻撃武器】\n【物理・風属性】【風属性攻撃力１．２倍】【通常攻撃回数＋１】"
-,"itemType":"武器","attribute":"物理・風","params":[0,0,0,0,0,0,0,0],"price":4000,"get":"【砂漠クリア】【交易店 交換】喜剣【麗しの剣】1　悲剣【悲痛な叫び】1　ミスリル鉱石 5　2000G"},
+,"itemType":"武器","attribute":"物理・風","params":[0,0,0,0,0,0,0,0],"price":4000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":53,"count":5}],"weapons":[{"id":180,"count":1},{"id":181,"count":1}],"armors":[],"gold":2000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":185,"name":"邪剣【毒蟲】"
 ,"description":"【武器】毒蟲の素材をふんだんに使って作成された剣。【通常攻撃武器】\n【物理・土属性】【追加ダメージ：a.atk * 1】【土属性攻撃力１．２倍】【麻痺状態付与（25％）】"
-,"itemType":"武器","attribute":"物理・土","params":[0,0,30,0,0,0,0,0],"price":4000,"get":"【砂漠クリア】【交易店 交換】スタンピード 1　タランチュラ 1　ミスリル鉱石 5　2000G"},
+,"itemType":"武器","attribute":"物理・土","params":[0,0,30,0,0,0,0,0],"price":4000
+,"dropEnemyId":[]
+,"get":[{"progress":3,"kind":2,"items":[{"id":53,"count":5}],"weapons":[{"id":183,"count":1},{"id":184,"count":1}],"armors":[],"gold":2000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":201,"name":"雷雹の剣"
 ,"description":"【武器】海の力が集約された剣【通常攻撃武器】【物理・氷・雷属性】\n【氷・雷属性攻撃力１．３倍】【麻痺・睡眠状態付与（25％）】"
-,"itemType":"武器","attribute":"物理・氷・雷","params":[0,0,30,0,30,0,0,0],"price":50000,"get":"【炭鉱クリア】【交易店 交換】雷撃鞭 1　海の竪琴 1　クローム鉱石 5　20000G"},
+,"itemType":"武器","attribute":"物理・氷・雷","params":[0,0,30,0,30,0,0,0],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":54,"count":5}],"weapons":[{"id":186,"count":1},{"id":187,"count":1}],"armors":[],"gold":20000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":200,"name":"殺生九尾"
 ,"description":"【武器】九尾の尻尾から作られた剣。【通常攻撃武器】【物理・炎属性】\n【通常攻撃回数＋１】【雷属性攻撃力１．３倍】【会心率＋２０％】"
-,"itemType":"武器","attribute":"物理・炎","params":[0,0,30,30,30,30,0,0],"price":50000,"get":"【炭鉱クリア】【交易店 交換】キュウビテール 1　殺生ストーン 1　クローム鉱石 5　20000G"},
+,"itemType":"武器","attribute":"物理・炎","params":[0,0,30,30,30,30,0,0],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":54,"count":5}],"weapons":[{"id":189,"count":1}],"armors":[{"id":212,"count":1}],"gold":20000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":202,"name":"グングニル"
 ,"description":"【武器】最新の技術をふんだんに使用した敵を追尾する剣。【通常攻撃武器】\n【通常攻撃回数＋１】【会心率４０％ＵＰ】【命中率２０％ＵＰ】"
-,"itemType":"武器","attribute":"物理","params":[0,0,40,40,40,40,40,40],"price":50000,"get":"【炭鉱クリア】【交易店 交換】スコーピオテール 1　ビッグ・アイ 1　クローム鉱石 5　20000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,40,40,40,40,40,40],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":54,"count":5}],"weapons":[{"id":192,"count":1}],"armors":[{"id":152,"count":1}],"gold":20000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":199,"name":"ヴォーパルソード"
 ,"description":"【武器】たくさんのラビットモンスターの素材からできた剣。※詳細は用語図鑑へ。\n【通常攻撃武器】【物理属性】【通常攻撃回数＋１】【ラビット系使い魔の攻撃力５倍】"
-,"itemType":"武器","attribute":"物理","params":[0,0,100,0,0,0,0,0],"price":50000,"get":"【炭鉱クリア】【交易店 交換】うさぎの毛 10　クローム鉱石 10　ミスリル鉱石 10　20000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,100,0,0,0,0,0],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":7,"kind":2,"items":[{"id":200,"count":10},{"id":54,"count":10},{"id":53,"count":10}],"weapons":[],"armors":[],"gold":20000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":0,"id":157,"name":"斬鉄剣【紫陽花】"
 ,"description":"【武器】謎の少女がくれた剣。※詳細は用語図鑑へ。\n【通常攻撃武器】【物理属性】【物理属性攻撃力１．２倍】"
-,"itemType":"武器","attribute":"物理","params":[0,0,10,0,0,0,10,0],"price":0,"get":"【ランダムイベント 謎の少女】助けを断り続けて、犯される。　※入手は一回限り"},
+,"itemType":"武器","attribute":"物理","params":[0,0,10,0,0,0,10,0],"price":0
+,"dropEnemyId":[]
+,"get":[{"progress":0,"kind":22,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":158,"name":"斬鉄剣【銭花】"
 ,"description":"【武器】貰った斬鉄剣を精錬した剣。※詳細は用語図鑑へ。\n【通常攻撃武器】【物理属性】【物理属性攻撃力１．５倍】"
-,"itemType":"武器","attribute":"物理","params":[0,0,20,0,0,0,20,0],"price":0,"get":"【斬鉄剣レシピ】【交易店 交換】斬鉄剣【紫陽花】1　鉄鉱石 15　属性の素 5　5000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,20,0,0,0,20,0],"price":0
+,"dropEnemyId":[]
+,"get":[{"progress":21,"kind":2,"items":[{"id":52,"count":15},{"id":71,"count":5}],"weapons":[{"id":157,"count":1}],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":159,"name":"斬鉄剣【白百合】"
 ,"description":"【武器】貰った斬鉄剣を精錬した剣。※詳細は用語図鑑へ。【通常攻撃武器】\n【物理属性】【物理属性攻撃力１．５倍】【通常攻撃回数＋１】"
-,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,40,0],"price":0,"get":"【斬鉄剣レシピ】【交易店 交換】斬鉄剣【銭花】1　ミスリル鉱石 15　属性の素 5　10000G"},
+,"itemType":"武器","attribute":"物理","params":[0,0,40,0,0,0,40,0],"price":0
+,"dropEnemyId":[]
+,"get":[{"progress":21,"kind":2,"items":[{"id":53,"count":15},{"id":71,"count":5}],"weapons":[{"id":158,"count":1}],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":2,"process":1,"id":160,"name":"斬鉄剣【紅葉】"
 ,"description":"【武器】謎の少女がくれた剣。※詳細は用語図鑑へ。【通常攻撃武器】\n【物理属性】【会心率２０％ＵＰ】【通常攻撃回数＋２】【物理属性攻撃力３倍】"
-,"itemType":"武器","attribute":"物理","params":[0,0,50,0,0,0,50,50],"price":0,"get":"【斬鉄剣レシピ】【交易店 交換】斬鉄剣【白百合】1　クローム鉱石 15　属性の素 5　30000G"}
+,"itemType":"武器","attribute":"物理","params":[0,0,50,0,0,0,50,50],"price":0
+,"dropEnemyId":[]
+,"get":[{"progress":21,"kind":2,"items":[{"id":54,"count":15},{"id":71,"count":5}],"weapons":[{"id":159,"count":1}],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]}
 ]
 
 

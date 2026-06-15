@@ -11,6 +11,20 @@
     <link rel="stylesheet" type="text/css" href="itemData.css"/>
     <link rel="stylesheet" type="text/css" href="../css/table.css"/>
 
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+<script>
+  mermaid.initialize({
+    startOnLoad: true,
+    flowchart: {
+      nodeSpacing: 50,   // ノード間の横距離
+      rankSpacing: 130    // ノード間の縦距離
+    }
+  });
+</script>
+
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -41,13 +55,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <button class="selectItemTypeButton" id="displayFamiliarButton">使い魔</button>
     <button class="selectItemTypeButton" id="displayImportantButton">大事なもの</button>
     </div>
-    
+
+    <br>
+
     <div class="arrayItemData"></div>
     
 
     <script src="../js/header.js"></script>
     <script src="itemData.js"></script>
 
-    
+    <br><br><br><br><br><br><br><br><br><br>
 </body>
 </html>

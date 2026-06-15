@@ -128,7 +128,7 @@ function loadEnemyStatusData(dungeonId){
             return
 
             No += 1
-            let name = el.name
+            let name = el.name + " " + el.id
             let attackAttribute = el.attackAttribute
             let Weakness = el.Weakness
             let Resistance = el.Resistance
@@ -203,7 +203,7 @@ function loadEnemyStatusData(dungeonId){
 
                 <tr>
                 <th style="width: 80px;">説明</th>
-                <td style="width: 720px;" colspan="9">${description}</td>
+                <td style="width: 720px;" colspan="9" class="preWrap">${description}</td>
                 </tr>
 
                 <tr>

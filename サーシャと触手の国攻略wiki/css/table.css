@@ -3,7 +3,6 @@
     border: none;
     border-collapse: collapse;
     margin: 0 auto;
-    vertical-align: middle;
     text-align: left; 
 }
 
@@ -24,5 +23,12 @@
     padding-top: 0.5em;  
     padding-bottom: 0.5em;
     line-height: 1.7em;
+}
+
+.preWrap{
     white-space: pre-wrap;
+}
+
+.getTd {
+    word-break: keep-all;
 }
