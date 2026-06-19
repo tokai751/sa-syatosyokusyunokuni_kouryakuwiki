@@ -14,6 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
     else
     code += `<button class="headerButton" onclick="location.href='../itemData/itemData.html'">アイテム</button>`
     
+    if(location.pathname.endsWith("eventData.html"))
+    code += `<button class="headerButton" onclick="location.href='eventData.html'" style="color: rgb(185, 8, 8);">ランダムイベント</button>`
+    else
+    code += `<button class="headerButton" onclick="location.href='../eventData/eventData.html'">ランダムイベント</button>`
 
     headerContainer.insertAdjacentHTML('beforeend', code);
 });

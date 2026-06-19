@@ -1,0 +1,16 @@
+.eventTextTable {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    border-width:medium;
+    border: none;
+    border-collapse: collapse;
+    text-align: left; 
+}
+
+.tableColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    column-gap: 30px;
+}

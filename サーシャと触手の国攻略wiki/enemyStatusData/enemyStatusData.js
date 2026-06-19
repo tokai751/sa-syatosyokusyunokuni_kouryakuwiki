@@ -114,7 +114,7 @@ function loadEnemyStatusData(dungeonId){
   selectDungeonButtons.forEach(b => b.style.color = "black");
   selectDungeonButtons[dungeonId].style.color = "rgb(185, 8, 8)";
 
-  const arrayContainer = document.querySelector('.arrayItemData');  
+  const arrayContainer = document.querySelector('.arrayEnemyStatusData');  
 
   let enemyLevel = Math.floor(inputLevel / 2 + 1)
 
@@ -133,17 +133,17 @@ function loadEnemyStatusData(dungeonId){
             let Weakness = el.Weakness
             let Resistance = el.Resistance
 
-            let hp = Math.floor(el.params[0] / 100 * (el.enemyType <= 2 ? baseStatus[0][enemyLevel] : baseStatus[0][enemyLevel]) +  (el.enemyType <= 2 ? exStatus[0][dungeonId] : 0))
-            let mp = Math.floor(el.params[1] / 100 * (el.enemyType <= 2 ? baseStatus[1][enemyLevel] : baseStatus[1][enemyLevel]) + (el.enemyType <= 2 ? exStatus[1][dungeonId] : 0))
-            let attack = Math.floor(el.params[2] / 100 * (el.enemyType <= 2 ?baseStatus[2][enemyLevel] : baseStatus[2][enemyLevel]) + (el.enemyType <= 2 ? exStatus[2][dungeonId] : 0))
-            let defense = Math.floor(el.params[3] / 100 * (el.enemyType <= 2 ? baseStatus[3][enemyLevel] : baseStatus[3][enemyLevel]) + (el.enemyType <= 2 ? exStatus[3][dungeonId] : 0))
-            let magicAttack = Math.floor(el.params[4] / 100 * (el.enemyType <= 2 ? baseStatus[4][enemyLevel] : baseStatus[4][enemyLevel]) + (el.enemyType <= 2 ? exStatus[4][dungeonId] : 0))
-            let magicDefense = Math.floor(el.params[5] / 100 * (el.enemyType <= 2 ? baseStatus[5][enemyLevel] : baseStatus[5][enemyLevel]) + (el.enemyType <= 2 ? exStatus[5][dungeonId] : 0))
-            let agile = Math.floor(el.params[6] / 100 * (el.enemyType <= 2 ? baseStatus[6][enemyLevel] : baseStatus[6][enemyLevel]) + (el.enemyType <= 2 ? exStatus[6][dungeonId] : 0))
-            let luck = Math.floor(el.params[7] / 100 * (el.enemyType <= 2 ? baseStatus[7][enemyLevel] : baseStatus[7][enemyLevel]) + (el.enemyType <= 2 ? exStatus[7][dungeonId] : 0))
+            let hp = Math.round(el.params[0] / 100 * (el.enemyType <= 2 ? baseStatus[0][enemyLevel] : baseStatus[0][enemyLevel]) +  (el.enemyType <= 2 ? exStatus[0][el.dungeonId] : 0))
+            let mp = Math.round(el.params[1] / 100 * (el.enemyType <= 2 ? baseStatus[1][enemyLevel] : baseStatus[1][enemyLevel]) + (el.enemyType <= 2 ? exStatus[1][el.dungeonId] : 0))
+            let attack = Math.round(el.params[2] / 100 * (el.enemyType <= 2 ?baseStatus[2][enemyLevel] : baseStatus[2][enemyLevel]) + (el.enemyType <= 2 ? exStatus[2][el.dungeonId] : 0))
+            let defense = Math.round(el.params[3] / 100 * (el.enemyType <= 2 ? baseStatus[3][enemyLevel] : baseStatus[3][enemyLevel]) + (el.enemyType <= 2 ? exStatus[3][el.dungeonId] : 0))
+            let magicAttack = Math.round(el.params[4] / 100 * (el.enemyType <= 2 ? baseStatus[4][enemyLevel] : baseStatus[4][enemyLevel]) + (el.enemyType <= 2 ? exStatus[4][el.dungeonId] : 0))
+            let magicDefense = Math.round(el.params[5] / 100 * (el.enemyType <= 2 ? baseStatus[5][enemyLevel] : baseStatus[5][enemyLevel]) + (el.enemyType <= 2 ? exStatus[5][el.dungeonId] : 0))
+            let agile = Math.round(el.params[6] / 100 * (el.enemyType <= 2 ? baseStatus[6][enemyLevel] : baseStatus[6][enemyLevel]) + (el.enemyType <= 2 ? exStatus[6][el.dungeonId] : 0))
+            let luck = Math.round(el.params[7] / 100 * (el.enemyType <= 2 ? baseStatus[7][enemyLevel] : baseStatus[7][enemyLevel]) + (el.enemyType <= 2 ? exStatus[7][el.dungeonId] : 0))
     
-            let exp = Math.ceil(el.exp /100 * (levelUpExp[enemyLevel] / 2 + 1))
-            let gold = Math.floor(el.gold / 100 * enemyLevel * enemyLevel * 25)
+            let exp = Math.round(el.exp /100 * (levelUpExp[enemyLevel] / 2 + 1))
+            let gold = Math.round(el.gold / 100 * enemyLevel * enemyLevel * 25)
             let description = el.description
             
             let dropItemRate1 = 100 / el.dropItems[0].denominator
@@ -155,15 +155,15 @@ function loadEnemyStatusData(dungeonId){
 
             if(el.enemyType === 0) enemyType = "通常"
             else if(el.enemyType === 1) enemyType = "ボス"
-            else if(el.enemyType === 2) enemyType = "ハーピィ\nイベント"
-            else if(el.enemyType === 3) enemyType = "ヘッジ\nボルグ\nイベント"
-            else if(el.enemyType === 4) enemyType = "ハート\nクイン\nイベント"
+            else if(el.enemyType === 2) enemyType = "ハーピィ<br>イベント"
+            else if(el.enemyType === 3) enemyType = "ヘッジ<br>ボルグ<br>イベント"
+            else if(el.enemyType === 4) enemyType = "ハート<br>クイン<br>イベント"
 
             if(name.indexOf(inputSearchCondition) === -1 && dropItem1.indexOf(inputSearchCondition) === -1 && dropItem2.indexOf(inputSearchCondition) === -1 && dropItem3.indexOf(inputSearchCondition) === -1)
             return
 
             let code = `
-            <table align="center" class="table arrayEnemyStatusData">
+            <table align="center" class="table">
                 <tr>
                 <th style="width: 80px;">No.</th>
                 <td style="width: 80px;">${No}</td>

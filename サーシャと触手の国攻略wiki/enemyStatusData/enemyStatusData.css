@@ -17,7 +17,8 @@ width: calc(105px * 5 + 40px * 4);
 }
 
 .arrayEnemyStatusData{
- margin-top: 110px;
+  position: relative;
+  top: 10px;
 }
 
 input {
