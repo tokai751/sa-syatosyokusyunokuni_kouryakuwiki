@@ -14,6 +14,16 @@
 ,"itemType":"盾","attribute":"","params":[0,0,0,20,0,20,0,0],"price":5000
 ,"dropEnemyId":[]
 ,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":125,"name":"クロームシールド"
+,"description":"【盾】クローム合金製の盾。\n【物理耐性１５％上昇】【回避率５％上昇】"
+,"itemType":"盾","attribute":"","params":[0,0,0,40,0,40,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":10,"kind":1,"items":[],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":197,"name":"オリハルコンシールド"
+,"description":"【盾】オリハルコン製の盾。\n【物理耐性１５％上昇】【回避率５％上昇】"
+,"itemType":"盾","attribute":"","params":[0,0,0,60,0,60,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":10,"kind":1,"items":[],"weapons":[],"armors":[],"gold":20000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":3,"process":0,"id":181,"name":"ガントレット"
 ,"description":"【盾】鉄製の籠手。"
 ,"itemType":"盾","attribute":"","params":[0,0,10,0,10,0,0,0],"price":1000
@@ -24,6 +34,11 @@
 ,"itemType":"盾","attribute":"","params":[0,0,20,5,20,5,0,0],"price":5000
 ,"dropEnemyId":[]
 ,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":183,"name":"クロームの籠手"
+,"description":"【盾】クローム合金製の籠手。"
+,"itemType":"盾","attribute":"","params":[0,0,40,10,40,10,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":10,"kind":1,"items":[],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":3,"process":0,"id":133,"name":"マジックシールド"
 ,"description":"【盾】魔力で形成された盾。"
 ,"itemType":"盾","attribute":"","params":[0,0,0,0,0,5,0,0],"price":500
@@ -164,6 +179,11 @@
 ,"itemType":"盾","attribute":"","params":[0,0,20,20,20,20,20,20],"price":50000
 ,"dropEnemyId":[194]
 ,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":3,"process":0,"id":1338,"name":"触手の盾"
+,"description":"【盾】アイシャがくれた盾（製造法不明）\n【ダメージ２０％カット】"
+,"itemType":"盾","attribute":"","params":[0,0,50,0,50,0,0,0],"price":50000
+,"dropEnemyId":[278]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":4,"process":0,"id":219,"name":"ピアス"
 ,"description":"【装飾品】何故だか防御力が上がるピアス。\nやる気が出るという事だろう。"
 ,"itemType":"装飾品","attribute":"","params":[0,0,0,5,0,5,0,0],"price":1000
@@ -174,6 +194,11 @@
 ,"itemType":"装飾品","attribute":"","params":[0,0,0,15,0,15,0,0],"price":5000
 ,"dropEnemyId":[]
 ,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":0,"id":221,"name":"シールドピアス"
+,"description":"【装飾品】更に防御力を上昇させる魔力が込められたピアス。\nここまでくると治安局でも身に着けている者は少ない。"
+,"itemType":"装飾品","attribute":"","params":[0,0,0,30,0,30,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":10,"kind":1,"items":[],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":4,"process":0,"id":414,"name":"ヒールピアス"
 ,"description":"【装飾品】ヒールⅠを取得する。【スキル追加：ヒールⅠ】"
 ,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
@@ -249,6 +274,11 @@
 ,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":50000
 ,"dropEnemyId":[]
 ,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":237,"count":2},{"id":249,"count":1}],"gold":20000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":274,"name":"F・ルビー"
+,"description":"【装飾品】最高級の炎属性補助装飾品。\n【炎属性攻撃力２倍】【攻撃時氷弱点付与：２０％】【炎耐性＋５０％】"
+,"itemType":"装飾品","attribute":"","params":[0,0,20,20,20,20,20,20],"price":100000
+,"dropEnemyId":[]
+,"get":[{"progress":10,"kind":2,"items":[{"id":66,"count":5},{"id":55,"count":5}],"weapons":[],"armors":[{"id":255,"count":2}],"gold":100000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":4,"process":1,"id":226,"name":"アイスピアス"
 ,"description":"【装飾品】アイスⅠを取得し氷属性攻撃力を１．１倍する。\n【スキル追加：アイスⅠ】【氷属性攻撃力１．１倍】"
 ,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
@@ -279,6 +309,11 @@
 ,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":50000
 ,"dropEnemyId":[]
 ,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":238,"count":2},{"id":250,"count":1}],"gold":20000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":275,"name":"B・サファイア"
+,"description":"【装飾品】最高級の氷属性補助装飾品。\n【氷属性攻撃力２倍】【攻撃時雷弱点付与：２０％】【氷耐性＋５０％】"
+,"itemType":"装飾品","attribute":"","params":[0,0,20,20,20,20,20,20],"price":100000
+,"dropEnemyId":[]
+,"get":[{"progress":10,"kind":2,"items":[{"id":67,"count":5},{"id":55,"count":5}],"weapons":[],"armors":[{"id":256,"count":2}],"gold":100000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":4,"process":1,"id":227,"name":"サンダーピアス"
 ,"description":"【装飾品】サンダーⅠを取得し雷属性攻撃力を１．１倍する。\n【スキル追加：サンダーⅠ】【雷属性攻撃力１．１倍】"
 ,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
@@ -309,6 +344,11 @@
 ,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":50000
 ,"dropEnemyId":[]
 ,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":239,"count":2},{"id":251,"count":1}],"gold":20000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":276,"name":"S・トパーズ"
+,"description":"【装飾品】最高級の雷属性補助装飾品。\n【雷属性攻撃力２倍】【攻撃時土弱点付与：２０％】【雷耐性＋５０％】"
+,"itemType":"装飾品","attribute":"","params":[0,0,20,20,20,20,20,20],"price":100000
+,"dropEnemyId":[]
+,"get":[{"progress":10,"kind":2,"items":[{"id":68,"count":5},{"id":55,"count":5}],"weapons":[],"armors":[{"id":257,"count":2}],"gold":100000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":4,"process":1,"id":228,"name":"ストーンピアス"
 ,"description":"【装飾品】ストーンⅠを取得し土属性攻撃力を１．１倍する。\n【スキル追加：ストーンⅠ】【土属性攻撃力１．１倍】"
 ,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
@@ -339,6 +379,11 @@
 ,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":50000
 ,"dropEnemyId":[]
 ,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":240,"count":2},{"id":252,"count":1}],"gold":20000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":277,"name":"C・ベリル"
+,"description":"【装飾品】最高級の土属性補助装飾品。\n【土属性攻撃力２倍】【攻撃時風弱点付与：２０％】【土耐性＋５０％】"
+,"itemType":"装飾品","attribute":"","params":[0,0,20,20,20,20,20,20],"price":100000
+,"dropEnemyId":[]
+,"get":[{"progress":10,"kind":2,"items":[{"id":69,"count":5},{"id":55,"count":5}],"weapons":[],"armors":[{"id":258,"count":2}],"gold":100000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":4,"process":1,"id":229,"name":"ウインドピアス"
 ,"description":"【装飾品】ウインドⅠを取得し風属性攻撃力を１．１倍する。\n【スキル追加：ウインドⅠ】【風属性攻撃力１．１倍】"
 ,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
@@ -369,6 +414,11 @@
 ,"itemType":"装飾品","attribute":"","params":[0,0,0,0,0,0,0,0],"price":50000
 ,"dropEnemyId":[]
 ,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":241,"count":2},{"id":253,"count":1}],"gold":20000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":1,"id":277,"name":"T・エメラルド"
+,"description":"【装飾品】最高級の風属性補助装飾品。\n【風属性攻撃力２倍】【攻撃時炎弱点付与：２０％】【風耐性＋５０％】"
+,"itemType":"装飾品","attribute":"","params":[0,0,20,20,20,20,20,20],"price":100000
+,"dropEnemyId":[]
+,"get":[{"progress":10,"kind":2,"items":[{"id":70,"count":5},{"id":55,"count":5}],"weapons":[],"armors":[{"id":259,"count":2}],"gold":100000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":4,"process":1,"id":262,"name":"D・サルベージ"
 ,"description":"【装飾品】アンデッドの怨念を浄化する聖具。　※詳細は用語図鑑へ。\n【攻撃時アンデッド復活阻止】【暗闇無効】【最大ＭＰ上昇】"
 ,"itemType":"装飾品","attribute":"","params":[0,50,0,0,30,30,0,0],"price":50000
@@ -394,6 +444,11 @@
 ,"itemType":"装飾品","attribute":"","params":[0,0,30,0,30,0,0,0],"price":50000
 ,"dropEnemyId":[]
 ,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1207,"count":1},{"id":1208,"count":1},{"id":1229,"count":1}],"gold":100000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":4,"process":0,"id":271,"name":"名誉淫魔の角"
+,"description":"【装飾品】淫魔でない筈の人間が到達した淫魔を超える領域の証。\n【全属性攻撃力３倍】【魅了・睡眠無効】"
+,"itemType":"装飾品","attribute":"","params":[0,0,50,50,50,50,50,50],"price":50000
+,"dropEnemyId":[240]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":5,"process":0,"id":421,"name":"身体強化"
 ,"description":"【刻印】一般的な冒険者用の魔術刻印。"
 ,"itemType":"刻印","attribute":"","params":[0,0,5,5,5,5,5,5],"price":500
@@ -409,21 +464,31 @@
 ,"itemType":"刻印","attribute":"","params":[0,0,40,40,40,40,40,40],"price":10000
 ,"dropEnemyId":[]
 ,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":1,"id":424,"name":"憤怒の刻印"
+,"description":"【刻印】一般的な冒険者用の魔術刻印。\n怒りや情欲を身体機能の強化に転用している。"
+,"itemType":"刻印","attribute":"","params":[0,0,60,60,60,60,60,60],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":12,"kind":2,"items":[{"id":201,"count":5},{"id":55,"count":5}],"weapons":[],"armors":[{"id":423,"count":1}],"gold":100000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":5,"process":0,"id":427,"name":"免疫強化"
 ,"description":"【刻印】状態耐性に特化した刻印。\n【毒・暗闇・沈黙・激昂・混乱・魅了・睡眠耐性５％上昇】"
 ,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500
 ,"dropEnemyId":[]
 ,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":500,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":5,"process":0,"id":428,"name":"免疫強化改"
-,"description":"【刻印】状態耐性に特化した刻印。\n少しだけ性能が上がっている\n【毒・暗闇・沈黙・激昂・混乱・魅了・睡眠耐性10％上昇】"
+,"description":"【刻印】状態耐性に特化した刻印。\n少しだけ性能が上がっている。\n【毒・暗闇・沈黙・激昂・混乱・魅了・睡眠耐性10％上昇】"
 ,"itemType":"刻印","attribute":"","params":[0,0,5,5,5,5,5,5],"price":5000
 ,"dropEnemyId":[]
 ,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":5,"process":0,"id":429,"name":"免疫強化改Ⅱ"
-,"description":"【刻印】状態耐性に特化した刻印。\n少しだけ性能が上がっている\n【毒・暗闇・沈黙・激昂・混乱・魅了・睡眠耐性20％上昇】"
+,"description":"【刻印】状態耐性に特化した刻印。\n少しだけ性能が上がっている。\n【毒・暗闇・沈黙・激昂・混乱・魅了・睡眠耐性20％上昇】"
 ,"itemType":"刻印","attribute":"","params":[0,0,10,10,10,10,10,10],"price":10000
 ,"dropEnemyId":[]
 ,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":1,"id":430,"name":"拒絶の刻印"
+,"description":"【刻印】状態耐性に特化した刻印。\n少しだけ性能が上がっている。\n【毒・暗闇・沈黙・激昂・混乱・魅了・睡眠耐性50％上昇】"
+,"itemType":"刻印","attribute":"","params":[0,0,30,30,30,30,30,30],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":12,"kind":2,"items":[{"id":201,"count":5},{"id":55,"count":5}],"weapons":[],"armors":[{"id":429,"count":1}],"gold":100000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":5,"process":0,"id":504,"name":"戦士の刻印"
 ,"description":"【刻印】【会心率１０％上昇】"
 ,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500
@@ -439,6 +504,11 @@
 ,"itemType":"刻印","attribute":"","params":[0,0,20,20,20,20,20,20],"price":10000
 ,"dropEnemyId":[]
 ,"get":[{"progress":7,"kind":1,"items":[],"weapons":[],"armors":[],"gold":10000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":1,"id":507,"name":"神剣聖の刻印"
+,"description":"【刻印】【会心率６０％上昇】"
+,"itemType":"刻印","attribute":"","params":[0,0,40,40,40,40,40,40],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":12,"kind":2,"items":[{"id":201,"count":5},{"id":55,"count":5}],"weapons":[],"armors":[{"id":506,"count":1}],"gold":100000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":5,"process":0,"id":440,"name":"属性強化【炎】"
 ,"description":"【刻印】炎属性攻撃力を１．１倍するが氷耐性が１０％低下する。"
 ,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500
@@ -449,6 +519,11 @@
 ,"itemType":"刻印","attribute":"","params":[0,0,10,0,10,0,0,0],"price":5000
 ,"dropEnemyId":[]
 ,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":1,"id":454,"name":"真・属性強化【炎】"
+,"description":"【刻印】炎属性攻撃力を１．５倍する。"
+,"itemType":"刻印","attribute":"","params":[0,0,30,0,30,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":10,"kind":2,"items":[{"id":66,"count":5},{"id":55,"count":5}],"weapons":[],"armors":[{"id":447,"count":1}],"gold":5000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":5,"process":0,"id":441,"name":"属性強化【氷】"
 ,"description":"【刻印】氷属性攻撃力を１．１倍するが雷耐性が１０％低下する。"
 ,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500
@@ -459,6 +534,11 @@
 ,"itemType":"刻印","attribute":"","params":[0,0,10,0,10,0,0,0],"price":5000
 ,"dropEnemyId":[]
 ,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":1,"id":455,"name":"真・属性強化【氷】"
+,"description":"【刻印】氷属性攻撃力を１．５倍する。"
+,"itemType":"刻印","attribute":"","params":[0,0,30,0,30,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":10,"kind":2,"items":[{"id":67,"count":5},{"id":55,"count":5}],"weapons":[],"armors":[{"id":448,"count":1}],"gold":5000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":5,"process":0,"id":442,"name":"属性強化【雷】"
 ,"description":"【刻印】雷属性攻撃力を１．１倍するが土耐性が１０％低下する。"
 ,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500
@@ -469,6 +549,11 @@
 ,"itemType":"刻印","attribute":"","params":[0,0,10,0,10,0,0,0],"price":5000
 ,"dropEnemyId":[]
 ,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":1,"id":456,"name":"真・属性強化【雷】"
+,"description":"【刻印】雷属性攻撃力を１．５倍する。"
+,"itemType":"刻印","attribute":"","params":[0,0,30,0,30,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":10,"kind":2,"items":[{"id":68,"count":5},{"id":55,"count":5}],"weapons":[],"armors":[{"id":449,"count":1}],"gold":5000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":5,"process":0,"id":443,"name":"属性強化【土】"
 ,"description":"【刻印】土属性攻撃力を１．１倍するが風耐性が１０％低下する。"
 ,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500
@@ -479,6 +564,11 @@
 ,"itemType":"刻印","attribute":"","params":[0,0,10,0,10,0,0,0],"price":5000
 ,"dropEnemyId":[]
 ,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":1,"id":457,"name":"真・属性強化【土】"
+,"description":"【刻印】土属性攻撃力を１．５倍する。"
+,"itemType":"刻印","attribute":"","params":[0,0,30,0,30,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":10,"kind":2,"items":[{"id":69,"count":5},{"id":55,"count":5}],"weapons":[],"armors":[{"id":450,"count":1}],"gold":5000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":5,"process":0,"id":444,"name":"属性強化【風】"
 ,"description":"【刻印】風属性攻撃力を１．１倍するが炎耐性が１０％低下する。"
 ,"itemType":"刻印","attribute":"","params":[0,0,0,0,0,0,0,0],"price":500
@@ -489,6 +579,11 @@
 ,"itemType":"刻印","attribute":"","params":[0,0,10,0,10,0,0,0],"price":5000
 ,"dropEnemyId":[]
 ,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":1,"id":458,"name":"真・属性強化【風】"
+,"description":"【刻印】風属性攻撃力を１．５倍する。"
+,"itemType":"刻印","attribute":"","params":[0,0,30,0,30,0,0,0],"price":10000
+,"dropEnemyId":[]
+,"get":[{"progress":10,"kind":2,"items":[{"id":70,"count":5},{"id":55,"count":5}],"weapons":[],"armors":[{"id":451,"count":1}],"gold":5000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":5,"process":0,"id":461,"name":"属性耐性【炎】"
 ,"description":"【刻印】【炎耐性２０％上昇】"
 ,"itemType":"刻印","attribute":"","params":[0,0,0,5,0,5,0,0],"price":500
@@ -539,11 +634,22 @@
 ,"itemType":"刻印","attribute":"","params":[0,0,0,20,0,20,0,0],"price":5000
 ,"dropEnemyId":[]
 ,"get":[{"progress":3,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":1,"id":476,"name":"属性耐性【真】"
+,"description":"【刻印】【全属性耐性３０％上昇】"
+,"itemType":"刻印","attribute":"","params":[0,0,0,50,0,50,0,0],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":12,"kind":2,"items":[{"id":201,"count":5},{"id":55,"count":5}],"weapons":[],"armors":[{"id":429,"count":1}],"gold":100000,"desirePt":0,"strengthPt":0}
+,{"progress":10,"kind":1,"items":[],"weapons":[],"armors":[],"gold":300000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":5,"process":0,"id":495,"name":"呪いの淫紋"
 ,"description":"【刻印】ステータスが大幅に上昇するがターン経過毎にダメージを受ける刻印\n【ＨＰ再生率ー９５％】"
 ,"itemType":"刻印","attribute":"","params":[0,0,40,40,40,40,40,40],"price":5000
 ,"dropEnemyId":[]
 ,"get":[{"progress":0,"kind":1,"items":[],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":5,"process":1,"id":496,"name":"呪いの絶頂淫紋"
+,"description":"【刻印】ステータスが大幅に上昇するがターン経過毎にダメージを受ける刻印\n【ＨＰ再生率ー９５％】【ＭＰ再生率ー９５％】【全属性耐性ー２００％】"
+,"itemType":"刻印","attribute":"","params":[0,0,150,150,150,150,150,150],"price":20000
+,"dropEnemyId":[]
+,"get":[{"progress":12,"kind":2,"items":[{"id":201,"count":5},{"id":55,"count":5}],"weapons":[],"armors":[{"id":495,"count":1}],"gold":100000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":6,"process":0,"id":1298,"name":"儀式用短剣"
 ,"description":"【神器】装備すると攻撃力が上がるが基本的には合成用\n　様々な属性を持つ神器と交換していこう。"
 ,"itemType":"神器","attribute":"","params":[0,0,5,0,0,0,0,0],"price":1000
@@ -799,6 +905,11 @@
 ,"itemType":"神器","attribute":"","params":[0,0,0,0,0,0,0,0],"price":20000
 ,"dropEnemyId":[]
 ,"get":[{"progress":7,"kind":2,"items":[],"weapons":[],"armors":[{"id":1318,"count":3}],"gold":30000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":6,"process":0,"id":1336,"name":"神器【加具土命】"
+,"description":"【神器】ウルスラがくれた東国の神器。\n【全属性攻撃力１・５倍】"
+,"itemType":"神器","attribute":"","params":[0,0,0,40,0,40,0,0],"price":50000
+,"dropEnemyId":[259]
+,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":7,"process":1,"id":1150,"name":"連続攻撃"
 ,"description":"【宝珠】通常攻撃を連続攻撃に変化させる。\n【単体】　a.atk * 3 - b.def * 2　×２回"
 ,"itemType":"宝珠","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
@@ -969,11 +1080,16 @@
 ,"itemType":"宝珠","attribute":"","params":[0,0,5,0,15,0,0,0],"price":20000
 ,"dropEnemyId":[]
 ,"get":[{"progress":7,"kind":2,"items":[{"id":70,"count":5},{"id":54,"count":5}],"weapons":[],"armors":[{"id":1197,"count":2}],"gold":10000,"desirePt":0,"strengthPt":0}]},
-{"itemTypeId":7,"process":0,"id":1269,"name":"触ノ贄"
-,"description":"【宝珠】通常攻撃を触ノ贄に変化させる。\n【単体】　a.atk * 4 - b.def * 2【会心時ぺネトレイトを発動】"
+{"itemTypeId":7,"process":1,"id":1269,"name":"触手攻撃"
+,"description":"【宝珠】通常攻撃を触手攻撃に変化させる。\n【単体】　a.atk * 4 - b.def * 1 ×２回【強化状態を解除する】"
 ,"itemType":"宝珠","attribute":"","params":[0,0,10,10,0,0,0,0],"price":50000
 ,"dropEnemyId":[294]
-,"get":[{"progress":0,"kind":0,"items":[],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+,"get":[{"progress":10,"kind":2,"items":[{"id":201,"count":5},{"id":42,"count":3}],"weapons":[],"armors":[],"gold":5000,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":7,"process":1,"id":1271,"name":"触手連撃"
+,"description":"【宝珠】通常攻撃を触手連撃に変化させる。\n【単体】　a.atk * 5 - b.def * 1 ×３回【強化状態を解除する】"
+,"itemType":"宝珠","attribute":"","params":[0,0,30,30,0,0,0,0],"price":50000
+,"dropEnemyId":[]
+,"get":[{"progress":10,"kind":2,"items":[],"weapons":[],"armors":[{"id":1269,"count":3}],"gold":5000,"desirePt":0,"strengthPt":0}]},
 {"itemTypeId":8,"process":0,"id":1207,"name":"クインビー"
 ,"description":"【使い魔】攻撃後にＳ・ベノムで追撃\n【物理】【単体】a.atk * 1【毒状態付与（25％）】"
 ,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":1000
@@ -1123,7 +1239,57 @@
 ,"description":"【使い魔】攻撃後にＳ・ブラストで追撃\n【無属性】【単体】a.mat * 1【属性弱体状態付与（各属性10％）】"
 ,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":3000
 ,"dropEnemyId":[183]
-,"get":[{"progress":10,"kind":80,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]}
+,"get":[{"progress":10,"kind":80,"items":[{"id":25,"count":1},{"id":26,"count":1},{"id":27,"count":1},{"id":28,"count":1},{"id":29,"count":1},{"id":30,"count":1}],"weapons":[],"armors":[],"gold":0,"desirePt":0,"strengthPt":0}]},
+{"itemTypeId":8,"process":0,"id":1247,"name":"マーテンダー"
+,"description":"【使い魔】自身の被ダメージ時にＣ・ヒールで自身を回復【成功率５０％】\n【自身】【ＨＰ回復】a.mat * 0.5【毒・暗闇・沈黙を解除】"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[]},
+{"itemTypeId":8,"process":0,"id":1248,"name":"T・ラビット"
+,"description":"【使い魔】攻撃後にＳ・キックで追撃\n【無属性】【単体】a.mat * 1　×　２回"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[]},
+{"itemTypeId":8,"process":0,"id":1251,"name":"サキュバス【妹】"
+,"description":"【使い魔】【魅了耐性５０％上昇】【睡眠耐性５０％上昇】"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[]},
+{"itemTypeId":8,"process":0,"id":1252,"name":"サキュバス【姉】"
+,"description":"【使い魔】魔法力・魔法防御力が３０上昇する。"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,30,30,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[]},
+{"itemTypeId":8,"process":0,"id":1253,"name":"サキュバス【母】"
+,"description":"【使い魔】【毎ターンＨＰ５％回復】"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[]},
+{"itemTypeId":8,"process":0,"id":1256,"name":"ベアポリス"
+,"description":"【使い魔】攻撃後にＳ・リボルバーで追撃【成功率５０％】\n【物理】【単体】a.atk * 1【攻撃力弱体付与】"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[]},
+{"itemTypeId":8,"process":0,"id":1257,"name":"ヤクキャット"
+,"description":"【使い魔】【ＴＰチャージ率２倍】"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[]},
+{"itemTypeId":8,"process":0,"id":1258,"name":"売人キャット"
+,"description":"【使い魔】攻撃後にＳ・ダガーで追撃\n【無属性】【単体】a.mat * 0.5　×　３回（ＴＰ獲得）"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[]},
+{"itemTypeId":8,"process":0,"id":1261,"name":"スライムガール"
+,"description":"【使い魔】攻撃後にＳ・アイスで追撃\n【氷】【単体】a.mat * ２【雷弱点状態付与（20％）】"
+,"itemType":"使い魔","attribute":"","params":[0,0,0,0,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[]},
+{"itemTypeId":8,"process":0,"id":1262,"name":"テンダーガール"
+,"description":"【使い魔】攻撃力が５０・防御力が２０上昇する。"
+,"itemType":"使い魔","attribute":"","params":[0,0,50,20,0,0,0,0],"price":5000
+,"dropEnemyId":[]
+,"get":[]}
 ]
 
 

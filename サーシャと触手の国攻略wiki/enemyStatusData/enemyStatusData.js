@@ -11,34 +11,21 @@ let weaponData
 let armorData
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("json/baseEnemyStatus.json")
-    .then(response => response.json())
-    .then(data => {
-            baseStatus = data.baseStatus
-            exStatus = data.exStatus
-            levelUpExp = data.levelUpExp
-            dungeon = data.dungeon
+    Promise.all([
+        fetch("json/baseEnemyStatus.json").then(r => r.json()),
+        fetch("../itemData/json/Item.json").then(r => r.json()),
+        fetch("../itemData/json/Weapon.json").then(r => r.json()),
+        fetch("../itemData/json/Armor.json").then(r => r.json()),
+    ]).then(([base,items, weapons, armors]) => {
+        baseStatus = base.baseStatus
+        exStatus = base.exStatus
+        levelUpExp = base.levelUpExp
+        dungeon = base.dungeon
+        itemData = items
+        weaponData = weapons
+        armorData = armors
+        loadEnemyStatusData(0)
     });
-
-    fetch("../itemData/json/Item.json")
-    .then(response => response.json())
-    .then(data => {
-            itemData = data
-    });
-
-    fetch("../itemData/json/Weapon.json")
-    .then(response => response.json())
-    .then(data => {
-            weaponData = data
-    });
-
-    fetch("../itemData/json/Armor.json")
-    .then(response => response.json())
-    .then(data => {
-            armorData = data
-    });
-
-    loadEnemyStatusData(0)
 });
 
 
@@ -105,6 +92,26 @@ document.getElementById("WorkshopButton").addEventListener("click", function() {
     loadEnemyStatusData(curDungeonId)
 });
 
+document.getElementById("RoyalCapitalButton").addEventListener("click", function() {
+    curDungeonId = 11
+    loadEnemyStatusData(curDungeonId)
+});
+
+document.getElementById("Tower").addEventListener("click", function() {
+    curDungeonId = 12
+    loadEnemyStatusData(curDungeonId)
+});
+
+document.getElementById("UndergroundClub").addEventListener("click", function() {
+    curDungeonId = 13
+    loadEnemyStatusData(curDungeonId)
+});
+
+document.getElementById("Principality").addEventListener("click", function() {
+    curDungeonId = 14
+    loadEnemyStatusData(curDungeonId)
+});
+
 
 function loadEnemyStatusData(dungeonId){
   let inputLevel = Number(document.getElementById("level").value);
@@ -155,9 +162,9 @@ function loadEnemyStatusData(dungeonId){
 
             if(el.enemyType === 0) enemyType = "通常"
             else if(el.enemyType === 1) enemyType = "ボス"
-            else if(el.enemyType === 2) enemyType = "ハーピィ<br>イベント"
-            else if(el.enemyType === 3) enemyType = "ヘッジ<br>ボルグ<br>イベント"
-            else if(el.enemyType === 4) enemyType = "ハート<br>クイン<br>イベント"
+            else if(el.enemyType === 2) enemyType = "ハーピィイベント"
+            else if(el.enemyType === 3) enemyType = "ヘッジボルグイベント"
+            else if(el.enemyType === 4) enemyType = "ハートクイーン<イベント"
 
             if(name.indexOf(inputSearchCondition) === -1 && dropItem1.indexOf(inputSearchCondition) === -1 && dropItem2.indexOf(inputSearchCondition) === -1 && dropItem3.indexOf(inputSearchCondition) === -1)
             return
@@ -165,54 +172,58 @@ function loadEnemyStatusData(dungeonId){
             let code = `
             <table align="center" class="table">
                 <tr>
-                <th style="width: 80px;">No.</th>
-                <td style="width: 80px;">${No}</td>
-                <th style="width: 80px;">名前</th>
+                <th style="width: 70px;">No.</th>
+                <td style="width: 70px;">${No}</td>
+                <th style="width: 70px;">名前</th>
                 <td style="width: 160px;" colspan="3">${name}</td>
-                <th style="width: 80px;">出現場所</th>
-                <td style="width: 80px;">${dungeon[el.dungeonId]}</td>
-                <th style="width: 80px;">出現条件</th>
-                <td style="width: 80px;">${enemyType}</td>
+                <th style="width: 70px;">出現場所</th>
+                <td style="width: 70px;">${dungeon[el.dungeonId]}</td>
+                <th style="width: 70px;" >出現条件</th>
+                <td style="width: 70px;" colspan="3">${enemyType}</td>
                 </tr>
 
                 <tr>
-                <th style="width: 80px;">弱点</th>
-                <td style="width: 80px;">${Weakness}</td>
-                <th style="width: 80px;">耐性</th>
-                <td style="width: 80px;">${Resistance}</td>
-                <th style="width: 80px;">HP</th>
-                <td style="width: 80px;">${hp}</td>
-                <th style="width: 80px;">MP</th>
-                <td style="width: 80px;">${mp}</td>
-                <th style="width: 80px;">攻撃力</th>
-                <td style="width: 80px;">${attack}</td>
+                <th style="width: 70px;">弱点</th>
+                <td style="width: 70px;">${Weakness}</td>
+                <th style="width: 70px;">耐性</th>
+                <td style="width: 70px;">${Resistance}</td>
+                <th style="width: 70px;">HP</th>
+                <td style="width: 70px;">${hp}</td>
+                <th style="width: 70px;">MP</th>
+                <td style="width: 70px;">${mp}</td>
+                <th style="width: 70px;">攻撃力</th>
+                <td style="width: 70px;">${attack}</td>
+                <th style="width: 70px;">防御力</th>
+                <td style="width: 70px;">${defense}</td>
                 </tr>
 
                 <tr>
-                <th style="width: 80px;">防御力</th>
-                <td style="width: 80px;">${defense}</td>
-                <th style="width: 80px;">魔法力</th>
-                <td style="width: 80px;">${magicAttack}</td>
-                <th style="width: 80px;">魔法防御</th>
-                <td style="width: 80px;">${magicDefense}</td>
-                <th style="width: 80px;">経験値</th>
-                <td style="width: 80px;">${exp}</td>
-                <th style="width: 80px;">お金</th>
-                <td style="width: 80px;">${gold}</td>
+                <th style="width: 70px;">魔法力</th>
+                <td style="width: 70px;">${magicAttack}</td>
+                <th style="width: 70px;">魔法防御</th>
+                <td style="width: 70px;">${magicDefense}</td>
+                <th style="width: 70px;">俊敏</th>
+                <td style="width: 70px;">${agile}</td>
+                <th style="width: 70px;">運</th>
+                <td style="width: 70px;">${luck}</td>
+                <th style="width: 70px;">経験値</th>
+                <td style="width: 70px;">${exp}</td>
+                <th style="width: 70px;">お金</th>
+                <td style="width: 70px;">${gold}</td>
                 </tr>
 
                 <tr>
-                <th style="width: 80px;">説明</th>
-                <td style="width: 720px;" colspan="9" class="preWrap">${description}</td>
+                <th style="width: 70px;">説明</th>
+                <td style="width: 770px;" colspan="11" class="preWrap">${description}</td>
                 </tr>
 
                 <tr>
-                <th style="width: 80px;">ドロップ[${Number(dropItemRate1.toFixed(2))}%]</th>
-                <td style="width: 160px;" colspan="3">${dropItem1}</td>
-                <th style="width: 80px;">ドロップ[${Number(dropItemRate2.toFixed(2))}%]</th>
-                <td style="width: 160px;" colspan="2">${dropItem2}</td>
-                <th style="width: 80px;">ドロップ[${Number(dropItemRate3.toFixed(2))}%]</th>
-                <td style="width: 160px;" colspan="2">${dropItem3}</td>
+                <th style="width: 70px;">ドロップ[${Number(dropItemRate1.toFixed(2))}%]</th>
+                <td style="width: 210px;" colspan="3">${dropItem1}</td>
+                <th style="width: 70px;">ドロップ[${Number(dropItemRate2.toFixed(2))}%]</th>
+                <td style="width: 210px;" colspan="3">${dropItem2}</td>
+                <th style="width: 70px;">ドロップ[${Number(dropItemRate3.toFixed(2))}%]</th>
+                <td style="width: 210px;" colspan="3">${dropItem3}</td>
                 </tr>
             </table>
 

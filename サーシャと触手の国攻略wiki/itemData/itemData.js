@@ -135,8 +135,13 @@ function loadItemData(typeId) {
         </tr>
 
         <tr>
+        <th>ドロップ</th>
+        <td style="width: 800px;" colspan="7" class="getTd">${drop}</td>
+        </tr>
+
+        <tr>
         <th>入手方法</th>
-        <td style="width: 800px;" colspan="7" class="getTd">${drop}${get}</td>
+        <td style="width: 800px;" colspan="7" class="getTd">${get}</td>
         </tr>
         
     </table>
@@ -197,8 +202,11 @@ function loadWeaponData(typeId) {
       }
     }
     else{
-      get = get + WriteGet(weaponData,0)
-
+      for(let i = 0; i < weaponData.get.length; i++)
+      {
+        get = get + WriteGet(weaponData,i)
+        get = get + `<br>`
+      }
       let needItems = {items:[],weapons:[],armors:[],gold:0,desirePt:0,strengthPt:0}
       needItems = CalculateItems(weaponData, needItems,1,0)
 
@@ -257,8 +265,13 @@ function loadWeaponData(typeId) {
     </tr>
 
     <tr>
+    <th>ドロップ</th>
+    <td style="width: 800px;" colspan="11" class="getTd">${drop}</td>
+    </tr>
+
+    <tr>
     <th>入手方法</th>
-    <td style="width: 800px;" colspan="11" class="getTd">${drop}${get}</td>
+    <td style="width: 800px;" colspan="11" class="getTd">${get}</td>
     </tr>
 
     </table>
@@ -319,8 +332,11 @@ function loadArmorData(typeId) {
       }
     }
     else{
-      get = get + WriteGet(armorData,0)
-
+      for(let i = 0; i < armorData.get.length; i++)
+      {
+        get = get + WriteGet(armorData,i)
+        get = get + `<br>`
+      }
       let needItems = {items:[],weapons:[],armors:[],gold:0,desirePt:0,strengthPt:0}
       needItems = CalculateItems(armorData, needItems,1,0)
 
@@ -376,10 +392,15 @@ function loadArmorData(typeId) {
     <th>説明</th>
     <td style="width: 650px;" colspan="11" class="preWrap">${description}</td>
     </tr>
+  
+    <tr>
+    <th>ドロップ</th>
+    <td style="width: 650px;" colspan="11" class="getTd">${drop}</td>
+    </tr>
 
     <tr>
     <th>入手方法</th>
-    <td style="width: 650px;" colspan="11" class="getTd">${drop}${get}</td>
+    <td style="width: 650px;" colspan="11" class="getTd">${get}</td>
     </tr>
 
     </table>
@@ -403,24 +424,44 @@ function loadArmorData(typeId) {
   });
 }
 
-const progress_list = ["","【森クリア】","【山クリア】","【砂漠クリア】","【雪原クリア】","【墓地クリア】","【火山クリア】","【炭鉱クリア】","【海底クリア】","【黒船クリア】","【工房クリア】","","","","","","","","","","","【斬鉄剣レシピ】","【ミスリル商】","【クローム商】","","【アイアンドリル】","【ミスリルドリル】","【クロームドリル】"]
-const getPlace_list = ["","【交易店 購入】","【交易店 交換】","【交易店 秘密の品】","【交易店 性欲PT】","","","","","","","【ギルド スキル】","【ギルド ドーピングアイテム】","","","","","","","","","ボス討伐して帰還[1～3]","【ランダムイベント 謎の少女】助けを断り続けて、犯される。　※入手は一回限り","","","","","","","","","【初めての商店街イベント】","【森クリア後の商店街イベント】","【山クリア後の商店街イベント】","【砂漠クリア後の商店街イベント】","【雪原クリア後の商店街イベント】","【墓地クリア後の商店街イベント】","【火山クリア後の商店街イベント】","【炭鉱クリア後の商店街イベント】","【海底クリア後の商店街イベント】","【黒船クリア後の商店街イベント】","【工房クリア後の商店街イベント】","","","","","","","","","","【初めてのギルドイベント】","【森クリア後のギルドイベント】","【山クリア後のギルドイベント】","【砂漠クリア後のギルドイベント】","【雪原クリア後のギルドイベント】","【墓地クリア後のギルドイベント】","【火山クリア後のギルドイベント】","【炭鉱クリア後のギルドイベント】","【海底クリア後のギルドイベント】","【黒船クリア後のギルドイベント】","【工房クリア後のギルドイベント】","","","","","","","","","","【交易店 魔物娘 森】","【交易店 魔物娘 山】","【交易店 魔物娘 砂漠】","【交易店 魔物娘 雪原】","【交易店 魔物娘 墓地】","【交易店 魔物娘 火山】","【交易店 魔物娘 炭鉱】","【交易店 魔物娘 海底】","【交易店 魔物娘 黒船】","【交易店 魔物娘 工房】"]
+const progress_list = ["","【森クリア】","【山クリア】","【砂漠クリア】","【雪原クリア】","【墓地クリア】","【火山クリア】","【炭鉱クリア】","【海底クリア】","【黒船クリア】","【工房クリア】","【王都クリア】","【淫魔の塔クリア】","【闇クラブクリア】","【公国クリア】","","","","","","","【斬鉄剣レシピ】","【ミスリル商】","【クローム商】","【オリハルコン商】","【アイアンドリル】","【ミスリルドリル】","【クロームドリル】"]
+const getPlace_list = ["","【交易店 購入】","【交易店 交換】","【交易店 秘密の品】","【交易店 性欲PT】","","","","","","","【ギルド スキル】","【ギルド ドーピングアイテム】","","","","","","","","","ボス討伐して帰還[1～3]","【ランダムイベント 謎の少女】助けを断り続けて、犯される。　※入手は一回限り","","","","","","","","","【初めての商店街イベント】","【森クリア後】","【山クリア後】","【砂漠クリア後】","【雪原クリア後】","【墓地クリア後】","【火山クリア後】","【炭鉱クリア後】","【海底クリア後】","【黒船クリア後】","【工房クリア後】","","","","","","","","","","【初めてのギルドイベント】","【森クリア後】","【山クリア後】","【砂漠クリア後】","【雪原クリア後】","【墓地クリア後】","【火山クリア後】","【炭鉱クリア後】","【海底クリア後】","【黒船クリア後】","【工房クリア後】","","","","","","","","","","【交易店 魔物娘 森】","【交易店 魔物娘 山】","【交易店 魔物娘 砂漠】","【交易店 魔物娘 雪原】","【交易店 魔物娘 墓地】","【交易店 魔物娘 火山】","【交易店 魔物娘 炭鉱】","【交易店 魔物娘 海底】","【交易店 魔物娘 黒船】","【交易店 魔物娘 工房】"]
 
 function WriteDropEnemy(itemData)
 { 
-  let dropEnemyId = itemData.dropEnemyId
   let drop = ""
+  let locations = ["","【森】","【山】","【砂漠】","【雪原】","【墓地】","【火山】","【炭鉱】","【海底】","【黒船】","【工房】","【王都】","【淫魔の塔】","【闇クラブ】","【公国】"]
+  let isLocations = [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]
+  let isFirst = true
+  let isDrop = false 
+  enemyDatas.forEach(enemyData => {
+    for(const item of enemyData.dropItems)
+    {
+      if(item.dataId == itemData.id)
+      { 
+        if(!isLocations[enemyData.dungeonId])
+        { 
+          isDrop = true
+          if(!isFirst)
+          drop = drop + "<br>"
 
-  if(dropEnemyId.length >= 1)
-  {
-    drop = "【ドロップ】　 "
-    dropEnemyId.forEach(el =>{
-      let index = GetIdIndex(enemyDatas,el)
-      drop = drop + enemyDatas[index].name + "　 "
-    })
-    if(itemData.get[0].kind !== 0)
-    drop = drop + `<br>`
-  }
+          drop = drop + locations[enemyData.dungeonId] + " "
+          isLocations[enemyData.dungeonId] = true
+
+          isFirst = false
+        }
+        drop = `${drop}${enemyData.name}[${Number((100 / item.denominator).toFixed(2))}%]　 `
+        
+      }
+    }
+  })
+
+  if(isDrop)
+  drop = `<details>
+        <summary>詳細</summary>
+        ${drop}
+        </details>
+        `
   return drop
 }
 
@@ -529,20 +570,20 @@ function CreateDiagram(itemData,needItems,diagram,count,num){
     console.log(allNeedCount)
     if(needWeapon.process === 0)
     { 
-      let addCode = `${needWeapon.name.replace(/[【】・()]/g, "")}["${needWeapon.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()]/g, "")}["${itemData.name}×${count}"]
+      let addCode = `${needWeapon.name.replace(/[【】・()Ⅱ]/g, "")}["${needWeapon.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()Ⅱ]/g, "")}["${itemData.name}×${count}"]
       `
       if(!diagram.includes(addCode))
-      diagram = diagram + `${needWeapon.name.replace(/[【】・()]/g, "")}["${needWeapon.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()]/g, "")}["${itemData.name}×${count}"]
+      diagram = diagram + `${needWeapon.name.replace(/[【】・()Ⅱ]/g, "")}["${needWeapon.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()Ⅱ]/g, "")}["${itemData.name}×${count}"]
       `
     }
     else
     { 
 
       diagram = CreateDiagram(needWeapon,needItems,diagram,allNeedCount,num)
-      let addCode = `${needWeapon.name.replace(/[【】・()]/g, "")}["${needWeapon.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()]/g, "")}["${itemData.name}×${count}"]
+      let addCode = `${needWeapon.name.replace(/[【】・()Ⅱ]/g, "")}["${needWeapon.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()Ⅱ]/g, "")}["${itemData.name}×${count}"]
       `
       if(!diagram.includes(addCode))
-      diagram = diagram + `${needWeapon.name.replace(/[【】・()]/g, "")}["${needWeapon.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()]/g, "")}["${itemData.name}×${count}"]
+      diagram = diagram + `${needWeapon.name.replace(/[【】・()Ⅱ]/g, "")}["${needWeapon.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()Ⅱ]/g, "")}["${itemData.name}×${count}"]
       `
     }
   })
@@ -554,19 +595,19 @@ function CreateDiagram(itemData,needItems,diagram,count,num){
     console.log(allNeedCount)
     if(needArmor.process === 0)
     { 
-      let addCode = `${needArmor.name.replace(/[【】・()]/g, "")}["${needArmor.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()]/g, "")}["${itemData.name}×${count}"]  
+      let addCode = `${needArmor.name.replace(/[【】・()Ⅱ]/g, "")}["${needArmor.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()Ⅱ]/g, "")}["${itemData.name}×${count}"]  
       `
       if(!diagram.includes(addCode))
-      diagram = diagram + `${needArmor.name.replace(/[【】・()]/g, "")}["${needArmor.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()]/g, "")}["${itemData.name}×${count}"]  
+      diagram = diagram + `${needArmor.name.replace(/[【】・()Ⅱ]/g, "")}["${needArmor.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()Ⅱ]/g, "")}["${itemData.name}×${count}"]  
       `
     }
     else
     { 
       diagram = CreateDiagram(needArmor,needItems,diagram,allNeedCount,num)
-      let addCode = `${needArmor.name.replace(/[【】・()]/g, "")}["${needArmor.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()]/g, "")}["${itemData.name}×${count}"]
+      let addCode = `${needArmor.name.replace(/[【】・()Ⅱ]/g, "")}["${needArmor.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()Ⅱ]/g, "")}["${itemData.name}×${count}"]
       `
       if(!diagram.includes(addCode))
-      diagram = diagram + `${needArmor.name.replace(/[【】・()]/g, "")}["${needArmor.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()]/g, "")}["${itemData.name}×${count}"]
+      diagram = diagram + `${needArmor.name.replace(/[【】・()Ⅱ]/g, "")}["${needArmor.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()Ⅱ]/g, "")}["${itemData.name}×${count}"]
       `
     }
   })
@@ -578,19 +619,19 @@ function CreateDiagram(itemData,needItems,diagram,count,num){
     console.log(allNeedCount)
     if(needItem.process === 0)
     { 
-      let addCode = `${needItem.name.replace(/[【】・()]/g, "")}["${needItem.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()]/g, "")}["${itemData.name}×${count}"]
+      let addCode = `${needItem.name.replace(/[【】・()Ⅱ]/g, "")}["${needItem.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()Ⅱ]/g, "")}["${itemData.name}×${count}"]
       `
       if(!diagram.includes(addCode))
-      diagram = diagram + `${needItem.name.replace(/[【】・()]/g, "")}["${needItem.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()]/g, "")}["${itemData.name}×${count}"]
+      diagram = diagram + `${needItem.name.replace(/[【】・()Ⅱ]/g, "")}["${needItem.name}×${allNeedCount}"] --> |"×${el.count*count}"| ${itemData.name.replace(/[【】・()Ⅱ]/g, "")}["${itemData.name}×${count}"]
       `
     }
     else
     { 
       diagram = CreateDiagram(needItem,needItems,diagram,allNeedCount,num)
-      let addCode =  `${needItem.name.replace(/[【】・()]/g, "")}[${needItem.name}×${allNeedCount}] --> |×${el.count*count}| ${itemData.name.replace(/[【】・()]/g, "")}[${itemData.name}×${count}]
+      let addCode =  `${needItem.name.replace(/[【】・()Ⅱ]/g, "")}[${needItem.name}×${allNeedCount}] --> |×${el.count*count}| ${itemData.name.replace(/[【】・()Ⅱ]/g, "")}[${itemData.name}×${count}]
       `
       if(!diagram.includes(addCode))
-      diagram = diagram + `${needItem.name.replace(/[【】・()]/g, "")}[${needItem.name}×${allNeedCount}] --> |×${el.count*count}| ${itemData.name.replace(/[【】・()]/g, "")}[${itemData.name}×${count}]
+      diagram = diagram + `${needItem.name.replace(/[【】・()Ⅱ]/g, "")}[${needItem.name}×${allNeedCount}] --> |×${el.count*count}| ${itemData.name.replace(/[【】・()Ⅱ]/g, "")}[${itemData.name}×${count}]
       `
     }
   })
